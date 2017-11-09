@@ -37,7 +37,7 @@ trait HasUniqueToken
     }
 
     /**
-     * Changes the ID attribute to the unique token column
+     * Changes the ID attribute to the unique token column.
      */
     public function toArray()
     {
