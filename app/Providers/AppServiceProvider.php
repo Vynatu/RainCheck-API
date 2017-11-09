@@ -20,13 +20,15 @@ class AppServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register any application services.
      *
-     * @return void
      */
-    public function register()
+    protected function bootSerializers()
     {
-        //
+        Carbon::serializeUsing(
+            function ($carbon) {
+                return $carbon->format('c');
+            }
+        );
     }
 
     /**
@@ -34,26 +36,28 @@ class AppServiceProvider extends ServiceProvider
      */
     protected function bootMacros()
     {
-        Collection::macro('withIncludes', function() {
-            if ($requested_includes = app('request')->input('include')) {
-                $relations = $this->getQueueableClass()::getIncludableRelations();
-                $filtered_relations = array_intersect($relations, explode(',', $requested_includes));
-                if (count($filtered_relations) > 0) {
-                    $this->load($filtered_relations);
+        Collection::macro('withIncludes',
+            function () {
+                if ($requested_includes = app('request')->input('include')) {
+                    $relations = $this->getQueueableClass()::getIncludableRelations();
+                    $filtered_relations = array_intersect($relations, explode(',', $requested_includes));
+                    if (count($filtered_relations) > 0) {
+                        $this->load($filtered_relations);
+                    }
                 }
-            }
 
-            return $this;
-        });
+                return $this;
+            }
+        );
     }
 
     /**
+     * Register any application services.
      *
+     * @return void
      */
-    protected function bootSerializers()
+    public function register()
     {
-        Carbon::serializeUsing(function($carbon) {
-            return $carbon->format('c');
-        });
+        //
     }
 }

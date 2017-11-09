@@ -32,7 +32,7 @@ class RevokeOldTokens
     {
         $client = Client::find($event->clientId);
 
-        if (! $client || !$client->firstParty()) return;
+        if (! $client || ! $client->firstParty()) return;
 
         Token::where(['user_id' => $event->userId, 'client_id' => $event->clientId, 'revoked' => false])
              ->where('expires_at', '>=', Carbon::now())

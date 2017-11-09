@@ -37,7 +37,7 @@ class User extends Authenticatable implements HasUniqueTokenContract
     ];
 
     protected $casts = [
-        'is_admin' => 'bool'
+        'is_admin' => 'bool',
     ];
 
     public function addresses()

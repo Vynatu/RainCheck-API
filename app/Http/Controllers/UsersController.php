@@ -10,7 +10,5 @@ class UsersController extends Controller
     {
         if ($request->user()->can('view', $request->user()))
             return $request->user();
-
-        return ['no'];
     }
 }

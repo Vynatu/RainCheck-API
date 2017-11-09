@@ -44,8 +44,9 @@ trait HasUniqueToken
         $a = parent::toArray();
 
         if (property_exists($this, 'return_token_as_id') ? $this->return_token_as_id : true) {
-            $unique_column = property_exists($this, 'unique_token_column') ? $this->unique_token_column :
-                'resource_token';
+            $unique_column = property_exists($this, 'unique_token_column')
+                ? $this->unique_token_column
+                : 'resource_token';
 
             unset($a[$unique_column]);
             $a['id'] = $this->getAttribute($unique_column);

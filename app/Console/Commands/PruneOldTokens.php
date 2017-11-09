@@ -14,6 +14,7 @@ class PruneOldTokens extends Command
      * @var string
      */
     protected $signature = 'oauth:prune';
+
     /**
      * The console command description.
      *
@@ -40,7 +41,7 @@ class PruneOldTokens extends Command
 
         if ($count == 0) {
             $this->output->note('No tokens to delete');
-        }else{
+        } else {
             $this->output->success("Deleted {$count} stale tokens");
         }
     }
