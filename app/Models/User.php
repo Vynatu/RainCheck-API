@@ -2,13 +2,13 @@
 
 namespace RainCheck\Models;
 
-use Illuminate\Database\Eloquent\SoftDeletes;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
 use Laravel\Passport\HasApiTokens;
-use RainCheck\Support\Contracts\Eloquent\HasUniqueToken as HasUniqueTokenContract;
+use Illuminate\Notifications\Notifiable;
 use RainCheck\Support\Eloquent\HasIncludes;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use RainCheck\Support\Eloquent\HasUniqueToken;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use RainCheck\Support\Contracts\Eloquent\HasUniqueToken as HasUniqueTokenContract;
 
 class User extends Authenticatable implements HasUniqueTokenContract
 {

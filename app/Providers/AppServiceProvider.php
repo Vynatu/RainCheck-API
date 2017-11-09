@@ -2,9 +2,9 @@
 
 namespace RainCheck\Providers;
 
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Database\Eloquent\Collection;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,9 +19,6 @@ class AppServiceProvider extends ServiceProvider
         $this->bootMacros();
     }
 
-    /**
-     *
-     */
     protected function bootSerializers()
     {
         Carbon::serializeUsing(
@@ -32,7 +29,7 @@ class AppServiceProvider extends ServiceProvider
     }
 
     /**
-     * Boots model macros
+     * Boots model macros.
      */
     protected function bootMacros()
     {

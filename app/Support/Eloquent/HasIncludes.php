@@ -5,7 +5,7 @@ namespace RainCheck\Support\Eloquent;
 trait HasIncludes
 {
     /**
-     * Begin querying a model with eager loading, with
+     * Begin querying a model with eager loading, with.
      *
      * @return \Illuminate\Database\Eloquent\Builder|static
      */

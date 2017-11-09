@@ -12,11 +12,9 @@ class CountriesSeeder extends Seeder
     public function run()
     {
         $countries = [
-            'AND' =>
-                [
-                    'code'       => 'AND',
-                    'subregions' =>
-                        [
+            'AND' => [
+                    'code' => 'AND',
+                    'subregions' => [
                             0 => '02',
                             1 => '03',
                             2 => '04',
@@ -26,11 +24,9 @@ class CountriesSeeder extends Seeder
                             6 => '08',
                         ],
                 ],
-            'ARE' =>
-                [
-                    'code'       => 'ARE',
-                    'subregions' =>
-                        [
+            'ARE' => [
+                    'code' => 'ARE',
+                    'subregions' => [
                             0 => 'AJ',
                             1 => 'AZ',
                             2 => 'DU',
@@ -40,21 +36,19 @@ class CountriesSeeder extends Seeder
                             6 => 'UQ',
                         ],
                 ],
-            'AFG' =>
-                [
-                    'code'       => 'AFG',
-                    'subregions' =>
-                        [
-                            0  => 'BAL',
-                            1  => 'BAM',
-                            2  => 'BDG',
-                            3  => 'BDS',
-                            4  => 'BGL',
-                            5  => 'DAY',
-                            6  => 'FRA',
-                            7  => 'FYB',
-                            8  => 'GHA',
-                            9  => 'GHO',
+            'AFG' => [
+                    'code' => 'AFG',
+                    'subregions' => [
+                            0 => 'BAL',
+                            1 => 'BAM',
+                            2 => 'BDG',
+                            3 => 'BDS',
+                            4 => 'BGL',
+                            5 => 'DAY',
+                            6 => 'FRA',
+                            7 => 'FYB',
+                            8 => 'GHA',
+                            9 => 'GHO',
                             10 => 'HEL',
                             11 => 'HER',
                             12 => 'JOW',
@@ -81,11 +75,9 @@ class CountriesSeeder extends Seeder
                             33 => 'ZAB',
                         ],
                 ],
-            'ATG' =>
-                [
-                    'code'       => 'ATG',
-                    'subregions' =>
-                        [
+            'ATG' => [
+                    'code' => 'ATG',
+                    'subregions' => [
                             0 => '03',
                             1 => '04',
                             2 => '05',
@@ -96,65 +88,57 @@ class CountriesSeeder extends Seeder
                             7 => '11',
                         ],
                 ],
-            'AIA' =>
-                [
-                    'code'       => 'AIA',
-                    'subregions' =>
-                        [
+            'AIA' => [
+                    'code' => 'AIA',
+                    'subregions' => [
                         ],
                 ],
-            'ALB' =>
-                [
-                    'code'       => 'ALB',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'ALB' => [
+                    'code' => 'ALB',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                         ],
                 ],
-            'ARM' =>
-                [
-                    'code'       => 'ARM',
-                    'subregions' =>
-                        [
-                            0  => 'AG',
-                            1  => 'AR',
-                            2  => 'AV',
-                            3  => 'ER',
-                            4  => 'GR',
-                            5  => 'KT',
-                            6  => 'LO',
-                            7  => 'SH',
-                            8  => 'SU',
-                            9  => 'TV',
+            'ARM' => [
+                    'code' => 'ARM',
+                    'subregions' => [
+                            0 => 'AG',
+                            1 => 'AR',
+                            2 => 'AV',
+                            3 => 'ER',
+                            4 => 'GR',
+                            5 => 'KT',
+                            6 => 'LO',
+                            7 => 'SH',
+                            8 => 'SU',
+                            9 => 'TV',
                             10 => 'VD',
                         ],
                 ],
-            'AGO' =>
-                [
-                    'code'       => 'AGO',
-                    'subregions' =>
-                        [
-                            0  => 'BGO',
-                            1  => 'BGU',
-                            2  => 'BIE',
-                            3  => 'CAB',
-                            4  => 'CCU',
-                            5  => 'CNN',
-                            6  => 'CNO',
-                            7  => 'CUS',
-                            8  => 'HUA',
-                            9  => 'HUI',
+            'AGO' => [
+                    'code' => 'AGO',
+                    'subregions' => [
+                            0 => 'BGO',
+                            1 => 'BGU',
+                            2 => 'BIE',
+                            3 => 'CAB',
+                            4 => 'CCU',
+                            5 => 'CNN',
+                            6 => 'CNO',
+                            7 => 'CUS',
+                            8 => 'HUA',
+                            9 => 'HUI',
                             10 => 'LNO',
                             11 => 'LSU',
                             12 => 'LUA',
@@ -165,28 +149,24 @@ class CountriesSeeder extends Seeder
                             17 => 'ZAI',
                         ],
                 ],
-            'ATA' =>
-                [
-                    'code'       => 'ATA',
-                    'subregions' =>
-                        [
+            'ATA' => [
+                    'code' => 'ATA',
+                    'subregions' => [
                         ],
                 ],
-            'ARG' =>
-                [
-                    'code'       => 'ARG',
-                    'subregions' =>
-                        [
-                            0  => 'A',
-                            1  => 'B',
-                            2  => 'C',
-                            3  => 'D',
-                            4  => 'E',
-                            5  => 'G',
-                            6  => 'H',
-                            7  => 'J',
-                            8  => 'K',
-                            9  => 'L',
+            'ARG' => [
+                    'code' => 'ARG',
+                    'subregions' => [
+                            0 => 'A',
+                            1 => 'B',
+                            2 => 'C',
+                            3 => 'D',
+                            4 => 'E',
+                            5 => 'G',
+                            6 => 'H',
+                            7 => 'J',
+                            8 => 'K',
+                            9 => 'L',
                             10 => 'M',
                             11 => 'N',
                             12 => 'P',
@@ -203,18 +183,14 @@ class CountriesSeeder extends Seeder
                             23 => 'F',
                         ],
                 ],
-            'ASM' =>
-                [
-                    'code'       => 'ASM',
-                    'subregions' =>
-                        [
+            'ASM' => [
+                    'code' => 'ASM',
+                    'subregions' => [
                         ],
                 ],
-            'AUT' =>
-                [
-                    'code'       => 'AUT',
-                    'subregions' =>
-                        [
+            'AUT' => [
+                    'code' => 'AUT',
+                    'subregions' => [
                             0 => '1',
                             1 => '2',
                             2 => '3',
@@ -226,11 +202,9 @@ class CountriesSeeder extends Seeder
                             8 => '9',
                         ],
                 ],
-            'AUS' =>
-                [
-                    'code'       => 'AUS',
-                    'subregions' =>
-                        [
+            'AUS' => [
+                    'code' => 'AUS',
+                    'subregions' => [
                             0 => 'ACT',
                             1 => 'NSW',
                             2 => 'NT',
@@ -241,35 +215,29 @@ class CountriesSeeder extends Seeder
                             7 => 'WA',
                         ],
                 ],
-            'ABW' =>
-                [
-                    'code'       => 'ABW',
-                    'subregions' =>
-                        [
+            'ABW' => [
+                    'code' => 'ABW',
+                    'subregions' => [
                         ],
                 ],
-            'ALA' =>
-                [
-                    'code'       => 'ALA',
-                    'subregions' =>
-                        [
+            'ALA' => [
+                    'code' => 'ALA',
+                    'subregions' => [
                         ],
                 ],
-            'AZE' =>
-                [
-                    'code'       => 'AZE',
-                    'subregions' =>
-                        [
-                            0  => 'ABS',
-                            1  => 'AGA',
-                            2  => 'AGC',
-                            3  => 'AGM',
-                            4  => 'AGS',
-                            5  => 'AGU',
-                            6  => 'AST',
-                            7  => 'BA',
-                            8  => 'BAL',
-                            9  => 'BAR',
+            'AZE' => [
+                    'code' => 'AZE',
+                    'subregions' => [
+                            0 => 'ABS',
+                            1 => 'AGA',
+                            2 => 'AGC',
+                            3 => 'AGM',
+                            4 => 'AGS',
+                            5 => 'AGU',
+                            6 => 'AST',
+                            7 => 'BA',
+                            8 => 'BAL',
+                            9 => 'BAR',
                             10 => 'BEY',
                             11 => 'BIL',
                             12 => 'CAB',
@@ -332,39 +300,33 @@ class CountriesSeeder extends Seeder
                             69 => 'ZAR',
                         ],
                 ],
-            'BIH' =>
-                [
-                    'code'       => 'BIH',
-                    'subregions' =>
-                        [
+            'BIH' => [
+                    'code' => 'BIH',
+                    'subregions' => [
                             0 => 'BIH',
                             1 => 'BRC',
                             2 => 'SRP',
                         ],
                 ],
-            'BRB' =>
-                [
-                    'code'       => 'BRB',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'BRB' => [
+                    'code' => 'BRB',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                         ],
                 ],
-            'BGD' =>
-                [
-                    'code'       => 'BGD',
-                    'subregions' =>
-                        [
+            'BGD' => [
+                    'code' => 'BGD',
+                    'subregions' => [
                             0 => 'A',
                             1 => 'B',
                             2 => 'C',
@@ -374,51 +336,45 @@ class CountriesSeeder extends Seeder
                             6 => 'G',
                         ],
                 ],
-            'BEL' =>
-                [
-                    'code'       => 'BEL',
-                    'subregions' =>
-                        [
+            'BEL' => [
+                    'code' => 'BEL',
+                    'subregions' => [
                             0 => 'BRU',
                             1 => 'VLG',
                             2 => 'WAL',
                         ],
                 ],
-            'BFA' =>
-                [
-                    'code'       => 'BFA',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'BFA' => [
+                    'code' => 'BFA',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
                         ],
                 ],
-            'BGR' =>
-                [
-                    'code'       => 'BGR',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'BGR' => [
+                    'code' => 'BGR',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -439,11 +395,9 @@ class CountriesSeeder extends Seeder
                             27 => '28',
                         ],
                 ],
-            'BHR' =>
-                [
-                    'code'       => 'BHR',
-                    'subregions' =>
-                        [
+            'BHR' => [
+                    'code' => 'BHR',
+                    'subregions' => [
                             0 => '13',
                             1 => '14',
                             2 => '15',
@@ -451,21 +405,19 @@ class CountriesSeeder extends Seeder
                             4 => '17',
                         ],
                 ],
-            'BDI' =>
-                [
-                    'code'       => 'BDI',
-                    'subregions' =>
-                        [
-                            0  => 'BB',
-                            1  => 'BL',
-                            2  => 'BM',
-                            3  => 'BR',
-                            4  => 'CA',
-                            5  => 'CI',
-                            6  => 'GI',
-                            7  => 'KI',
-                            8  => 'KR',
-                            9  => 'KY',
+            'BDI' => [
+                    'code' => 'BDI',
+                    'subregions' => [
+                            0 => 'BB',
+                            1 => 'BL',
+                            2 => 'BM',
+                            3 => 'BR',
+                            4 => 'CA',
+                            5 => 'CI',
+                            6 => 'GI',
+                            7 => 'KI',
+                            8 => 'KR',
+                            9 => 'KY',
                             10 => 'MA',
                             11 => 'MU',
                             12 => 'MW',
@@ -474,55 +426,45 @@ class CountriesSeeder extends Seeder
                             15 => 'RY',
                         ],
                 ],
-            'BEN' =>
-                [
-                    'code'       => 'BEN',
-                    'subregions' =>
-                        [
-                            0  => 'AK',
-                            1  => 'AL',
-                            2  => 'AQ',
-                            3  => 'BO',
-                            4  => 'CO',
-                            5  => 'DO',
-                            6  => 'KO',
-                            7  => 'LI',
-                            8  => 'MO',
-                            9  => 'OU',
+            'BEN' => [
+                    'code' => 'BEN',
+                    'subregions' => [
+                            0 => 'AK',
+                            1 => 'AL',
+                            2 => 'AQ',
+                            3 => 'BO',
+                            4 => 'CO',
+                            5 => 'DO',
+                            6 => 'KO',
+                            7 => 'LI',
+                            8 => 'MO',
+                            9 => 'OU',
                             10 => 'PL',
                             11 => 'ZO',
                         ],
                 ],
-            'BLM' =>
-                [
-                    'code'       => 'BLM',
-                    'subregions' =>
-                        [
+            'BLM' => [
+                    'code' => 'BLM',
+                    'subregions' => [
                         ],
                 ],
-            'BMU' =>
-                [
-                    'code'       => 'BMU',
-                    'subregions' =>
-                        [
+            'BMU' => [
+                    'code' => 'BMU',
+                    'subregions' => [
                         ],
                 ],
-            'BRN' =>
-                [
-                    'code'       => 'BRN',
-                    'subregions' =>
-                        [
+            'BRN' => [
+                    'code' => 'BRN',
+                    'subregions' => [
                             0 => 'BE',
                             1 => 'BM',
                             2 => 'TE',
                             3 => 'TU',
                         ],
                 ],
-            'BOL' =>
-                [
-                    'code'       => 'BOL',
-                    'subregions' =>
-                        [
+            'BOL' => [
+                    'code' => 'BOL',
+                    'subregions' => [
                             0 => 'B',
                             1 => 'C',
                             2 => 'H',
@@ -534,31 +476,27 @@ class CountriesSeeder extends Seeder
                             8 => 'T',
                         ],
                 ],
-            'BES' =>
-                [
-                    'code'       => 'BES',
-                    'subregions' =>
-                        [
+            'BES' => [
+                    'code' => 'BES',
+                    'subregions' => [
                             0 => 'BO',
                             1 => 'SA',
                             2 => 'SE',
                         ],
                 ],
-            'BRA' =>
-                [
-                    'code'       => 'BRA',
-                    'subregions' =>
-                        [
-                            0  => 'AC',
-                            1  => 'AL',
-                            2  => 'AM',
-                            3  => 'AP',
-                            4  => 'BA',
-                            5  => 'CE',
-                            6  => 'DF',
-                            7  => 'ES',
-                            8  => 'FN',
-                            9  => 'GO',
+            'BRA' => [
+                    'code' => 'BRA',
+                    'subregions' => [
+                            0 => 'AC',
+                            1 => 'AL',
+                            2 => 'AM',
+                            3 => 'AP',
+                            4 => 'BA',
+                            5 => 'CE',
+                            6 => 'DF',
+                            7 => 'ES',
+                            8 => 'FN',
+                            9 => 'GO',
                             10 => 'MA',
                             11 => 'MG',
                             12 => 'MS',
@@ -579,21 +517,19 @@ class CountriesSeeder extends Seeder
                             27 => 'TO',
                         ],
                 ],
-            'BHS' =>
-                [
-                    'code'       => 'BHS',
-                    'subregions' =>
-                        [
-                            0  => 'AK',
-                            1  => 'BI',
-                            2  => 'BP',
-                            3  => 'BY',
-                            4  => 'CE',
-                            5  => 'CI',
-                            6  => 'CK',
-                            7  => 'CO',
-                            8  => 'CS',
-                            9  => 'EG',
+            'BHS' => [
+                    'code' => 'BHS',
+                    'subregions' => [
+                            0 => 'AK',
+                            1 => 'BI',
+                            2 => 'BP',
+                            3 => 'BY',
+                            4 => 'CE',
+                            5 => 'CI',
+                            6 => 'CK',
+                            7 => 'CO',
+                            8 => 'CS',
+                            9 => 'EG',
                             10 => 'EX',
                             11 => 'FP',
                             12 => 'GC',
@@ -617,21 +553,19 @@ class CountriesSeeder extends Seeder
                             30 => 'WG',
                         ],
                 ],
-            'BTN' =>
-                [
-                    'code'       => 'BTN',
-                    'subregions' =>
-                        [
-                            0  => '11',
-                            1  => '12',
-                            2  => '13',
-                            3  => '14',
-                            4  => '15',
-                            5  => '21',
-                            6  => '22',
-                            7  => '23',
-                            8  => '24',
-                            9  => '31',
+            'BTN' => [
+                    'code' => 'BTN',
+                    'subregions' => [
+                            0 => '11',
+                            1 => '12',
+                            2 => '13',
+                            3 => '14',
+                            4 => '15',
+                            5 => '21',
+                            6 => '22',
+                            7 => '23',
+                            8 => '24',
+                            9 => '31',
                             10 => '32',
                             11 => '33',
                             12 => '34',
@@ -644,18 +578,14 @@ class CountriesSeeder extends Seeder
                             19 => 'TY',
                         ],
                 ],
-            'BVT' =>
-                [
-                    'code'       => 'BVT',
-                    'subregions' =>
-                        [
+            'BVT' => [
+                    'code' => 'BVT',
+                    'subregions' => [
                         ],
                 ],
-            'BWA' =>
-                [
-                    'code'       => 'BWA',
-                    'subregions' =>
-                        [
+            'BWA' => [
+                    'code' => 'BWA',
+                    'subregions' => [
                             0 => 'CE',
                             1 => 'GH',
                             2 => 'KG',
@@ -667,11 +597,9 @@ class CountriesSeeder extends Seeder
                             8 => 'SO',
                         ],
                 ],
-            'BLR' =>
-                [
-                    'code'       => 'BLR',
-                    'subregions' =>
-                        [
+            'BLR' => [
+                    'code' => 'BLR',
+                    'subregions' => [
                             0 => 'BR',
                             1 => 'HM',
                             2 => 'HO',
@@ -681,11 +609,9 @@ class CountriesSeeder extends Seeder
                             6 => 'VI',
                         ],
                 ],
-            'BLZ' =>
-                [
-                    'code'       => 'BLZ',
-                    'subregions' =>
-                        [
+            'BLZ' => [
+                    'code' => 'BLZ',
+                    'subregions' => [
                             0 => 'BZ',
                             1 => 'CY',
                             2 => 'CZL',
@@ -694,66 +620,58 @@ class CountriesSeeder extends Seeder
                             5 => 'TOL',
                         ],
                 ],
-            'CAN' =>
-                [
-                    'code'       => 'CAN',
-                    'subregions' =>
-                        [
-                            0  => 'AB',
-                            1  => 'BC',
-                            2  => 'MB',
-                            3  => 'NB',
-                            4  => 'NL',
-                            5  => 'NS',
-                            6  => 'NT',
-                            7  => 'NU',
-                            8  => 'ON',
-                            9  => 'PE',
+            'CAN' => [
+                    'code' => 'CAN',
+                    'subregions' => [
+                            0 => 'AB',
+                            1 => 'BC',
+                            2 => 'MB',
+                            3 => 'NB',
+                            4 => 'NL',
+                            5 => 'NS',
+                            6 => 'NT',
+                            7 => 'NU',
+                            8 => 'ON',
+                            9 => 'PE',
                             10 => 'QC',
                             11 => 'SK',
                             12 => 'YT',
                         ],
                 ],
-            'CCK' =>
-                [
-                    'code'       => 'CCK',
-                    'subregions' =>
-                        [
+            'CCK' => [
+                    'code' => 'CCK',
+                    'subregions' => [
                         ],
                 ],
-            'COD' =>
-                [
-                    'code'       => 'COD',
-                    'subregions' =>
-                        [
-                            0  => 'BC',
-                            1  => 'BN',
-                            2  => 'EQ',
-                            3  => 'KA',
-                            4  => 'KE',
-                            5  => 'KN',
-                            6  => 'KW',
-                            7  => 'MA',
-                            8  => 'NK',
-                            9  => 'OR',
+            'COD' => [
+                    'code' => 'COD',
+                    'subregions' => [
+                            0 => 'BC',
+                            1 => 'BN',
+                            2 => 'EQ',
+                            3 => 'KA',
+                            4 => 'KE',
+                            5 => 'KN',
+                            6 => 'KW',
+                            7 => 'MA',
+                            8 => 'NK',
+                            9 => 'OR',
                             10 => 'SK',
                         ],
                 ],
-            'CAF' =>
-                [
-                    'code'       => 'CAF',
-                    'subregions' =>
-                        [
-                            0  => 'AC',
-                            1  => 'BB',
-                            2  => 'BGF',
-                            3  => 'BK',
-                            4  => 'HK',
-                            5  => 'HM',
-                            6  => 'HS',
-                            7  => 'KB',
-                            8  => 'KG',
-                            9  => 'LB',
+            'CAF' => [
+                    'code' => 'CAF',
+                    'subregions' => [
+                            0 => 'AC',
+                            1 => 'BB',
+                            2 => 'BGF',
+                            3 => 'BK',
+                            4 => 'HK',
+                            5 => 'HM',
+                            6 => 'HS',
+                            7 => 'KB',
+                            8 => 'KG',
+                            9 => 'LB',
                             10 => 'MB',
                             11 => 'MP',
                             12 => 'NM',
@@ -763,39 +681,35 @@ class CountriesSeeder extends Seeder
                             16 => 'VK',
                         ],
                 ],
-            'COG' =>
-                [
-                    'code'       => 'COG',
-                    'subregions' =>
-                        [
-                            0  => '11',
-                            1  => '12',
-                            2  => '13',
-                            3  => '14',
-                            4  => '15',
-                            5  => '2',
-                            6  => '5',
-                            7  => '7',
-                            8  => '8',
-                            9  => '9',
+            'COG' => [
+                    'code' => 'COG',
+                    'subregions' => [
+                            0 => '11',
+                            1 => '12',
+                            2 => '13',
+                            3 => '14',
+                            4 => '15',
+                            5 => '2',
+                            6 => '5',
+                            7 => '7',
+                            8 => '8',
+                            9 => '9',
                             10 => 'BZV',
                         ],
                 ],
-            'CHE' =>
-                [
-                    'code'       => 'CHE',
-                    'subregions' =>
-                        [
-                            0  => 'AG',
-                            1  => 'AI',
-                            2  => 'AR',
-                            3  => 'BE',
-                            4  => 'BL',
-                            5  => 'BS',
-                            6  => 'FR',
-                            7  => 'GE',
-                            8  => 'GL',
-                            9  => 'GR',
+            'CHE' => [
+                    'code' => 'CHE',
+                    'subregions' => [
+                            0 => 'AG',
+                            1 => 'AI',
+                            2 => 'AR',
+                            3 => 'BE',
+                            4 => 'BL',
+                            5 => 'BS',
+                            6 => 'FR',
+                            7 => 'GE',
+                            8 => 'GL',
+                            9 => 'GR',
                             10 => 'JU',
                             11 => 'LU',
                             12 => 'NE',
@@ -814,21 +728,19 @@ class CountriesSeeder extends Seeder
                             25 => 'ZH',
                         ],
                 ],
-            'CIV' =>
-                [
-                    'code'       => 'CIV',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'CIV' => [
+                    'code' => 'CIV',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -840,28 +752,24 @@ class CountriesSeeder extends Seeder
                             18 => '19',
                         ],
                 ],
-            'COK' =>
-                [
-                    'code'       => 'COK',
-                    'subregions' =>
-                        [
+            'COK' => [
+                    'code' => 'COK',
+                    'subregions' => [
                         ],
                 ],
-            'CHL' =>
-                [
-                    'code'       => 'CHL',
-                    'subregions' =>
-                        [
-                            0  => 'AI',
-                            1  => 'AN',
-                            2  => 'AP',
-                            3  => 'AR',
-                            4  => 'AT',
-                            5  => 'BI',
-                            6  => 'CO',
-                            7  => 'LI',
-                            8  => 'LL',
-                            9  => 'LR',
+            'CHL' => [
+                    'code' => 'CHL',
+                    'subregions' => [
+                            0 => 'AI',
+                            1 => 'AN',
+                            2 => 'AP',
+                            3 => 'AR',
+                            4 => 'AT',
+                            5 => 'BI',
+                            6 => 'CO',
+                            7 => 'LI',
+                            8 => 'LL',
+                            9 => 'LR',
                             10 => 'MA',
                             11 => 'ML',
                             12 => 'RM',
@@ -869,11 +777,9 @@ class CountriesSeeder extends Seeder
                             14 => 'VS',
                         ],
                 ],
-            'CMR' =>
-                [
-                    'code'       => 'CMR',
-                    'subregions' =>
-                        [
+            'CMR' => [
+                    'code' => 'CMR',
+                    'subregions' => [
                             0 => 'AD',
                             1 => 'CE',
                             2 => 'EN',
@@ -886,21 +792,19 @@ class CountriesSeeder extends Seeder
                             9 => 'SW',
                         ],
                 ],
-            'CHN' =>
-                [
-                    'code'       => 'CHN',
-                    'subregions' =>
-                        [
-                            0  => '11',
-                            1  => '12',
-                            2  => '13',
-                            3  => '14',
-                            4  => '15',
-                            5  => '21',
-                            6  => '22',
-                            7  => '23',
-                            8  => '31',
-                            9  => '32',
+            'CHN' => [
+                    'code' => 'CHN',
+                    'subregions' => [
+                            0 => '11',
+                            1 => '12',
+                            2 => '13',
+                            3 => '14',
+                            4 => '15',
+                            5 => '21',
+                            6 => '22',
+                            7 => '23',
+                            8 => '31',
+                            9 => '32',
                             10 => '33',
                             11 => '34',
                             12 => '35',
@@ -927,21 +831,19 @@ class CountriesSeeder extends Seeder
                             33 => '92',
                         ],
                 ],
-            'COL' =>
-                [
-                    'code'       => 'COL',
-                    'subregions' =>
-                        [
-                            0  => 'AMA',
-                            1  => 'ANT',
-                            2  => 'ARA',
-                            3  => 'ATL',
-                            4  => 'BOL',
-                            5  => 'BOY',
-                            6  => 'CAL',
-                            7  => 'CAQ',
-                            8  => 'CAS',
-                            9  => 'CAU',
+            'COL' => [
+                    'code' => 'COL',
+                    'subregions' => [
+                            0 => 'AMA',
+                            1 => 'ANT',
+                            2 => 'ARA',
+                            3 => 'ATL',
+                            4 => 'BOL',
+                            5 => 'BOY',
+                            6 => 'CAL',
+                            7 => 'CAQ',
+                            8 => 'CAS',
+                            9 => 'CAU',
                             10 => 'CES',
                             11 => 'CHO',
                             12 => 'COR',
@@ -967,11 +869,9 @@ class CountriesSeeder extends Seeder
                             32 => 'VID',
                         ],
                 ],
-            'CRI' =>
-                [
-                    'code'       => 'CRI',
-                    'subregions' =>
-                        [
+            'CRI' => [
+                    'code' => 'CRI',
+                    'subregions' => [
                             0 => 'A',
                             1 => 'C',
                             2 => 'G',
@@ -981,21 +881,19 @@ class CountriesSeeder extends Seeder
                             6 => 'SJ',
                         ],
                 ],
-            'CUB' =>
-                [
-                    'code'       => 'CUB',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'CUB' => [
+                    'code' => 'CUB',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -1003,34 +901,26 @@ class CountriesSeeder extends Seeder
                             14 => '99',
                         ],
                 ],
-            'CPV' =>
-                [
-                    'code'       => 'CPV',
-                    'subregions' =>
-                        [
+            'CPV' => [
+                    'code' => 'CPV',
+                    'subregions' => [
                             0 => 'B',
                             1 => 'S',
                         ],
                 ],
-            'CUW' =>
-                [
-                    'code'       => 'CUW',
-                    'subregions' =>
-                        [
+            'CUW' => [
+                    'code' => 'CUW',
+                    'subregions' => [
                         ],
                 ],
-            'CXR' =>
-                [
-                    'code'       => 'CXR',
-                    'subregions' =>
-                        [
+            'CXR' => [
+                    'code' => 'CXR',
+                    'subregions' => [
                         ],
                 ],
-            'CYP' =>
-                [
-                    'code'       => 'CYP',
-                    'subregions' =>
-                        [
+            'CYP' => [
+                    'code' => 'CYP',
+                    'subregions' => [
                             0 => '01',
                             1 => '02',
                             2 => '03',
@@ -1039,42 +929,38 @@ class CountriesSeeder extends Seeder
                             5 => '06',
                         ],
                 ],
-            'CZE' =>
-                [
-                    'code'       => 'CZE',
-                    'subregions' =>
-                        [
-                            0  => 'JC',
-                            1  => 'JM',
-                            2  => 'KA',
-                            3  => 'KR',
-                            4  => 'LI',
-                            5  => 'MO',
-                            6  => 'OL',
-                            7  => 'PA',
-                            8  => 'PL',
-                            9  => 'PR',
+            'CZE' => [
+                    'code' => 'CZE',
+                    'subregions' => [
+                            0 => 'JC',
+                            1 => 'JM',
+                            2 => 'KA',
+                            3 => 'KR',
+                            4 => 'LI',
+                            5 => 'MO',
+                            6 => 'OL',
+                            7 => 'PA',
+                            8 => 'PL',
+                            9 => 'PR',
                             10 => 'ST',
                             11 => 'US',
                             12 => 'VY',
                             13 => 'ZL',
                         ],
                 ],
-            'DEU' =>
-                [
-                    'code'       => 'DEU',
-                    'subregions' =>
-                        [
-                            0  => 'BB',
-                            1  => 'BE',
-                            2  => 'BW',
-                            3  => 'BY',
-                            4  => 'HB',
-                            5  => 'HE',
-                            6  => 'HH',
-                            7  => 'MV',
-                            8  => 'NI',
-                            9  => 'NW',
+            'DEU' => [
+                    'code' => 'DEU',
+                    'subregions' => [
+                            0 => 'BB',
+                            1 => 'BE',
+                            2 => 'BW',
+                            3 => 'BY',
+                            4 => 'HB',
+                            5 => 'HE',
+                            6 => 'HH',
+                            7 => 'MV',
+                            8 => 'NI',
+                            9 => 'NW',
                             10 => 'RP',
                             11 => 'SH',
                             12 => 'SL',
@@ -1083,11 +969,9 @@ class CountriesSeeder extends Seeder
                             15 => 'TH',
                         ],
                 ],
-            'DJI' =>
-                [
-                    'code'       => 'DJI',
-                    'subregions' =>
-                        [
+            'DJI' => [
+                    'code' => 'DJI',
+                    'subregions' => [
                             0 => 'AR',
                             1 => 'AS',
                             2 => 'DI',
@@ -1096,11 +980,9 @@ class CountriesSeeder extends Seeder
                             5 => 'TA',
                         ],
                 ],
-            'DNK' =>
-                [
-                    'code'       => 'DNK',
-                    'subregions' =>
-                        [
+            'DNK' => [
+                    'code' => 'DNK',
+                    'subregions' => [
                             0 => '81',
                             1 => '82',
                             2 => '83',
@@ -1108,11 +990,9 @@ class CountriesSeeder extends Seeder
                             4 => '85',
                         ],
                 ],
-            'DMA' =>
-                [
-                    'code'       => 'DMA',
-                    'subregions' =>
-                        [
+            'DMA' => [
+                    'code' => 'DMA',
+                    'subregions' => [
                             0 => '01',
                             1 => '02',
                             2 => '03',
@@ -1125,21 +1005,19 @@ class CountriesSeeder extends Seeder
                             9 => '10',
                         ],
                 ],
-            'DOM' =>
-                [
-                    'code'       => 'DOM',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'DOM' => [
+                    'code' => 'DOM',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -1162,21 +1040,19 @@ class CountriesSeeder extends Seeder
                             29 => '30',
                         ],
                 ],
-            'DZA' =>
-                [
-                    'code'       => 'DZA',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'DZA' => [
+                    'code' => 'DZA',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -1217,21 +1093,19 @@ class CountriesSeeder extends Seeder
                             47 => '48',
                         ],
                 ],
-            'ECU' =>
-                [
-                    'code'       => 'ECU',
-                    'subregions' =>
-                        [
-                            0  => 'A',
-                            1  => 'B',
-                            2  => 'C',
-                            3  => 'D',
-                            4  => 'E',
-                            5  => 'F',
-                            6  => 'G',
-                            7  => 'H',
-                            8  => 'I',
-                            9  => 'L',
+            'ECU' => [
+                    'code' => 'ECU',
+                    'subregions' => [
+                            0 => 'A',
+                            1 => 'B',
+                            2 => 'C',
+                            3 => 'D',
+                            4 => 'E',
+                            5 => 'F',
+                            6 => 'G',
+                            7 => 'H',
+                            8 => 'I',
+                            9 => 'L',
                             10 => 'M',
                             11 => 'N',
                             12 => 'O',
@@ -1248,21 +1122,19 @@ class CountriesSeeder extends Seeder
                             23 => 'Z',
                         ],
                 ],
-            'EST' =>
-                [
-                    'code'       => 'EST',
-                    'subregions' =>
-                        [
-                            0  => '37',
-                            1  => '39',
-                            2  => '44',
-                            3  => '49',
-                            4  => '51',
-                            5  => '57',
-                            6  => '59',
-                            7  => '65',
-                            8  => '67',
-                            9  => '70',
+            'EST' => [
+                    'code' => 'EST',
+                    'subregions' => [
+                            0 => '37',
+                            1 => '39',
+                            2 => '44',
+                            3 => '49',
+                            4 => '51',
+                            5 => '57',
+                            6 => '59',
+                            7 => '65',
+                            8 => '67',
+                            9 => '70',
                             10 => '74',
                             11 => '78',
                             12 => '82',
@@ -1270,21 +1142,19 @@ class CountriesSeeder extends Seeder
                             14 => '86',
                         ],
                 ],
-            'EGY' =>
-                [
-                    'code'       => 'EGY',
-                    'subregions' =>
-                        [
-                            0  => 'ALX',
-                            1  => 'ASN',
-                            2  => 'AST',
-                            3  => 'BA',
-                            4  => 'BH',
-                            5  => 'BNS',
-                            6  => 'C',
-                            7  => 'DK',
-                            8  => 'DT',
-                            9  => 'FYM',
+            'EGY' => [
+                    'code' => 'EGY',
+                    'subregions' => [
+                            0 => 'ALX',
+                            1 => 'ASN',
+                            2 => 'AST',
+                            3 => 'BA',
+                            4 => 'BH',
+                            5 => 'BNS',
+                            6 => 'C',
+                            7 => 'DK',
+                            8 => 'DT',
+                            9 => 'FYM',
                             10 => 'GH',
                             11 => 'GZ',
                             12 => 'HU',
@@ -1305,18 +1175,14 @@ class CountriesSeeder extends Seeder
                             27 => 'WAD',
                         ],
                 ],
-            'ESH' =>
-                [
-                    'code'       => 'ESH',
-                    'subregions' =>
-                        [
+            'ESH' => [
+                    'code' => 'ESH',
+                    'subregions' => [
                         ],
                 ],
-            'ERI' =>
-                [
-                    'code'       => 'ERI',
-                    'subregions' =>
-                        [
+            'ERI' => [
+                    'code' => 'ERI',
+                    'subregions' => [
                             0 => 'AN',
                             1 => 'DK',
                             2 => 'DU',
@@ -1325,21 +1191,19 @@ class CountriesSeeder extends Seeder
                             5 => 'SK',
                         ],
                 ],
-            'ESP' =>
-                [
-                    'code'       => 'ESP',
-                    'subregions' =>
-                        [
-                            0  => 'AN',
-                            1  => 'AR',
-                            2  => 'AS',
-                            3  => 'CB',
-                            4  => 'CE',
-                            5  => 'CL',
-                            6  => 'CM',
-                            7  => 'CN',
-                            8  => 'CT',
-                            9  => 'EX',
+            'ESP' => [
+                    'code' => 'ESP',
+                    'subregions' => [
+                            0 => 'AN',
+                            1 => 'AR',
+                            2 => 'AS',
+                            3 => 'CB',
+                            4 => 'CE',
+                            5 => 'CL',
+                            6 => 'CM',
+                            7 => 'CN',
+                            8 => 'CT',
+                            9 => 'EX',
                             10 => 'GA',
                             11 => 'IB',
                             12 => 'MC',
@@ -1351,39 +1215,35 @@ class CountriesSeeder extends Seeder
                             18 => 'VC',
                         ],
                 ],
-            'ETH' =>
-                [
-                    'code'       => 'ETH',
-                    'subregions' =>
-                        [
-                            0  => 'AA',
-                            1  => 'AF',
-                            2  => 'AM',
-                            3  => 'BE',
-                            4  => 'DD',
-                            5  => 'GA',
-                            6  => 'HA',
-                            7  => 'OR',
-                            8  => 'SN',
-                            9  => 'SO',
+            'ETH' => [
+                    'code' => 'ETH',
+                    'subregions' => [
+                            0 => 'AA',
+                            1 => 'AF',
+                            2 => 'AM',
+                            3 => 'BE',
+                            4 => 'DD',
+                            5 => 'GA',
+                            6 => 'HA',
+                            7 => 'OR',
+                            8 => 'SN',
+                            9 => 'SO',
                             10 => 'TI',
                         ],
                 ],
-            'FIN' =>
-                [
-                    'code'       => 'FIN',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'FIN' => [
+                    'code' => 'FIN',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -1395,11 +1255,9 @@ class CountriesSeeder extends Seeder
                             18 => '19',
                         ],
                 ],
-            'FJI' =>
-                [
-                    'code'       => 'FJI',
-                    'subregions' =>
-                        [
+            'FJI' => [
+                    'code' => 'FJI',
+                    'subregions' => [
                             0 => 'C',
                             1 => 'E',
                             2 => 'N',
@@ -1407,46 +1265,38 @@ class CountriesSeeder extends Seeder
                             4 => 'W',
                         ],
                 ],
-            'FLK' =>
-                [
-                    'code'       => 'FLK',
-                    'subregions' =>
-                        [
+            'FLK' => [
+                    'code' => 'FLK',
+                    'subregions' => [
                         ],
                 ],
-            'FSM' =>
-                [
-                    'code'       => 'FSM',
-                    'subregions' =>
-                        [
+            'FSM' => [
+                    'code' => 'FSM',
+                    'subregions' => [
                             0 => 'KSA',
                             1 => 'PNI',
                             2 => 'TRK',
                             3 => 'YAP',
                         ],
                 ],
-            'FRO' =>
-                [
-                    'code'       => 'FRO',
-                    'subregions' =>
-                        [
+            'FRO' => [
+                    'code' => 'FRO',
+                    'subregions' => [
                         ],
                 ],
-            'FRA' =>
-                [
-                    'code'       => 'FRA',
-                    'subregions' =>
-                        [
-                            0  => 'A',
-                            1  => 'B',
-                            2  => 'BL',
-                            3  => 'C',
-                            4  => 'CP',
-                            5  => 'D',
-                            6  => 'E',
-                            7  => 'F',
-                            8  => 'G',
-                            9  => 'GF',
+            'FRA' => [
+                    'code' => 'FRA',
+                    'subregions' => [
+                            0 => 'A',
+                            1 => 'B',
+                            2 => 'BL',
+                            3 => 'C',
+                            4 => 'CP',
+                            5 => 'D',
+                            6 => 'E',
+                            7 => 'F',
+                            8 => 'G',
+                            9 => 'GF',
                             10 => 'GP',
                             11 => 'H',
                             12 => 'I',
@@ -1474,11 +1324,9 @@ class CountriesSeeder extends Seeder
                             34 => 'YT',
                         ],
                 ],
-            'GAB' =>
-                [
-                    'code'       => 'GAB',
-                    'subregions' =>
-                        [
+            'GAB' => [
+                    'code' => 'GAB',
+                    'subregions' => [
                             0 => '1',
                             1 => '2',
                             2 => '3',
@@ -1490,111 +1338,109 @@ class CountriesSeeder extends Seeder
                             8 => '9',
                         ],
                 ],
-            'GBR' =>
-                [
-                    'code'       => 'GBR',
-                    'subregions' =>
-                        [
-                            0   => 'ABD',
-                            1   => 'ABE',
-                            2   => 'AGB',
-                            3   => 'AGY',
-                            4   => 'ANS',
-                            5   => 'ANT',
-                            6   => 'ARD',
-                            7   => 'ARM',
-                            8   => 'BAS',
-                            9   => 'BBD',
-                            10  => 'BDF',
-                            11  => 'BDG',
-                            12  => 'BEN',
-                            13  => 'BEX',
-                            14  => 'BFS',
-                            15  => 'BGE',
-                            16  => 'BGW',
-                            17  => 'BIR',
-                            18  => 'BKM',
-                            19  => 'BLA',
-                            20  => 'BLY',
-                            21  => 'BMH',
-                            22  => 'BNB',
-                            23  => 'BNE',
-                            24  => 'BNH',
-                            25  => 'BNS',
-                            26  => 'BOL',
-                            27  => 'BPL',
-                            28  => 'BRC',
-                            29  => 'BRD',
-                            30  => 'BRY',
-                            31  => 'BST',
-                            32  => 'BUR',
-                            33  => 'CAM',
-                            34  => 'CAY',
-                            35  => 'CBF',
-                            36  => 'CGN',
-                            37  => 'CGV',
-                            38  => 'CHE',
-                            39  => 'CHW',
-                            40  => 'CKF',
-                            41  => 'CKT',
-                            42  => 'CLD',
-                            43  => 'CLK',
-                            44  => 'CLR',
-                            45  => 'CMA',
-                            46  => 'CMD',
-                            47  => 'CMN',
-                            48  => 'CON',
-                            49  => 'COV',
-                            50  => 'CRF',
-                            51  => 'CRY',
-                            52  => 'CSR',
-                            53  => 'CWY',
-                            54  => 'DAL',
-                            55  => 'DBY',
-                            56  => 'DEN',
-                            57  => 'DER',
-                            58  => 'DEV',
-                            59  => 'DGN',
-                            60  => 'DGY',
-                            61  => 'DNC',
-                            62  => 'DND',
-                            63  => 'DOR',
-                            64  => 'DOW',
-                            65  => 'DRY',
-                            66  => 'DUD',
-                            67  => 'DUR',
-                            68  => 'EAL',
-                            69  => 'EAW',
-                            70  => 'EAY',
-                            71  => 'EDH',
-                            72  => 'EDU',
-                            73  => 'ELN',
-                            74  => 'ELS',
-                            75  => 'ENF',
-                            76  => 'ENG',
-                            77  => 'ERW',
-                            78  => 'ERY',
-                            79  => 'ESS',
-                            80  => 'ESX',
-                            81  => 'FAL',
-                            82  => 'FER',
-                            83  => 'FIF',
-                            84  => 'FLN',
-                            85  => 'GAT',
-                            86  => 'GBN',
-                            87  => 'GLG',
-                            88  => 'GLS',
-                            89  => 'GRE',
-                            90  => 'GWN',
-                            91  => 'HAL',
-                            92  => 'HAM',
-                            93  => 'HAV',
-                            94  => 'HCK',
-                            95  => 'HEF',
-                            96  => 'HIL',
-                            97  => 'HLD',
-                            98  => 'HMF',
-                            99  => 'HNS',
+            'GBR' => [
+                    'code' => 'GBR',
+                    'subregions' => [
+                            0 => 'ABD',
+                            1 => 'ABE',
+                            2 => 'AGB',
+                            3 => 'AGY',
+                            4 => 'ANS',
+                            5 => 'ANT',
+                            6 => 'ARD',
+                            7 => 'ARM',
+                            8 => 'BAS',
+                            9 => 'BBD',
+                            10 => 'BDF',
+                            11 => 'BDG',
+                            12 => 'BEN',
+                            13 => 'BEX',
+                            14 => 'BFS',
+                            15 => 'BGE',
+                            16 => 'BGW',
+                            17 => 'BIR',
+                            18 => 'BKM',
+                            19 => 'BLA',
+                            20 => 'BLY',
+                            21 => 'BMH',
+                            22 => 'BNB',
+                            23 => 'BNE',
+                            24 => 'BNH',
+                            25 => 'BNS',
+                            26 => 'BOL',
+                            27 => 'BPL',
+                            28 => 'BRC',
+                            29 => 'BRD',
+                            30 => 'BRY',
+                            31 => 'BST',
+                            32 => 'BUR',
+                            33 => 'CAM',
+                            34 => 'CAY',
+                            35 => 'CBF',
+                            36 => 'CGN',
+                            37 => 'CGV',
+                            38 => 'CHE',
+                            39 => 'CHW',
+                            40 => 'CKF',
+                            41 => 'CKT',
+                            42 => 'CLD',
+                            43 => 'CLK',
+                            44 => 'CLR',
+                            45 => 'CMA',
+                            46 => 'CMD',
+                            47 => 'CMN',
+                            48 => 'CON',
+                            49 => 'COV',
+                            50 => 'CRF',
+                            51 => 'CRY',
+                            52 => 'CSR',
+                            53 => 'CWY',
+                            54 => 'DAL',
+                            55 => 'DBY',
+                            56 => 'DEN',
+                            57 => 'DER',
+                            58 => 'DEV',
+                            59 => 'DGN',
+                            60 => 'DGY',
+                            61 => 'DNC',
+                            62 => 'DND',
+                            63 => 'DOR',
+                            64 => 'DOW',
+                            65 => 'DRY',
+                            66 => 'DUD',
+                            67 => 'DUR',
+                            68 => 'EAL',
+                            69 => 'EAW',
+                            70 => 'EAY',
+                            71 => 'EDH',
+                            72 => 'EDU',
+                            73 => 'ELN',
+                            74 => 'ELS',
+                            75 => 'ENF',
+                            76 => 'ENG',
+                            77 => 'ERW',
+                            78 => 'ERY',
+                            79 => 'ESS',
+                            80 => 'ESX',
+                            81 => 'FAL',
+                            82 => 'FER',
+                            83 => 'FIF',
+                            84 => 'FLN',
+                            85 => 'GAT',
+                            86 => 'GBN',
+                            87 => 'GLG',
+                            88 => 'GLS',
+                            89 => 'GRE',
+                            90 => 'GWN',
+                            91 => 'HAL',
+                            92 => 'HAM',
+                            93 => 'HAV',
+                            94 => 'HCK',
+                            95 => 'HEF',
+                            96 => 'HIL',
+                            97 => 'HLD',
+                            98 => 'HMF',
+                            99 => 'HNS',
                             100 => 'HPL',
                             101 => 'HRT',
                             102 => 'HRW',
@@ -1735,11 +1581,9 @@ class CountriesSeeder extends Seeder
                             237 => 'WIL',
                         ],
                 ],
-            'GRD' =>
-                [
-                    'code'       => 'GRD',
-                    'subregions' =>
-                        [
+            'GRD' => [
+                    'code' => 'GRD',
+                    'subregions' => [
                             0 => '01',
                             1 => '02',
                             2 => '03',
@@ -1749,44 +1593,36 @@ class CountriesSeeder extends Seeder
                             6 => '10',
                         ],
                 ],
-            'GEO' =>
-                [
-                    'code'       => 'GEO',
-                    'subregions' =>
-                        [
-                            0  => 'AB',
-                            1  => 'AJ',
-                            2  => 'GU',
-                            3  => 'IM',
-                            4  => 'KA',
-                            5  => 'KK',
-                            6  => 'MM',
-                            7  => 'RL',
-                            8  => 'SJ',
-                            9  => 'SK',
+            'GEO' => [
+                    'code' => 'GEO',
+                    'subregions' => [
+                            0 => 'AB',
+                            1 => 'AJ',
+                            2 => 'GU',
+                            3 => 'IM',
+                            4 => 'KA',
+                            5 => 'KK',
+                            6 => 'MM',
+                            7 => 'RL',
+                            8 => 'SJ',
+                            9 => 'SK',
                             10 => 'SZ',
                             11 => 'TB',
                         ],
                 ],
-            'GUF' =>
-                [
-                    'code'       => 'GUF',
-                    'subregions' =>
-                        [
+            'GUF' => [
+                    'code' => 'GUF',
+                    'subregions' => [
                         ],
                 ],
-            'GGY' =>
-                [
-                    'code'       => 'GGY',
-                    'subregions' =>
-                        [
+            'GGY' => [
+                    'code' => 'GGY',
+                    'subregions' => [
                         ],
                 ],
-            'GHA' =>
-                [
-                    'code'       => 'GHA',
-                    'subregions' =>
-                        [
+            'GHA' => [
+                    'code' => 'GHA',
+                    'subregions' => [
                             0 => 'AA',
                             1 => 'AH',
                             2 => 'BA',
@@ -1799,29 +1635,23 @@ class CountriesSeeder extends Seeder
                             9 => 'WP',
                         ],
                 ],
-            'GIB' =>
-                [
-                    'code'       => 'GIB',
-                    'subregions' =>
-                        [
+            'GIB' => [
+                    'code' => 'GIB',
+                    'subregions' => [
                         ],
                 ],
-            'GRL' =>
-                [
-                    'code'       => 'GRL',
-                    'subregions' =>
-                        [
+            'GRL' => [
+                    'code' => 'GRL',
+                    'subregions' => [
                             0 => 'KU',
                             1 => 'QA',
                             2 => 'QE',
                             3 => 'SM',
                         ],
                 ],
-            'GMB' =>
-                [
-                    'code'       => 'GMB',
-                    'subregions' =>
-                        [
+            'GMB' => [
+                    'code' => 'GMB',
+                    'subregions' => [
                             0 => 'B',
                             1 => 'L',
                             2 => 'M',
@@ -1830,11 +1660,9 @@ class CountriesSeeder extends Seeder
                             5 => 'W',
                         ],
                 ],
-            'GIN' =>
-                [
-                    'code'       => 'GIN',
-                    'subregions' =>
-                        [
+            'GIN' => [
+                    'code' => 'GIN',
+                    'subregions' => [
                             0 => 'B',
                             1 => 'C',
                             2 => 'D',
@@ -1845,65 +1673,55 @@ class CountriesSeeder extends Seeder
                             7 => 'N',
                         ],
                 ],
-            'GLP' =>
-                [
-                    'code'       => 'GLP',
-                    'subregions' =>
-                        [
+            'GLP' => [
+                    'code' => 'GLP',
+                    'subregions' => [
                         ],
                 ],
-            'GNQ' =>
-                [
-                    'code'       => 'GNQ',
-                    'subregions' =>
-                        [
+            'GNQ' => [
+                    'code' => 'GNQ',
+                    'subregions' => [
                             0 => 'C',
                             1 => 'I',
                         ],
                 ],
-            'GRC' =>
-                [
-                    'code'       => 'GRC',
-                    'subregions' =>
-                        [
-                            0  => '69',
-                            1  => 'A',
-                            2  => 'B',
-                            3  => 'C',
-                            4  => 'D',
-                            5  => 'E',
-                            6  => 'F',
-                            7  => 'G',
-                            8  => 'H',
-                            9  => 'I',
+            'GRC' => [
+                    'code' => 'GRC',
+                    'subregions' => [
+                            0 => '69',
+                            1 => 'A',
+                            2 => 'B',
+                            3 => 'C',
+                            4 => 'D',
+                            5 => 'E',
+                            6 => 'F',
+                            7 => 'G',
+                            8 => 'H',
+                            9 => 'I',
                             10 => 'J',
                             11 => 'K',
                             12 => 'L',
                             13 => 'M',
                         ],
                 ],
-            'SGS' =>
-                [
-                    'code'       => 'SGS',
-                    'subregions' =>
-                        [
+            'SGS' => [
+                    'code' => 'SGS',
+                    'subregions' => [
                         ],
                 ],
-            'GTM' =>
-                [
-                    'code'       => 'GTM',
-                    'subregions' =>
-                        [
-                            0  => 'AV',
-                            1  => 'BV',
-                            2  => 'CM',
-                            3  => 'CQ',
-                            4  => 'ES',
-                            5  => 'GU',
-                            6  => 'HU',
-                            7  => 'IZ',
-                            8  => 'JA',
-                            9  => 'JU',
+            'GTM' => [
+                    'code' => 'GTM',
+                    'subregions' => [
+                            0 => 'AV',
+                            1 => 'BV',
+                            2 => 'CM',
+                            3 => 'CQ',
+                            4 => 'ES',
+                            5 => 'GU',
+                            6 => 'HU',
+                            7 => 'IZ',
+                            8 => 'JA',
+                            9 => 'JU',
                             10 => 'PE',
                             11 => 'PR',
                             12 => 'QC',
@@ -1918,29 +1736,23 @@ class CountriesSeeder extends Seeder
                             21 => 'ZA',
                         ],
                 ],
-            'GUM' =>
-                [
-                    'code'       => 'GUM',
-                    'subregions' =>
-                        [
+            'GUM' => [
+                    'code' => 'GUM',
+                    'subregions' => [
                         ],
                 ],
-            'GNB' =>
-                [
-                    'code'       => 'GNB',
-                    'subregions' =>
-                        [
+            'GNB' => [
+                    'code' => 'GNB',
+                    'subregions' => [
                             0 => 'BS',
                             1 => 'L',
                             2 => 'N',
                             3 => 'S',
                         ],
                 ],
-            'GUY' =>
-                [
-                    'code'       => 'GUY',
-                    'subregions' =>
-                        [
+            'GUY' => [
+                    'code' => 'GUY',
+                    'subregions' => [
                             0 => 'BA',
                             1 => 'CU',
                             2 => 'DE',
@@ -1953,35 +1765,29 @@ class CountriesSeeder extends Seeder
                             9 => 'UT',
                         ],
                 ],
-            'HKG' =>
-                [
-                    'code'       => 'HKG',
-                    'subregions' =>
-                        [
+            'HKG' => [
+                    'code' => 'HKG',
+                    'subregions' => [
                         ],
                 ],
-            'HMD' =>
-                [
-                    'code'       => 'HMD',
-                    'subregions' =>
-                        [
+            'HMD' => [
+                    'code' => 'HMD',
+                    'subregions' => [
                         ],
                 ],
-            'HND' =>
-                [
-                    'code'       => 'HND',
-                    'subregions' =>
-                        [
-                            0  => 'AT',
-                            1  => 'CH',
-                            2  => 'CL',
-                            3  => 'CM',
-                            4  => 'CP',
-                            5  => 'CR',
-                            6  => 'EP',
-                            7  => 'FM',
-                            8  => 'GD',
-                            9  => 'IB',
+            'HND' => [
+                    'code' => 'HND',
+                    'subregions' => [
+                            0 => 'AT',
+                            1 => 'CH',
+                            2 => 'CL',
+                            3 => 'CM',
+                            4 => 'CP',
+                            5 => 'CR',
+                            6 => 'EP',
+                            7 => 'FM',
+                            8 => 'GD',
+                            9 => 'IB',
                             10 => 'IN',
                             11 => 'LE',
                             12 => 'LP',
@@ -1992,21 +1798,19 @@ class CountriesSeeder extends Seeder
                             17 => 'YO',
                         ],
                 ],
-            'HRV' =>
-                [
-                    'code'       => 'HRV',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'HRV' => [
+                    'code' => 'HRV',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -2020,11 +1824,9 @@ class CountriesSeeder extends Seeder
                             20 => '21',
                         ],
                 ],
-            'HTI' =>
-                [
-                    'code'       => 'HTI',
-                    'subregions' =>
-                        [
+            'HTI' => [
+                    'code' => 'HTI',
+                    'subregions' => [
                             0 => 'AR',
                             1 => 'CE',
                             2 => 'GA',
@@ -2036,21 +1838,19 @@ class CountriesSeeder extends Seeder
                             8 => 'SE',
                         ],
                 ],
-            'HUN' =>
-                [
-                    'code'       => 'HUN',
-                    'subregions' =>
-                        [
-                            0  => 'BA',
-                            1  => 'BC',
-                            2  => 'BE',
-                            3  => 'BK',
-                            4  => 'BU',
-                            5  => 'BZ',
-                            6  => 'CS',
-                            7  => 'DE',
-                            8  => 'DU',
-                            9  => 'EG',
+            'HUN' => [
+                    'code' => 'HUN',
+                    'subregions' => [
+                            0 => 'BA',
+                            1 => 'BC',
+                            2 => 'BE',
+                            3 => 'BK',
+                            4 => 'BU',
+                            5 => 'BZ',
+                            6 => 'CS',
+                            7 => 'DE',
+                            8 => 'DU',
+                            9 => 'EG',
                             10 => 'ER',
                             11 => 'FE',
                             12 => 'GS',
@@ -2086,11 +1886,9 @@ class CountriesSeeder extends Seeder
                             42 => 'ZE',
                         ],
                 ],
-            'IDN' =>
-                [
-                    'code'       => 'IDN',
-                    'subregions' =>
-                        [
+            'IDN' => [
+                    'code' => 'IDN',
+                    'subregions' => [
                             0 => 'IJ',
                             1 => 'JW',
                             2 => 'KA',
@@ -2100,22 +1898,18 @@ class CountriesSeeder extends Seeder
                             6 => 'SM',
                         ],
                 ],
-            'IRL' =>
-                [
-                    'code'       => 'IRL',
-                    'subregions' =>
-                        [
+            'IRL' => [
+                    'code' => 'IRL',
+                    'subregions' => [
                             0 => 'C',
                             1 => 'L',
                             2 => 'M',
                             3 => 'U',
                         ],
                 ],
-            'ISR' =>
-                [
-                    'code'       => 'ISR',
-                    'subregions' =>
-                        [
+            'ISR' => [
+                    'code' => 'ISR',
+                    'subregions' => [
                             0 => 'D',
                             1 => 'HA',
                             2 => 'JM',
@@ -2124,28 +1918,24 @@ class CountriesSeeder extends Seeder
                             5 => 'Z',
                         ],
                 ],
-            'IMN' =>
-                [
-                    'code'       => 'IMN',
-                    'subregions' =>
-                        [
+            'IMN' => [
+                    'code' => 'IMN',
+                    'subregions' => [
                         ],
                 ],
-            'IND' =>
-                [
-                    'code'       => 'IND',
-                    'subregions' =>
-                        [
-                            0  => 'AN',
-                            1  => 'AP',
-                            2  => 'AR',
-                            3  => 'AS',
-                            4  => 'BR',
-                            5  => 'CH',
-                            6  => 'CT',
-                            7  => 'DD',
-                            8  => 'DL',
-                            9  => 'DN',
+            'IND' => [
+                    'code' => 'IND',
+                    'subregions' => [
+                            0 => 'AN',
+                            1 => 'AP',
+                            2 => 'AR',
+                            3 => 'AS',
+                            4 => 'BR',
+                            5 => 'CH',
+                            6 => 'CT',
+                            7 => 'DD',
+                            8 => 'DL',
+                            9 => 'DN',
                             10 => 'GA',
                             11 => 'GJ',
                             12 => 'HP',
@@ -2173,28 +1963,24 @@ class CountriesSeeder extends Seeder
                             34 => 'WB',
                         ],
                 ],
-            'IOT' =>
-                [
-                    'code'       => 'IOT',
-                    'subregions' =>
-                        [
+            'IOT' => [
+                    'code' => 'IOT',
+                    'subregions' => [
                         ],
                 ],
-            'IRQ' =>
-                [
-                    'code'       => 'IRQ',
-                    'subregions' =>
-                        [
-                            0  => 'AN',
-                            1  => 'AR',
-                            2  => 'BA',
-                            3  => 'BB',
-                            4  => 'BG',
-                            5  => 'DA',
-                            6  => 'DI',
-                            7  => 'DQ',
-                            8  => 'KA',
-                            9  => 'MA',
+            'IRQ' => [
+                    'code' => 'IRQ',
+                    'subregions' => [
+                            0 => 'AN',
+                            1 => 'AR',
+                            2 => 'BA',
+                            3 => 'BB',
+                            4 => 'BG',
+                            5 => 'DA',
+                            6 => 'DI',
+                            7 => 'DQ',
+                            8 => 'KA',
+                            9 => 'MA',
                             10 => 'MU',
                             11 => 'NA',
                             12 => 'NI',
@@ -2205,21 +1991,19 @@ class CountriesSeeder extends Seeder
                             17 => 'WA',
                         ],
                 ],
-            'IRN' =>
-                [
-                    'code'       => 'IRN',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '10',
-                            9  => '11',
+            'IRN' => [
+                    'code' => 'IRN',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '10',
+                            9 => '11',
                             10 => '12',
                             11 => '13',
                             12 => '14',
@@ -2242,11 +2026,9 @@ class CountriesSeeder extends Seeder
                             29 => '31',
                         ],
                 ],
-            'ISL' =>
-                [
-                    'code'       => 'ISL',
-                    'subregions' =>
-                        [
+            'ISL' => [
+                    'code' => 'ISL',
+                    'subregions' => [
                             0 => '0',
                             1 => '1',
                             2 => '2',
@@ -2258,21 +2040,19 @@ class CountriesSeeder extends Seeder
                             8 => '8',
                         ],
                 ],
-            'ITA' =>
-                [
-                    'code'       => 'ITA',
-                    'subregions' =>
-                        [
-                            0  => '21',
-                            1  => '23',
-                            2  => '25',
-                            3  => '32',
-                            4  => '34',
-                            5  => '36',
-                            6  => '42',
-                            7  => '45',
-                            8  => '52',
-                            9  => '55',
+            'ITA' => [
+                    'code' => 'ITA',
+                    'subregions' => [
+                            0 => '21',
+                            1 => '23',
+                            2 => '25',
+                            3 => '32',
+                            4 => '34',
+                            5 => '36',
+                            6 => '42',
+                            7 => '45',
+                            8 => '52',
+                            9 => '55',
                             10 => '57',
                             11 => '62',
                             12 => '65',
@@ -2285,68 +2065,60 @@ class CountriesSeeder extends Seeder
                             19 => '88',
                         ],
                 ],
-            'JEY' =>
-                [
-                    'code'       => 'JEY',
-                    'subregions' =>
-                        [
+            'JEY' => [
+                    'code' => 'JEY',
+                    'subregions' => [
                         ],
                 ],
-            'JAM' =>
-                [
-                    'code'       => 'JAM',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'JAM' => [
+                    'code' => 'JAM',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
                             13 => '14',
                         ],
                 ],
-            'JOR' =>
-                [
-                    'code'       => 'JOR',
-                    'subregions' =>
-                        [
-                            0  => 'AJ',
-                            1  => 'AM',
-                            2  => 'AQ',
-                            3  => 'AT',
-                            4  => 'AZ',
-                            5  => 'BA',
-                            6  => 'IR',
-                            7  => 'JA',
-                            8  => 'KA',
-                            9  => 'MA',
+            'JOR' => [
+                    'code' => 'JOR',
+                    'subregions' => [
+                            0 => 'AJ',
+                            1 => 'AM',
+                            2 => 'AQ',
+                            3 => 'AT',
+                            4 => 'AZ',
+                            5 => 'BA',
+                            6 => 'IR',
+                            7 => 'JA',
+                            8 => 'KA',
+                            9 => 'MA',
                             10 => 'MD',
                             11 => 'MN',
                         ],
                 ],
-            'JPN' =>
-                [
-                    'code'       => 'JPN',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'JPN' => [
+                    'code' => 'JPN',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -2386,11 +2158,9 @@ class CountriesSeeder extends Seeder
                             46 => '47',
                         ],
                 ],
-            'KEN' =>
-                [
-                    'code'       => 'KEN',
-                    'subregions' =>
-                        [
+            'KEN' => [
+                    'code' => 'KEN',
+                    'subregions' => [
                             0 => '110',
                             1 => '200',
                             2 => '300',
@@ -2400,11 +2170,9 @@ class CountriesSeeder extends Seeder
                             6 => '800',
                         ],
                 ],
-            'KGZ' =>
-                [
-                    'code'       => 'KGZ',
-                    'subregions' =>
-                        [
+            'KGZ' => [
+                    'code' => 'KGZ',
+                    'subregions' => [
                             0 => 'B',
                             1 => 'C',
                             2 => 'GB',
@@ -2415,21 +2183,19 @@ class CountriesSeeder extends Seeder
                             7 => 'Y',
                         ],
                 ],
-            'KHM' =>
-                [
-                    'code'       => 'KHM',
-                    'subregions' =>
-                        [
-                            0  => '1',
-                            1  => '10',
-                            2  => '11',
-                            3  => '12',
-                            4  => '13',
-                            5  => '14',
-                            6  => '15',
-                            7  => '16',
-                            8  => '17',
-                            9  => '18',
+            'KHM' => [
+                    'code' => 'KHM',
+                    'subregions' => [
+                            0 => '1',
+                            1 => '10',
+                            2 => '11',
+                            3 => '12',
+                            4 => '13',
+                            5 => '14',
+                            6 => '15',
+                            7 => '16',
+                            8 => '17',
+                            9 => '18',
                             10 => '19',
                             11 => '2',
                             12 => '20',
@@ -2446,68 +2212,58 @@ class CountriesSeeder extends Seeder
                             23 => '9',
                         ],
                 ],
-            'KIR' =>
-                [
-                    'code'       => 'KIR',
-                    'subregions' =>
-                        [
+            'KIR' => [
+                    'code' => 'KIR',
+                    'subregions' => [
                             0 => 'G',
                             1 => 'L',
                             2 => 'P',
                         ],
                 ],
-            'COM' =>
-                [
-                    'code'       => 'COM',
-                    'subregions' =>
-                        [
+            'COM' => [
+                    'code' => 'COM',
+                    'subregions' => [
                             0 => 'A',
                             1 => 'G',
                             2 => 'M',
                         ],
                 ],
-            'KNA' =>
-                [
-                    'code'       => 'KNA',
-                    'subregions' =>
-                        [
+            'KNA' => [
+                    'code' => 'KNA',
+                    'subregions' => [
                             0 => 'K',
                             1 => 'N',
                         ],
                 ],
-            'PRK' =>
-                [
-                    'code'       => 'PRK',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'PRK' => [
+                    'code' => 'PRK',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '13',
                         ],
                 ],
-            'KOR' =>
-                [
-                    'code'       => 'KOR',
-                    'subregions' =>
-                        [
-                            0  => '11',
-                            1  => '26',
-                            2  => '27',
-                            3  => '28',
-                            4  => '29',
-                            5  => '30',
-                            6  => '31',
-                            7  => '41',
-                            8  => '42',
-                            9  => '43',
+            'KOR' => [
+                    'code' => 'KOR',
+                    'subregions' => [
+                            0 => '11',
+                            1 => '26',
+                            2 => '27',
+                            3 => '28',
+                            4 => '29',
+                            5 => '30',
+                            6 => '31',
+                            7 => '41',
+                            8 => '42',
+                            9 => '43',
                             10 => '44',
                             11 => '45',
                             12 => '46',
@@ -2516,11 +2272,9 @@ class CountriesSeeder extends Seeder
                             15 => '49',
                         ],
                 ],
-            'KWT' =>
-                [
-                    'code'       => 'KWT',
-                    'subregions' =>
-                        [
+            'KWT' => [
+                    'code' => 'KWT',
+                    'subregions' => [
                             0 => 'AH',
                             1 => 'FA',
                             2 => 'HA',
@@ -2529,28 +2283,24 @@ class CountriesSeeder extends Seeder
                             5 => 'MU',
                         ],
                 ],
-            'CYM' =>
-                [
-                    'code'       => 'CYM',
-                    'subregions' =>
-                        [
+            'CYM' => [
+                    'code' => 'CYM',
+                    'subregions' => [
                         ],
                 ],
-            'KAZ' =>
-                [
-                    'code'       => 'KAZ',
-                    'subregions' =>
-                        [
-                            0  => 'AKM',
-                            1  => 'AKT',
-                            2  => 'ALA',
-                            3  => 'ALM',
-                            4  => 'AST',
-                            5  => 'ATY',
-                            6  => 'KAR',
-                            7  => 'KUS',
-                            8  => 'KZY',
-                            9  => 'MAN',
+            'KAZ' => [
+                    'code' => 'KAZ',
+                    'subregions' => [
+                            0 => 'AKM',
+                            1 => 'AKT',
+                            2 => 'ALA',
+                            3 => 'ALM',
+                            4 => 'AST',
+                            5 => 'ATY',
+                            6 => 'KAR',
+                            7 => 'KUS',
+                            8 => 'KZY',
+                            9 => 'MAN',
                             10 => 'PAV',
                             11 => 'SEV',
                             12 => 'VOS',
@@ -2559,21 +2309,19 @@ class CountriesSeeder extends Seeder
                             15 => 'ZHA',
                         ],
                 ],
-            'LAO' =>
-                [
-                    'code'       => 'LAO',
-                    'subregions' =>
-                        [
-                            0  => 'AT',
-                            1  => 'BK',
-                            2  => 'BL',
-                            3  => 'CH',
-                            4  => 'HO',
-                            5  => 'KH',
-                            6  => 'LM',
-                            7  => 'LP',
-                            8  => 'OU',
-                            9  => 'PH',
+            'LAO' => [
+                    'code' => 'LAO',
+                    'subregions' => [
+                            0 => 'AT',
+                            1 => 'BK',
+                            2 => 'BL',
+                            3 => 'CH',
+                            4 => 'HO',
+                            5 => 'KH',
+                            6 => 'LM',
+                            7 => 'LP',
+                            8 => 'OU',
+                            9 => 'PH',
                             10 => 'SL',
                             11 => 'SV',
                             12 => 'VI',
@@ -2584,11 +2332,9 @@ class CountriesSeeder extends Seeder
                             17 => 'XN',
                         ],
                 ],
-            'LBN' =>
-                [
-                    'code'       => 'LBN',
-                    'subregions' =>
-                        [
+            'LBN' => [
+                    'code' => 'LBN',
+                    'subregions' => [
                             0 => 'AK',
                             1 => 'AS',
                             2 => 'BA',
@@ -2599,36 +2345,30 @@ class CountriesSeeder extends Seeder
                             7 => 'NA',
                         ],
                 ],
-            'LCA' =>
-                [
-                    'code'       => 'LCA',
-                    'subregions' =>
-                        [
+            'LCA' => [
+                    'code' => 'LCA',
+                    'subregions' => [
                         ],
                 ],
-            'LIE' =>
-                [
-                    'code'       => 'LIE',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'LIE' => [
+                    'code' => 'LIE',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                         ],
                 ],
-            'LKA' =>
-                [
-                    'code'       => 'LKA',
-                    'subregions' =>
-                        [
+            'LKA' => [
+                    'code' => 'LKA',
+                    'subregions' => [
                             0 => '1',
                             1 => '2',
                             2 => '3',
@@ -2640,31 +2380,27 @@ class CountriesSeeder extends Seeder
                             8 => '9',
                         ],
                 ],
-            'LBR' =>
-                [
-                    'code'       => 'LBR',
-                    'subregions' =>
-                        [
-                            0  => 'BG',
-                            1  => 'BM',
-                            2  => 'CM',
-                            3  => 'GB',
-                            4  => 'GG',
-                            5  => 'GK',
-                            6  => 'LO',
-                            7  => 'MG',
-                            8  => 'MO',
-                            9  => 'MY',
+            'LBR' => [
+                    'code' => 'LBR',
+                    'subregions' => [
+                            0 => 'BG',
+                            1 => 'BM',
+                            2 => 'CM',
+                            3 => 'GB',
+                            4 => 'GG',
+                            5 => 'GK',
+                            6 => 'LO',
+                            7 => 'MG',
+                            8 => 'MO',
+                            9 => 'MY',
                             10 => 'NI',
                             11 => 'RI',
                             12 => 'SI',
                         ],
                 ],
-            'LSO' =>
-                [
-                    'code'       => 'LSO',
-                    'subregions' =>
-                        [
+            'LSO' => [
+                    'code' => 'LSO',
+                    'subregions' => [
                             0 => 'A',
                             1 => 'B',
                             2 => 'C',
@@ -2677,11 +2413,9 @@ class CountriesSeeder extends Seeder
                             9 => 'K',
                         ],
                 ],
-            'LTU' =>
-                [
-                    'code'       => 'LTU',
-                    'subregions' =>
-                        [
+            'LTU' => [
+                    'code' => 'LTU',
+                    'subregions' => [
                             0 => 'AL',
                             1 => 'KL',
                             2 => 'KU',
@@ -2694,121 +2428,117 @@ class CountriesSeeder extends Seeder
                             9 => 'VL',
                         ],
                 ],
-            'LUX' =>
-                [
-                    'code'       => 'LUX',
-                    'subregions' =>
-                        [
+            'LUX' => [
+                    'code' => 'LUX',
+                    'subregions' => [
                             0 => 'D',
                             1 => 'G',
                             2 => 'L',
                         ],
                 ],
-            'LVA' =>
-                [
-                    'code'       => 'LVA',
-                    'subregions' =>
-                        [
-                            0   => '001',
-                            1   => '002',
-                            2   => '003',
-                            3   => '004',
-                            4   => '005',
-                            5   => '006',
-                            6   => '007',
-                            7   => '008',
-                            8   => '009',
-                            9   => '010',
-                            10  => '011',
-                            11  => '012',
-                            12  => '013',
-                            13  => '014',
-                            14  => '015',
-                            15  => '016',
-                            16  => '017',
-                            17  => '018',
-                            18  => '019',
-                            19  => '020',
-                            20  => '021',
-                            21  => '022',
-                            22  => '023',
-                            23  => '024',
-                            24  => '025',
-                            25  => '026',
-                            26  => '027',
-                            27  => '028',
-                            28  => '029',
-                            29  => '030',
-                            30  => '031',
-                            31  => '032',
-                            32  => '033',
-                            33  => '034',
-                            34  => '035',
-                            35  => '036',
-                            36  => '037',
-                            37  => '038',
-                            38  => '039',
-                            39  => '040',
-                            40  => '041',
-                            41  => '042',
-                            42  => '043',
-                            43  => '044',
-                            44  => '045',
-                            45  => '046',
-                            46  => '047',
-                            47  => '048',
-                            48  => '049',
-                            49  => '050',
-                            50  => '051',
-                            51  => '052',
-                            52  => '053',
-                            53  => '054',
-                            54  => '055',
-                            55  => '056',
-                            56  => '057',
-                            57  => '058',
-                            58  => '059',
-                            59  => '060',
-                            60  => '061',
-                            61  => '062',
-                            62  => '063',
-                            63  => '064',
-                            64  => '065',
-                            65  => '066',
-                            66  => '067',
-                            67  => '068',
-                            68  => '069',
-                            69  => '070',
-                            70  => '071',
-                            71  => '072',
-                            72  => '073',
-                            73  => '074',
-                            74  => '075',
-                            75  => '076',
-                            76  => '077',
-                            77  => '078',
-                            78  => '079',
-                            79  => '080',
-                            80  => '081',
-                            81  => '082',
-                            82  => '083',
-                            83  => '084',
-                            84  => '085',
-                            85  => '086',
-                            86  => '087',
-                            87  => '088',
-                            88  => '089',
-                            89  => '090',
-                            90  => '091',
-                            91  => '092',
-                            92  => '093',
-                            93  => '094',
-                            94  => '095',
-                            95  => '096',
-                            96  => '097',
-                            97  => '098',
-                            98  => '099',
-                            99  => '100',
+            'LVA' => [
+                    'code' => 'LVA',
+                    'subregions' => [
+                            0 => '001',
+                            1 => '002',
+                            2 => '003',
+                            3 => '004',
+                            4 => '005',
+                            5 => '006',
+                            6 => '007',
+                            7 => '008',
+                            8 => '009',
+                            9 => '010',
+                            10 => '011',
+                            11 => '012',
+                            12 => '013',
+                            13 => '014',
+                            14 => '015',
+                            15 => '016',
+                            16 => '017',
+                            17 => '018',
+                            18 => '019',
+                            19 => '020',
+                            20 => '021',
+                            21 => '022',
+                            22 => '023',
+                            23 => '024',
+                            24 => '025',
+                            25 => '026',
+                            26 => '027',
+                            27 => '028',
+                            28 => '029',
+                            29 => '030',
+                            30 => '031',
+                            31 => '032',
+                            32 => '033',
+                            33 => '034',
+                            34 => '035',
+                            35 => '036',
+                            36 => '037',
+                            37 => '038',
+                            38 => '039',
+                            39 => '040',
+                            40 => '041',
+                            41 => '042',
+                            42 => '043',
+                            43 => '044',
+                            44 => '045',
+                            45 => '046',
+                            46 => '047',
+                            47 => '048',
+                            48 => '049',
+                            49 => '050',
+                            50 => '051',
+                            51 => '052',
+                            52 => '053',
+                            53 => '054',
+                            54 => '055',
+                            55 => '056',
+                            56 => '057',
+                            57 => '058',
+                            58 => '059',
+                            59 => '060',
+                            60 => '061',
+                            61 => '062',
+                            62 => '063',
+                            63 => '064',
+                            64 => '065',
+                            65 => '066',
+                            66 => '067',
+                            67 => '068',
+                            68 => '069',
+                            69 => '070',
+                            70 => '071',
+                            71 => '072',
+                            72 => '073',
+                            73 => '074',
+                            74 => '075',
+                            75 => '076',
+                            76 => '077',
+                            77 => '078',
+                            78 => '079',
+                            79 => '080',
+                            80 => '081',
+                            81 => '082',
+                            82 => '083',
+                            83 => '084',
+                            84 => '085',
+                            85 => '086',
+                            86 => '087',
+                            87 => '088',
+                            88 => '089',
+                            89 => '090',
+                            90 => '091',
+                            91 => '092',
+                            92 => '093',
+                            93 => '094',
+                            94 => '095',
+                            95 => '096',
+                            96 => '097',
+                            97 => '098',
+                            98 => '099',
+                            99 => '100',
                             100 => '101',
                             101 => '102',
                             102 => '103',
@@ -2830,21 +2560,19 @@ class CountriesSeeder extends Seeder
                             118 => 'VMR',
                         ],
                 ],
-            'LBY' =>
-                [
-                    'code'       => 'LBY',
-                    'subregions' =>
-                        [
-                            0  => 'BA',
-                            1  => 'BU',
-                            2  => 'DR',
-                            3  => 'GT',
-                            4  => 'JA',
-                            5  => 'JB',
-                            6  => 'JG',
-                            7  => 'JI',
-                            8  => 'JU',
-                            9  => 'KF',
+            'LBY' => [
+                    'code' => 'LBY',
+                    'subregions' => [
+                            0 => 'BA',
+                            1 => 'BU',
+                            2 => 'DR',
+                            3 => 'GT',
+                            4 => 'JA',
+                            5 => 'JB',
+                            6 => 'JG',
+                            7 => 'JI',
+                            8 => 'JU',
+                            9 => 'KF',
                             10 => 'MB',
                             11 => 'MI',
                             12 => 'MJ',
@@ -2860,21 +2588,19 @@ class CountriesSeeder extends Seeder
                             22 => 'ZA',
                         ],
                 ],
-            'MAR' =>
-                [
-                    'code'       => 'MAR',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'MAR' => [
+                    'code' => 'MAR',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -2883,21 +2609,19 @@ class CountriesSeeder extends Seeder
                             15 => '16',
                         ],
                 ],
-            'MCO' =>
-                [
-                    'code'       => 'MCO',
-                    'subregions' =>
-                        [
-                            0  => 'CL',
-                            1  => 'CO',
-                            2  => 'FO',
-                            3  => 'GA',
-                            4  => 'JE',
-                            5  => 'LA',
-                            6  => 'MA',
-                            7  => 'MC',
-                            8  => 'MG',
-                            9  => 'MO',
+            'MCO' => [
+                    'code' => 'MCO',
+                    'subregions' => [
+                            0 => 'CL',
+                            1 => 'CO',
+                            2 => 'FO',
+                            3 => 'GA',
+                            4 => 'JE',
+                            5 => 'LA',
+                            6 => 'MA',
+                            7 => 'MC',
+                            8 => 'MG',
+                            9 => 'MO',
                             10 => 'MU',
                             11 => 'PH',
                             12 => 'SD',
@@ -2907,21 +2631,19 @@ class CountriesSeeder extends Seeder
                             16 => 'VR',
                         ],
                 ],
-            'MDA' =>
-                [
-                    'code'       => 'MDA',
-                    'subregions' =>
-                        [
-                            0  => 'AN',
-                            1  => 'BA',
-                            2  => 'BD',
-                            3  => 'BR',
-                            4  => 'BS',
-                            5  => 'CA',
-                            6  => 'CL',
-                            7  => 'CM',
-                            8  => 'CR',
-                            9  => 'CS',
+            'MDA' => [
+                    'code' => 'MDA',
+                    'subregions' => [
+                            0 => 'AN',
+                            1 => 'BA',
+                            2 => 'BD',
+                            3 => 'BR',
+                            4 => 'BS',
+                            5 => 'CA',
+                            6 => 'CL',
+                            7 => 'CM',
+                            8 => 'CR',
+                            9 => 'CS',
                             10 => 'CT',
                             11 => 'CU',
                             12 => 'DO',
@@ -2951,21 +2673,19 @@ class CountriesSeeder extends Seeder
                             36 => 'UN',
                         ],
                 ],
-            'MNE' =>
-                [
-                    'code'       => 'MNE',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'MNE' => [
+                    'code' => 'MNE',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -2979,18 +2699,14 @@ class CountriesSeeder extends Seeder
                             20 => '21',
                         ],
                 ],
-            'MAF' =>
-                [
-                    'code'       => 'MAF',
-                    'subregions' =>
-                        [
+            'MAF' => [
+                    'code' => 'MAF',
+                    'subregions' => [
                         ],
                 ],
-            'MDG' =>
-                [
-                    'code'       => 'MDG',
-                    'subregions' =>
-                        [
+            'MDG' => [
+                    'code' => 'MDG',
+                    'subregions' => [
                             0 => 'A',
                             1 => 'D',
                             2 => 'F',
@@ -2999,30 +2715,26 @@ class CountriesSeeder extends Seeder
                             5 => 'U',
                         ],
                 ],
-            'MHL' =>
-                [
-                    'code'       => 'MHL',
-                    'subregions' =>
-                        [
+            'MHL' => [
+                    'code' => 'MHL',
+                    'subregions' => [
                             0 => 'L',
                             1 => 'T',
                         ],
                 ],
-            'MKD' =>
-                [
-                    'code'       => 'MKD',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'MKD' => [
+                    'code' => 'MKD',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -3099,11 +2811,9 @@ class CountriesSeeder extends Seeder
                             83 => '84',
                         ],
                 ],
-            'MLI' =>
-                [
-                    'code'       => 'MLI',
-                    'subregions' =>
-                        [
+            'MLI' => [
+                    'code' => 'MLI',
+                    'subregions' => [
                             0 => '1',
                             1 => '2',
                             2 => '3',
@@ -3115,42 +2825,38 @@ class CountriesSeeder extends Seeder
                             8 => 'BK0',
                         ],
                 ],
-            'MMR' =>
-                [
-                    'code'       => 'MMR',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '11',
-                            8  => '12',
-                            9  => '13',
+            'MMR' => [
+                    'code' => 'MMR',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '11',
+                            8 => '12',
+                            9 => '13',
                             10 => '14',
                             11 => '15',
                             12 => '16',
                             13 => '17',
                         ],
                 ],
-            'MNG' =>
-                [
-                    'code'       => 'MNG',
-                    'subregions' =>
-                        [
-                            0  => '035',
-                            1  => '037',
-                            2  => '039',
-                            3  => '041',
-                            4  => '043',
-                            5  => '046',
-                            6  => '047',
-                            7  => '049',
-                            8  => '051',
-                            9  => '053',
+            'MNG' => [
+                    'code' => 'MNG',
+                    'subregions' => [
+                            0 => '035',
+                            1 => '037',
+                            2 => '039',
+                            3 => '041',
+                            4 => '043',
+                            5 => '046',
+                            6 => '047',
+                            7 => '049',
+                            8 => '051',
+                            9 => '053',
                             10 => '055',
                             11 => '057',
                             12 => '059',
@@ -3165,69 +2871,57 @@ class CountriesSeeder extends Seeder
                             21 => '1',
                         ],
                 ],
-            'MAC' =>
-                [
-                    'code'       => 'MAC',
-                    'subregions' =>
-                        [
+            'MAC' => [
+                    'code' => 'MAC',
+                    'subregions' => [
                         ],
                 ],
-            'MNP' =>
-                [
-                    'code'       => 'MNP',
-                    'subregions' =>
-                        [
+            'MNP' => [
+                    'code' => 'MNP',
+                    'subregions' => [
                         ],
                 ],
-            'MTQ' =>
-                [
-                    'code'       => 'MTQ',
-                    'subregions' =>
-                        [
+            'MTQ' => [
+                    'code' => 'MTQ',
+                    'subregions' => [
                         ],
                 ],
-            'MRT' =>
-                [
-                    'code'       => 'MRT',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'MRT' => [
+                    'code' => 'MRT',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => 'NKC',
                         ],
                 ],
-            'MSR' =>
-                [
-                    'code'       => 'MSR',
-                    'subregions' =>
-                        [
+            'MSR' => [
+                    'code' => 'MSR',
+                    'subregions' => [
                         ],
                 ],
-            'MLT' =>
-                [
-                    'code'       => 'MLT',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'MLT' => [
+                    'code' => 'MLT',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -3288,21 +2982,19 @@ class CountriesSeeder extends Seeder
                             67 => '68',
                         ],
                 ],
-            'MUS' =>
-                [
-                    'code'       => 'MUS',
-                    'subregions' =>
-                        [
-                            0  => 'AG',
-                            1  => 'BL',
-                            2  => 'BR',
-                            3  => 'CC',
-                            4  => 'CU',
-                            5  => 'FL',
-                            6  => 'GP',
-                            7  => 'MO',
-                            8  => 'PA',
-                            9  => 'PL',
+            'MUS' => [
+                    'code' => 'MUS',
+                    'subregions' => [
+                            0 => 'AG',
+                            1 => 'BL',
+                            2 => 'BR',
+                            3 => 'CC',
+                            4 => 'CU',
+                            5 => 'FL',
+                            6 => 'GP',
+                            7 => 'MO',
+                            8 => 'PA',
+                            9 => 'PL',
                             10 => 'PU',
                             11 => 'PW',
                             12 => 'QB',
@@ -3312,11 +3004,9 @@ class CountriesSeeder extends Seeder
                             16 => 'VP',
                         ],
                 ],
-            'MDV' =>
-                [
-                    'code'       => 'MDV',
-                    'subregions' =>
-                        [
+            'MDV' => [
+                    'code' => 'MDV',
+                    'subregions' => [
                             0 => 'CE',
                             1 => 'MLE',
                             2 => 'NC',
@@ -3327,31 +3017,27 @@ class CountriesSeeder extends Seeder
                             7 => 'US',
                         ],
                 ],
-            'MWI' =>
-                [
-                    'code'       => 'MWI',
-                    'subregions' =>
-                        [
+            'MWI' => [
+                    'code' => 'MWI',
+                    'subregions' => [
                             0 => 'C',
                             1 => 'N',
                             2 => 'S',
                         ],
                 ],
-            'MEX' =>
-                [
-                    'code'       => 'MEX',
-                    'subregions' =>
-                        [
-                            0  => 'AGU',
-                            1  => 'BCN',
-                            2  => 'BCS',
-                            3  => 'CAM',
-                            4  => 'CHH',
-                            5  => 'CHP',
-                            6  => 'COA',
-                            7  => 'COL',
-                            8  => 'DIF',
-                            9  => 'DUR',
+            'MEX' => [
+                    'code' => 'MEX',
+                    'subregions' => [
+                            0 => 'AGU',
+                            1 => 'BCN',
+                            2 => 'BCS',
+                            3 => 'CAM',
+                            4 => 'CHH',
+                            5 => 'CHP',
+                            6 => 'COA',
+                            7 => 'COL',
+                            8 => 'DIF',
+                            9 => 'DUR',
                             10 => 'GRO',
                             11 => 'GUA',
                             12 => 'HID',
@@ -3376,21 +3062,19 @@ class CountriesSeeder extends Seeder
                             31 => 'ZAC',
                         ],
                 ],
-            'MYS' =>
-                [
-                    'code'       => 'MYS',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'MYS' => [
+                    'code' => 'MYS',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -3399,56 +3083,48 @@ class CountriesSeeder extends Seeder
                             15 => '16',
                         ],
                 ],
-            'MOZ' =>
-                [
-                    'code'       => 'MOZ',
-                    'subregions' =>
-                        [
-                            0  => 'A',
-                            1  => 'B',
-                            2  => 'G',
-                            3  => 'I',
-                            4  => 'L',
-                            5  => 'MPM',
-                            6  => 'N',
-                            7  => 'P',
-                            8  => 'Q',
-                            9  => 'S',
+            'MOZ' => [
+                    'code' => 'MOZ',
+                    'subregions' => [
+                            0 => 'A',
+                            1 => 'B',
+                            2 => 'G',
+                            3 => 'I',
+                            4 => 'L',
+                            5 => 'MPM',
+                            6 => 'N',
+                            7 => 'P',
+                            8 => 'Q',
+                            9 => 'S',
                             10 => 'T',
                         ],
                 ],
-            'NAM' =>
-                [
-                    'code'       => 'NAM',
-                    'subregions' =>
-                        [
-                            0  => 'CA',
-                            1  => 'ER',
-                            2  => 'HA',
-                            3  => 'KA',
-                            4  => 'KH',
-                            5  => 'KU',
-                            6  => 'OD',
-                            7  => 'OH',
-                            8  => 'OK',
-                            9  => 'ON',
+            'NAM' => [
+                    'code' => 'NAM',
+                    'subregions' => [
+                            0 => 'CA',
+                            1 => 'ER',
+                            2 => 'HA',
+                            3 => 'KA',
+                            4 => 'KH',
+                            5 => 'KU',
+                            6 => 'OD',
+                            7 => 'OH',
+                            8 => 'OK',
+                            9 => 'ON',
                             10 => 'OS',
                             11 => 'OT',
                             12 => 'OW',
                         ],
                 ],
-            'NCL' =>
-                [
-                    'code'       => 'NCL',
-                    'subregions' =>
-                        [
+            'NCL' => [
+                    'code' => 'NCL',
+                    'subregions' => [
                         ],
                 ],
-            'NER' =>
-                [
-                    'code'       => 'NER',
-                    'subregions' =>
-                        [
+            'NER' => [
+                    'code' => 'NER',
+                    'subregions' => [
                             0 => '1',
                             1 => '2',
                             2 => '3',
@@ -3459,28 +3135,24 @@ class CountriesSeeder extends Seeder
                             7 => '8',
                         ],
                 ],
-            'NFK' =>
-                [
-                    'code'       => 'NFK',
-                    'subregions' =>
-                        [
+            'NFK' => [
+                    'code' => 'NFK',
+                    'subregions' => [
                         ],
                 ],
-            'NGA' =>
-                [
-                    'code'       => 'NGA',
-                    'subregions' =>
-                        [
-                            0  => 'AB',
-                            1  => 'AD',
-                            2  => 'AK',
-                            3  => 'AN',
-                            4  => 'BA',
-                            5  => 'BE',
-                            6  => 'BO',
-                            7  => 'BY',
-                            8  => 'CR',
-                            9  => 'DE',
+            'NGA' => [
+                    'code' => 'NGA',
+                    'subregions' => [
+                            0 => 'AB',
+                            1 => 'AD',
+                            2 => 'AK',
+                            3 => 'AN',
+                            4 => 'BA',
+                            5 => 'BE',
+                            6 => 'BO',
+                            7 => 'BY',
+                            8 => 'CR',
+                            9 => 'DE',
                             10 => 'EB',
                             11 => 'ED',
                             12 => 'EK',
@@ -3510,21 +3182,19 @@ class CountriesSeeder extends Seeder
                             36 => 'ZA',
                         ],
                 ],
-            'NIC' =>
-                [
-                    'code'       => 'NIC',
-                    'subregions' =>
-                        [
-                            0  => 'AN',
-                            1  => 'AS',
-                            2  => 'BO',
-                            3  => 'CA',
-                            4  => 'CI',
-                            5  => 'CO',
-                            6  => 'ES',
-                            7  => 'GR',
-                            8  => 'JI',
-                            9  => 'LE',
+            'NIC' => [
+                    'code' => 'NIC',
+                    'subregions' => [
+                            0 => 'AN',
+                            1 => 'AS',
+                            2 => 'BO',
+                            3 => 'CA',
+                            4 => 'CI',
+                            5 => 'CO',
+                            6 => 'ES',
+                            7 => 'GR',
+                            8 => 'JI',
+                            9 => 'LE',
                             10 => 'MD',
                             11 => 'MN',
                             12 => 'MS',
@@ -3534,21 +3204,19 @@ class CountriesSeeder extends Seeder
                             16 => 'SJ',
                         ],
                 ],
-            'NLD' =>
-                [
-                    'code'       => 'NLD',
-                    'subregions' =>
-                        [
-                            0  => 'AW',
-                            1  => 'BQ1',
-                            2  => 'BQ2',
-                            3  => 'BQ3',
-                            4  => 'CW',
-                            5  => 'DR',
-                            6  => 'FL',
-                            7  => 'FR',
-                            8  => 'GE',
-                            9  => 'GR',
+            'NLD' => [
+                    'code' => 'NLD',
+                    'subregions' => [
+                            0 => 'AW',
+                            1 => 'BQ1',
+                            2 => 'BQ2',
+                            3 => 'BQ3',
+                            4 => 'CW',
+                            5 => 'DR',
+                            6 => 'FL',
+                            7 => 'FR',
+                            8 => 'GE',
+                            9 => 'GR',
                             10 => 'LI',
                             11 => 'NB',
                             12 => 'NH',
@@ -3559,21 +3227,19 @@ class CountriesSeeder extends Seeder
                             17 => 'ZH',
                         ],
                 ],
-            'NOR' =>
-                [
-                    'code'       => 'NOR',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'NOR' => [
+                    'code' => 'NOR',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '14',
@@ -3587,11 +3253,9 @@ class CountriesSeeder extends Seeder
                             20 => '22',
                         ],
                 ],
-            'NPL' =>
-                [
-                    'code'       => 'NPL',
-                    'subregions' =>
-                        [
+            'NPL' => [
+                    'code' => 'NPL',
+                    'subregions' => [
                             0 => '1',
                             1 => '2',
                             2 => '3',
@@ -3599,49 +3263,41 @@ class CountriesSeeder extends Seeder
                             4 => '5',
                         ],
                 ],
-            'NRU' =>
-                [
-                    'code'       => 'NRU',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'NRU' => [
+                    'code' => 'NRU',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
                             13 => '14',
                         ],
                 ],
-            'NIU' =>
-                [
-                    'code'       => 'NIU',
-                    'subregions' =>
-                        [
+            'NIU' => [
+                    'code' => 'NIU',
+                    'subregions' => [
                         ],
                 ],
-            'NZL' =>
-                [
-                    'code'       => 'NZL',
-                    'subregions' =>
-                        [
+            'NZL' => [
+                    'code' => 'NZL',
+                    'subregions' => [
                             0 => 'CIT',
                             1 => 'N',
                             2 => 'S',
                         ],
                 ],
-            'OMN' =>
-                [
-                    'code'       => 'OMN',
-                    'subregions' =>
-                        [
+            'OMN' => [
+                    'code' => 'OMN',
+                    'subregions' => [
                             0 => 'BA',
                             1 => 'BU',
                             2 => 'DA',
@@ -3653,40 +3309,36 @@ class CountriesSeeder extends Seeder
                             8 => 'ZU',
                         ],
                 ],
-            'PAN' =>
-                [
-                    'code'       => 'PAN',
-                    'subregions' =>
-                        [
-                            0  => '1',
-                            1  => '2',
-                            2  => '3',
-                            3  => '4',
-                            4  => '5',
-                            5  => '6',
-                            6  => '7',
-                            7  => '8',
-                            8  => '9',
-                            9  => 'EM',
+            'PAN' => [
+                    'code' => 'PAN',
+                    'subregions' => [
+                            0 => '1',
+                            1 => '2',
+                            2 => '3',
+                            3 => '4',
+                            4 => '5',
+                            5 => '6',
+                            6 => '7',
+                            7 => '8',
+                            8 => '9',
+                            9 => 'EM',
                             10 => 'KY',
                             11 => 'NB',
                         ],
                 ],
-            'PER' =>
-                [
-                    'code'       => 'PER',
-                    'subregions' =>
-                        [
-                            0  => 'AMA',
-                            1  => 'ANC',
-                            2  => 'APU',
-                            3  => 'ARE',
-                            4  => 'AYA',
-                            5  => 'CAJ',
-                            6  => 'CAL',
-                            7  => 'CUS',
-                            8  => 'HUC',
-                            9  => 'HUV',
+            'PER' => [
+                    'code' => 'PER',
+                    'subregions' => [
+                            0 => 'AMA',
+                            1 => 'ANC',
+                            2 => 'APU',
+                            3 => 'ARE',
+                            4 => 'AYA',
+                            5 => 'CAJ',
+                            6 => 'CAL',
+                            7 => 'CUS',
+                            8 => 'HUC',
+                            9 => 'HUV',
                             10 => 'ICA',
                             11 => 'JUN',
                             12 => 'LAL',
@@ -3705,28 +3357,24 @@ class CountriesSeeder extends Seeder
                             25 => 'UCA',
                         ],
                 ],
-            'PYF' =>
-                [
-                    'code'       => 'PYF',
-                    'subregions' =>
-                        [
+            'PYF' => [
+                    'code' => 'PYF',
+                    'subregions' => [
                         ],
                 ],
-            'PNG' =>
-                [
-                    'code'       => 'PNG',
-                    'subregions' =>
-                        [
-                            0  => 'CPK',
-                            1  => 'CPM',
-                            2  => 'EBR',
-                            3  => 'EHG',
-                            4  => 'EPW',
-                            5  => 'ESW',
-                            6  => 'GPK',
-                            7  => 'MBA',
-                            8  => 'MPL',
-                            9  => 'MPM',
+            'PNG' => [
+                    'code' => 'PNG',
+                    'subregions' => [
+                            0 => 'CPK',
+                            1 => 'CPM',
+                            2 => 'EBR',
+                            3 => 'EHG',
+                            4 => 'EPW',
+                            5 => 'ESW',
+                            6 => 'GPK',
+                            7 => 'MBA',
+                            8 => 'MPL',
+                            9 => 'MPM',
                             10 => 'MRL',
                             11 => 'NCD',
                             12 => 'NIK',
@@ -3739,21 +3387,19 @@ class CountriesSeeder extends Seeder
                             19 => 'WPD',
                         ],
                 ],
-            'PHL' =>
-                [
-                    'code'       => 'PHL',
-                    'subregions' =>
-                        [
-                            0  => '00',
-                            1  => '01',
-                            2  => '02',
-                            3  => '03',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'PHL' => [
+                    'code' => 'PHL',
+                    'subregions' => [
+                            0 => '00',
+                            1 => '01',
+                            2 => '02',
+                            3 => '03',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -3763,11 +3409,9 @@ class CountriesSeeder extends Seeder
                             16 => '41',
                         ],
                 ],
-            'PAK' =>
-                [
-                    'code'       => 'PAK',
-                    'subregions' =>
-                        [
+            'PAK' => [
+                    'code' => 'PAK',
+                    'subregions' => [
                             0 => 'BA',
                             1 => 'GB',
                             2 => 'IS',
@@ -3778,21 +3422,19 @@ class CountriesSeeder extends Seeder
                             7 => 'TA',
                         ],
                 ],
-            'POL' =>
-                [
-                    'code'       => 'POL',
-                    'subregions' =>
-                        [
-                            0  => 'DS',
-                            1  => 'KP',
-                            2  => 'LB',
-                            3  => 'LD',
-                            4  => 'LU',
-                            5  => 'MA',
-                            6  => 'MZ',
-                            7  => 'OP',
-                            8  => 'PD',
-                            9  => 'PK',
+            'POL' => [
+                    'code' => 'POL',
+                    'subregions' => [
+                            0 => 'DS',
+                            1 => 'KP',
+                            2 => 'LB',
+                            3 => 'LD',
+                            4 => 'LU',
+                            5 => 'MA',
+                            6 => 'MZ',
+                            7 => 'OP',
+                            8 => 'PD',
+                            9 => 'PK',
                             10 => 'PM',
                             11 => 'SK',
                             12 => 'SL',
@@ -3801,35 +3443,29 @@ class CountriesSeeder extends Seeder
                             15 => 'ZP',
                         ],
                 ],
-            'SPM' =>
-                [
-                    'code'       => 'SPM',
-                    'subregions' =>
-                        [
+            'SPM' => [
+                    'code' => 'SPM',
+                    'subregions' => [
                         ],
                 ],
-            'PCN' =>
-                [
-                    'code'       => 'PCN',
-                    'subregions' =>
-                        [
+            'PCN' => [
+                    'code' => 'PCN',
+                    'subregions' => [
                         ],
                 ],
-            'PSE' =>
-                [
-                    'code'       => 'PSE',
-                    'subregions' =>
-                        [
-                            0  => 'BTH',
-                            1  => 'DEB',
-                            2  => 'GZA',
-                            3  => 'HBN',
-                            4  => 'JEM',
-                            5  => 'JEN',
-                            6  => 'JRH',
-                            7  => 'KYS',
-                            8  => 'NBS',
-                            9  => 'NGZ',
+            'PSE' => [
+                    'code' => 'PSE',
+                    'subregions' => [
+                            0 => 'BTH',
+                            1 => 'DEB',
+                            2 => 'GZA',
+                            3 => 'HBN',
+                            4 => 'JEM',
+                            5 => 'JEN',
+                            6 => 'JRH',
+                            7 => 'KYS',
+                            8 => 'NBS',
+                            9 => 'NGZ',
                             10 => 'QQA',
                             11 => 'RBH',
                             12 => 'RFH',
@@ -3838,21 +3474,19 @@ class CountriesSeeder extends Seeder
                             15 => 'TKM',
                         ],
                 ],
-            'PRT' =>
-                [
-                    'code'       => 'PRT',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'PRT' => [
+                    'code' => 'PRT',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -3865,21 +3499,19 @@ class CountriesSeeder extends Seeder
                             19 => '30',
                         ],
                 ],
-            'PLW' =>
-                [
-                    'code'       => 'PLW',
-                    'subregions' =>
-                        [
-                            0  => '002',
-                            1  => '004',
-                            2  => '010',
-                            3  => '050',
-                            4  => '100',
-                            5  => '150',
-                            6  => '212',
-                            7  => '214',
-                            8  => '218',
-                            9  => '222',
+            'PLW' => [
+                    'code' => 'PLW',
+                    'subregions' => [
+                            0 => '002',
+                            1 => '004',
+                            2 => '010',
+                            3 => '050',
+                            4 => '100',
+                            5 => '150',
+                            6 => '212',
+                            7 => '214',
+                            8 => '218',
+                            9 => '222',
                             10 => '224',
                             11 => '226',
                             12 => '227',
@@ -3888,21 +3520,19 @@ class CountriesSeeder extends Seeder
                             15 => '370',
                         ],
                 ],
-            'PRY' =>
-                [
-                    'code'       => 'PRY',
-                    'subregions' =>
-                        [
-                            0  => '1',
-                            1  => '10',
-                            2  => '11',
-                            3  => '12',
-                            4  => '13',
-                            5  => '14',
-                            6  => '15',
-                            7  => '16',
-                            8  => '19',
-                            9  => '2',
+            'PRY' => [
+                    'code' => 'PRY',
+                    'subregions' => [
+                            0 => '1',
+                            1 => '10',
+                            2 => '11',
+                            3 => '12',
+                            4 => '13',
+                            5 => '14',
+                            6 => '15',
+                            7 => '16',
+                            8 => '19',
+                            9 => '2',
                             10 => '3',
                             11 => '4',
                             12 => '5',
@@ -3913,11 +3543,9 @@ class CountriesSeeder extends Seeder
                             17 => 'ASU',
                         ],
                 ],
-            'QAT' =>
-                [
-                    'code'       => 'QAT',
-                    'subregions' =>
-                        [
+            'QAT' => [
+                    'code' => 'QAT',
+                    'subregions' => [
                             0 => 'DA',
                             1 => 'KH',
                             2 => 'MS',
@@ -3927,28 +3555,24 @@ class CountriesSeeder extends Seeder
                             6 => 'ZA',
                         ],
                 ],
-            'REU' =>
-                [
-                    'code'       => 'REU',
-                    'subregions' =>
-                        [
+            'REU' => [
+                    'code' => 'REU',
+                    'subregions' => [
                         ],
                 ],
-            'ROU' =>
-                [
-                    'code'       => 'ROU',
-                    'subregions' =>
-                        [
-                            0  => 'AB',
-                            1  => 'AG',
-                            2  => 'AR',
-                            3  => 'B',
-                            4  => 'BC',
-                            5  => 'BH',
-                            6  => 'BN',
-                            7  => 'BR',
-                            8  => 'BT',
-                            9  => 'BV',
+            'ROU' => [
+                    'code' => 'ROU',
+                    'subregions' => [
+                            0 => 'AB',
+                            1 => 'AG',
+                            2 => 'AR',
+                            3 => 'B',
+                            4 => 'BC',
+                            5 => 'BH',
+                            6 => 'BN',
+                            7 => 'BR',
+                            8 => 'BT',
+                            9 => 'BV',
                             10 => 'BZ',
                             11 => 'CJ',
                             12 => 'CL',
@@ -3983,21 +3607,19 @@ class CountriesSeeder extends Seeder
                             41 => 'VS',
                         ],
                 ],
-            'SRB' =>
-                [
-                    'code'       => 'SRB',
-                    'subregions' =>
-                        [
-                            0  => '00',
-                            1  => '08',
-                            2  => '09',
-                            3  => '10',
-                            4  => '11',
-                            5  => '12',
-                            6  => '13',
-                            7  => '14',
-                            8  => '15',
-                            9  => '16',
+            'SRB' => [
+                    'code' => 'SRB',
+                    'subregions' => [
+                            0 => '00',
+                            1 => '08',
+                            2 => '09',
+                            3 => '10',
+                            4 => '11',
+                            5 => '12',
+                            6 => '13',
+                            7 => '14',
+                            8 => '15',
+                            9 => '16',
                             10 => '17',
                             11 => '18',
                             12 => '19',
@@ -4010,21 +3632,19 @@ class CountriesSeeder extends Seeder
                             19 => 'VO',
                         ],
                 ],
-            'RUS' =>
-                [
-                    'code'       => 'RUS',
-                    'subregions' =>
-                        [
-                            0  => 'AD',
-                            1  => 'AL',
-                            2  => 'ALT',
-                            3  => 'AMU',
-                            4  => 'ARK',
-                            5  => 'AST',
-                            6  => 'BA',
-                            7  => 'BEL',
-                            8  => 'BRY',
-                            9  => 'BU',
+            'RUS' => [
+                    'code' => 'RUS',
+                    'subregions' => [
+                            0 => 'AD',
+                            1 => 'AL',
+                            2 => 'ALT',
+                            3 => 'AMU',
+                            4 => 'ARK',
+                            5 => 'AST',
+                            6 => 'BA',
+                            7 => 'BEL',
+                            8 => 'BRY',
+                            9 => 'BU',
                             10 => 'CE',
                             11 => 'CHE',
                             12 => 'CHU',
@@ -4100,11 +3720,9 @@ class CountriesSeeder extends Seeder
                             82 => 'ZAB',
                         ],
                 ],
-            'RWA' =>
-                [
-                    'code'       => 'RWA',
-                    'subregions' =>
-                        [
+            'RWA' => [
+                    'code' => 'RWA',
+                    'subregions' => [
                             0 => '01',
                             1 => '02',
                             2 => '03',
@@ -4112,31 +3730,27 @@ class CountriesSeeder extends Seeder
                             4 => '05',
                         ],
                 ],
-            'SAU' =>
-                [
-                    'code'       => 'SAU',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'SAU' => [
+                    'code' => 'SAU',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '14',
                         ],
                 ],
-            'SLB' =>
-                [
-                    'code'       => 'SLB',
-                    'subregions' =>
-                        [
+            'SLB' => [
+                    'code' => 'SLB',
+                    'subregions' => [
                             0 => 'CE',
                             1 => 'CH',
                             2 => 'CT',
@@ -4149,21 +3763,19 @@ class CountriesSeeder extends Seeder
                             9 => 'WE',
                         ],
                 ],
-            'SYC' =>
-                [
-                    'code'       => 'SYC',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'SYC' => [
+                    'code' => 'SYC',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -4181,21 +3793,19 @@ class CountriesSeeder extends Seeder
                             24 => '25',
                         ],
                 ],
-            'SDN' =>
-                [
-                    'code'       => 'SDN',
-                    'subregions' =>
-                        [
-                            0  => 'DC',
-                            1  => 'DE',
-                            2  => 'DN',
-                            3  => 'DS',
-                            4  => 'DW',
-                            5  => 'GD',
-                            6  => 'GZ',
-                            7  => 'KA',
-                            8  => 'KH',
-                            9  => 'KN',
+            'SDN' => [
+                    'code' => 'SDN',
+                    'subregions' => [
+                            0 => 'DC',
+                            1 => 'DE',
+                            2 => 'DN',
+                            3 => 'DS',
+                            4 => 'DW',
+                            5 => 'GD',
+                            6 => 'GZ',
+                            7 => 'KA',
+                            8 => 'KH',
+                            9 => 'KN',
                             10 => 'KS',
                             11 => 'NB',
                             12 => 'NO',
@@ -4205,21 +3815,19 @@ class CountriesSeeder extends Seeder
                             16 => 'SI',
                         ],
                 ],
-            'SWE' =>
-                [
-                    'code'       => 'SWE',
-                    'subregions' =>
-                        [
-                            0  => 'AB',
-                            1  => 'AC',
-                            2  => 'BD',
-                            3  => 'C',
-                            4  => 'D',
-                            5  => 'E',
-                            6  => 'F',
-                            7  => 'G',
-                            8  => 'H',
-                            9  => 'I',
+            'SWE' => [
+                    'code' => 'SWE',
+                    'subregions' => [
+                            0 => 'AB',
+                            1 => 'AC',
+                            2 => 'BD',
+                            3 => 'C',
+                            4 => 'D',
+                            5 => 'E',
+                            6 => 'F',
+                            7 => 'G',
+                            8 => 'H',
+                            9 => 'I',
                             10 => 'K',
                             11 => 'M',
                             12 => 'N',
@@ -4233,11 +3841,9 @@ class CountriesSeeder extends Seeder
                             20 => 'Z',
                         ],
                 ],
-            'SGP' =>
-                [
-                    'code'       => 'SGP',
-                    'subregions' =>
-                        [
+            'SGP' => [
+                    'code' => 'SGP',
+                    'subregions' => [
                             0 => '01',
                             1 => '02',
                             2 => '03',
@@ -4245,121 +3851,117 @@ class CountriesSeeder extends Seeder
                             4 => '05',
                         ],
                 ],
-            'SHN' =>
-                [
-                    'code'       => 'SHN',
-                    'subregions' =>
-                        [
+            'SHN' => [
+                    'code' => 'SHN',
+                    'subregions' => [
                             0 => 'AC',
                             1 => 'HL',
                             2 => 'TA',
                         ],
                 ],
-            'SVN' =>
-                [
-                    'code'       => 'SVN',
-                    'subregions' =>
-                        [
-                            0   => '001',
-                            1   => '002',
-                            2   => '003',
-                            3   => '004',
-                            4   => '005',
-                            5   => '006',
-                            6   => '007',
-                            7   => '008',
-                            8   => '009',
-                            9   => '010',
-                            10  => '011',
-                            11  => '012',
-                            12  => '013',
-                            13  => '014',
-                            14  => '015',
-                            15  => '016',
-                            16  => '017',
-                            17  => '018',
-                            18  => '019',
-                            19  => '020',
-                            20  => '021',
-                            21  => '022',
-                            22  => '023',
-                            23  => '024',
-                            24  => '025',
-                            25  => '026',
-                            26  => '027',
-                            27  => '028',
-                            28  => '029',
-                            29  => '030',
-                            30  => '031',
-                            31  => '032',
-                            32  => '033',
-                            33  => '034',
-                            34  => '035',
-                            35  => '036',
-                            36  => '037',
-                            37  => '038',
-                            38  => '039',
-                            39  => '040',
-                            40  => '041',
-                            41  => '042',
-                            42  => '043',
-                            43  => '044',
-                            44  => '045',
-                            45  => '046',
-                            46  => '047',
-                            47  => '048',
-                            48  => '049',
-                            49  => '050',
-                            50  => '051',
-                            51  => '052',
-                            52  => '053',
-                            53  => '054',
-                            54  => '055',
-                            55  => '056',
-                            56  => '057',
-                            57  => '058',
-                            58  => '059',
-                            59  => '060',
-                            60  => '061',
-                            61  => '062',
-                            62  => '063',
-                            63  => '064',
-                            64  => '065',
-                            65  => '066',
-                            66  => '067',
-                            67  => '068',
-                            68  => '069',
-                            69  => '070',
-                            70  => '071',
-                            71  => '072',
-                            72  => '073',
-                            73  => '074',
-                            74  => '075',
-                            75  => '076',
-                            76  => '077',
-                            77  => '078',
-                            78  => '079',
-                            79  => '080',
-                            80  => '081',
-                            81  => '082',
-                            82  => '083',
-                            83  => '084',
-                            84  => '085',
-                            85  => '086',
-                            86  => '087',
-                            87  => '088',
-                            88  => '089',
-                            89  => '090',
-                            90  => '091',
-                            91  => '092',
-                            92  => '093',
-                            93  => '094',
-                            94  => '095',
-                            95  => '096',
-                            96  => '097',
-                            97  => '098',
-                            98  => '099',
-                            99  => '100',
+            'SVN' => [
+                    'code' => 'SVN',
+                    'subregions' => [
+                            0 => '001',
+                            1 => '002',
+                            2 => '003',
+                            3 => '004',
+                            4 => '005',
+                            5 => '006',
+                            6 => '007',
+                            7 => '008',
+                            8 => '009',
+                            9 => '010',
+                            10 => '011',
+                            11 => '012',
+                            12 => '013',
+                            13 => '014',
+                            14 => '015',
+                            15 => '016',
+                            16 => '017',
+                            17 => '018',
+                            18 => '019',
+                            19 => '020',
+                            20 => '021',
+                            21 => '022',
+                            22 => '023',
+                            23 => '024',
+                            24 => '025',
+                            25 => '026',
+                            26 => '027',
+                            27 => '028',
+                            28 => '029',
+                            29 => '030',
+                            30 => '031',
+                            31 => '032',
+                            32 => '033',
+                            33 => '034',
+                            34 => '035',
+                            35 => '036',
+                            36 => '037',
+                            37 => '038',
+                            38 => '039',
+                            39 => '040',
+                            40 => '041',
+                            41 => '042',
+                            42 => '043',
+                            43 => '044',
+                            44 => '045',
+                            45 => '046',
+                            46 => '047',
+                            47 => '048',
+                            48 => '049',
+                            49 => '050',
+                            50 => '051',
+                            51 => '052',
+                            52 => '053',
+                            53 => '054',
+                            54 => '055',
+                            55 => '056',
+                            56 => '057',
+                            57 => '058',
+                            58 => '059',
+                            59 => '060',
+                            60 => '061',
+                            61 => '062',
+                            62 => '063',
+                            63 => '064',
+                            64 => '065',
+                            65 => '066',
+                            66 => '067',
+                            67 => '068',
+                            68 => '069',
+                            69 => '070',
+                            70 => '071',
+                            71 => '072',
+                            72 => '073',
+                            73 => '074',
+                            74 => '075',
+                            75 => '076',
+                            76 => '077',
+                            77 => '078',
+                            78 => '079',
+                            79 => '080',
+                            80 => '081',
+                            81 => '082',
+                            82 => '083',
+                            83 => '084',
+                            84 => '085',
+                            85 => '086',
+                            86 => '087',
+                            87 => '088',
+                            88 => '089',
+                            89 => '090',
+                            90 => '091',
+                            91 => '092',
+                            92 => '093',
+                            93 => '094',
+                            94 => '095',
+                            95 => '096',
+                            96 => '097',
+                            97 => '098',
+                            98 => '099',
+                            99 => '100',
                             100 => '101',
                             101 => '102',
                             102 => '103',
@@ -4472,18 +4074,14 @@ class CountriesSeeder extends Seeder
                             209 => '211',
                         ],
                 ],
-            'SJM' =>
-                [
-                    'code'       => 'SJM',
-                    'subregions' =>
-                        [
+            'SJM' => [
+                    'code' => 'SJM',
+                    'subregions' => [
                         ],
                 ],
-            'SVK' =>
-                [
-                    'code'       => 'SVK',
-                    'subregions' =>
-                        [
+            'SVK' => [
+                    'code' => 'SVK',
+                    'subregions' => [
                             0 => 'BC',
                             1 => 'BL',
                             2 => 'KI',
@@ -4494,22 +4092,18 @@ class CountriesSeeder extends Seeder
                             7 => 'ZI',
                         ],
                 ],
-            'SLE' =>
-                [
-                    'code'       => 'SLE',
-                    'subregions' =>
-                        [
+            'SLE' => [
+                    'code' => 'SLE',
+                    'subregions' => [
                             0 => 'E',
                             1 => 'N',
                             2 => 'S',
                             3 => 'W',
                         ],
                 ],
-            'SMR' =>
-                [
-                    'code'       => 'SMR',
-                    'subregions' =>
-                        [
+            'SMR' => [
+                    'code' => 'SMR',
+                    'subregions' => [
                             0 => '01',
                             1 => '02',
                             2 => '03',
@@ -4521,42 +4115,38 @@ class CountriesSeeder extends Seeder
                             8 => '09',
                         ],
                 ],
-            'SEN' =>
-                [
-                    'code'       => 'SEN',
-                    'subregions' =>
-                        [
-                            0  => 'DB',
-                            1  => 'DK',
-                            2  => 'FK',
-                            3  => 'KA',
-                            4  => 'KD',
-                            5  => 'KE',
-                            6  => 'KL',
-                            7  => 'LG',
-                            8  => 'MT',
-                            9  => 'SE',
+            'SEN' => [
+                    'code' => 'SEN',
+                    'subregions' => [
+                            0 => 'DB',
+                            1 => 'DK',
+                            2 => 'FK',
+                            3 => 'KA',
+                            4 => 'KD',
+                            5 => 'KE',
+                            6 => 'KL',
+                            7 => 'LG',
+                            8 => 'MT',
+                            9 => 'SE',
                             10 => 'SL',
                             11 => 'TC',
                             12 => 'TH',
                             13 => 'ZG',
                         ],
                 ],
-            'SOM' =>
-                [
-                    'code'       => 'SOM',
-                    'subregions' =>
-                        [
-                            0  => 'AW',
-                            1  => 'BK',
-                            2  => 'BN',
-                            3  => 'BR',
-                            4  => 'BY',
-                            5  => 'GA',
-                            6  => 'GE',
-                            7  => 'HI',
-                            8  => 'JD',
-                            9  => 'JH',
+            'SOM' => [
+                    'code' => 'SOM',
+                    'subregions' => [
+                            0 => 'AW',
+                            1 => 'BK',
+                            2 => 'BN',
+                            3 => 'BR',
+                            4 => 'BY',
+                            5 => 'GA',
+                            6 => 'GE',
+                            7 => 'HI',
+                            8 => 'JD',
+                            9 => 'JH',
                             10 => 'MU',
                             11 => 'NU',
                             12 => 'SA',
@@ -4567,11 +4157,9 @@ class CountriesSeeder extends Seeder
                             17 => 'WO',
                         ],
                 ],
-            'SUR' =>
-                [
-                    'code'       => 'SUR',
-                    'subregions' =>
-                        [
+            'SUR' => [
+                    'code' => 'SUR',
+                    'subregions' => [
                             0 => 'BR',
                             1 => 'CM',
                             2 => 'CR',
@@ -4584,11 +4172,9 @@ class CountriesSeeder extends Seeder
                             9 => 'WA',
                         ],
                 ],
-            'SSD' =>
-                [
-                    'code'       => 'SSD',
-                    'subregions' =>
-                        [
+            'SSD' => [
+                    'code' => 'SSD',
+                    'subregions' => [
                             0 => 'BN',
                             1 => 'BW',
                             2 => 'EC',
@@ -4601,97 +4187,83 @@ class CountriesSeeder extends Seeder
                             9 => 'WR',
                         ],
                 ],
-            'STP' =>
-                [
-                    'code'       => 'STP',
-                    'subregions' =>
-                        [
+            'STP' => [
+                    'code' => 'STP',
+                    'subregions' => [
                             0 => 'P',
                             1 => 'S',
                         ],
                 ],
-            'SLV' =>
-                [
-                    'code'       => 'SLV',
-                    'subregions' =>
-                        [
-                            0  => 'AH',
-                            1  => 'CA',
-                            2  => 'CH',
-                            3  => 'CU',
-                            4  => 'LI',
-                            5  => 'MO',
-                            6  => 'PA',
-                            7  => 'SA',
-                            8  => 'SM',
-                            9  => 'SO',
+            'SLV' => [
+                    'code' => 'SLV',
+                    'subregions' => [
+                            0 => 'AH',
+                            1 => 'CA',
+                            2 => 'CH',
+                            3 => 'CU',
+                            4 => 'LI',
+                            5 => 'MO',
+                            6 => 'PA',
+                            7 => 'SA',
+                            8 => 'SM',
+                            9 => 'SO',
                             10 => 'SS',
                             11 => 'SV',
                             12 => 'UN',
                             13 => 'US',
                         ],
                 ],
-            'SXM' =>
-                [
-                    'code'       => 'SXM',
-                    'subregions' =>
-                        [
+            'SXM' => [
+                    'code' => 'SXM',
+                    'subregions' => [
                         ],
                 ],
-            'SYR' =>
-                [
-                    'code'       => 'SYR',
-                    'subregions' =>
-                        [
-                            0  => 'DI',
-                            1  => 'DR',
-                            2  => 'DY',
-                            3  => 'HA',
-                            4  => 'HI',
-                            5  => 'HL',
-                            6  => 'HM',
-                            7  => 'ID',
-                            8  => 'LA',
-                            9  => 'QU',
+            'SYR' => [
+                    'code' => 'SYR',
+                    'subregions' => [
+                            0 => 'DI',
+                            1 => 'DR',
+                            2 => 'DY',
+                            3 => 'HA',
+                            4 => 'HI',
+                            5 => 'HL',
+                            6 => 'HM',
+                            7 => 'ID',
+                            8 => 'LA',
+                            9 => 'QU',
                             10 => 'RA',
                             11 => 'RD',
                             12 => 'SU',
                             13 => 'TA',
                         ],
                 ],
-            'SWZ' =>
-                [
-                    'code'       => 'SWZ',
-                    'subregions' =>
-                        [
+            'SWZ' => [
+                    'code' => 'SWZ',
+                    'subregions' => [
                             0 => 'HH',
                             1 => 'LU',
                             2 => 'MA',
                             3 => 'SH',
                         ],
                 ],
-            'TCA' =>
-                [
-                    'code'       => 'TCA',
-                    'subregions' =>
-                        [
+            'TCA' => [
+                    'code' => 'TCA',
+                    'subregions' => [
                         ],
                 ],
-            'TCD' =>
-                [
-                    'code'       => 'TCD',
-                    'subregions' =>
-                        [
-                            0  => 'BA',
-                            1  => 'BG',
-                            2  => 'BO',
-                            3  => 'CB',
-                            4  => 'EN',
-                            5  => 'GR',
-                            6  => 'HL',
-                            7  => 'KA',
-                            8  => 'LC',
-                            9  => 'LO',
+            'TCD' => [
+                    'code' => 'TCD',
+                    'subregions' => [
+                            0 => 'BA',
+                            1 => 'BG',
+                            2 => 'BO',
+                            3 => 'CB',
+                            4 => 'EN',
+                            5 => 'GR',
+                            6 => 'HL',
+                            7 => 'KA',
+                            8 => 'LC',
+                            9 => 'LO',
                             10 => 'LR',
                             11 => 'MA',
                             12 => 'MC',
@@ -4706,18 +4278,14 @@ class CountriesSeeder extends Seeder
                             21 => 'WF',
                         ],
                 ],
-            'ATF' =>
-                [
-                    'code'       => 'ATF',
-                    'subregions' =>
-                        [
+            'ATF' => [
+                    'code' => 'ATF',
+                    'subregions' => [
                         ],
                 ],
-            'TGO' =>
-                [
-                    'code'       => 'TGO',
-                    'subregions' =>
-                        [
+            'TGO' => [
+                    'code' => 'TGO',
+                    'subregions' => [
                             0 => 'C',
                             1 => 'K',
                             2 => 'M',
@@ -4725,21 +4293,19 @@ class CountriesSeeder extends Seeder
                             4 => 'S',
                         ],
                 ],
-            'THA' =>
-                [
-                    'code'       => 'THA',
-                    'subregions' =>
-                        [
-                            0  => '10',
-                            1  => '11',
-                            2  => '12',
-                            3  => '13',
-                            4  => '14',
-                            5  => '15',
-                            6  => '16',
-                            7  => '17',
-                            8  => '18',
-                            9  => '19',
+            'THA' => [
+                    'code' => 'THA',
+                    'subregions' => [
+                            0 => '10',
+                            1 => '11',
+                            2 => '12',
+                            3 => '13',
+                            4 => '14',
+                            5 => '15',
+                            6 => '16',
+                            7 => '17',
+                            8 => '18',
+                            9 => '19',
                             10 => '20',
                             11 => '21',
                             12 => '22',
@@ -4809,48 +4375,40 @@ class CountriesSeeder extends Seeder
                             76 => 'S',
                         ],
                 ],
-            'TJK' =>
-                [
-                    'code'       => 'TJK',
-                    'subregions' =>
-                        [
+            'TJK' => [
+                    'code' => 'TJK',
+                    'subregions' => [
                             0 => 'GB',
                             1 => 'KT',
                             2 => 'SU',
                         ],
                 ],
-            'TKL' =>
-                [
-                    'code'       => 'TKL',
-                    'subregions' =>
-                        [
+            'TKL' => [
+                    'code' => 'TKL',
+                    'subregions' => [
                         ],
                 ],
-            'TLS' =>
-                [
-                    'code'       => 'TLS',
-                    'subregions' =>
-                        [
-                            0  => 'AL',
-                            1  => 'AN',
-                            2  => 'BA',
-                            3  => 'BO',
-                            4  => 'CO',
-                            5  => 'DI',
-                            6  => 'ER',
-                            7  => 'LA',
-                            8  => 'LI',
-                            9  => 'MF',
+            'TLS' => [
+                    'code' => 'TLS',
+                    'subregions' => [
+                            0 => 'AL',
+                            1 => 'AN',
+                            2 => 'BA',
+                            3 => 'BO',
+                            4 => 'CO',
+                            5 => 'DI',
+                            6 => 'ER',
+                            7 => 'LA',
+                            8 => 'LI',
+                            9 => 'MF',
                             10 => 'MT',
                             11 => 'OE',
                             12 => 'VI',
                         ],
                 ],
-            'TKM' =>
-                [
-                    'code'       => 'TKM',
-                    'subregions' =>
-                        [
+            'TKM' => [
+                    'code' => 'TKM',
+                    'subregions' => [
                             0 => 'A',
                             1 => 'B',
                             2 => 'D',
@@ -4859,21 +4417,19 @@ class CountriesSeeder extends Seeder
                             5 => 'S',
                         ],
                 ],
-            'TUN' =>
-                [
-                    'code'       => 'TUN',
-                    'subregions' =>
-                        [
-                            0  => '11',
-                            1  => '12',
-                            2  => '13',
-                            3  => '14',
-                            4  => '21',
-                            5  => '22',
-                            6  => '23',
-                            7  => '31',
-                            8  => '32',
-                            9  => '33',
+            'TUN' => [
+                    'code' => 'TUN',
+                    'subregions' => [
+                            0 => '11',
+                            1 => '12',
+                            2 => '13',
+                            3 => '14',
+                            4 => '21',
+                            5 => '22',
+                            6 => '23',
+                            7 => '31',
+                            8 => '32',
+                            9 => '33',
                             10 => '34',
                             11 => '41',
                             12 => '42',
@@ -4890,11 +4446,9 @@ class CountriesSeeder extends Seeder
                             23 => '83',
                         ],
                 ],
-            'TON' =>
-                [
-                    'code'       => 'TON',
-                    'subregions' =>
-                        [
+            'TON' => [
+                    'code' => 'TON',
+                    'subregions' => [
                             0 => '01',
                             1 => '02',
                             2 => '03',
@@ -4902,21 +4456,19 @@ class CountriesSeeder extends Seeder
                             4 => '05',
                         ],
                 ],
-            'TUR' =>
-                [
-                    'code'       => 'TUR',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'TUR' => [
+                    'code' => 'TUR',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -4990,21 +4542,19 @@ class CountriesSeeder extends Seeder
                             80 => '81',
                         ],
                 ],
-            'TTO' =>
-                [
-                    'code'       => 'TTO',
-                    'subregions' =>
-                        [
-                            0  => 'ARI',
-                            1  => 'CHA',
-                            2  => 'CTT',
-                            3  => 'DMN',
-                            4  => 'ETO',
-                            5  => 'PED',
-                            6  => 'POS',
-                            7  => 'PRT',
-                            8  => 'PTF',
-                            9  => 'RCM',
+            'TTO' => [
+                    'code' => 'TTO',
+                    'subregions' => [
+                            0 => 'ARI',
+                            1 => 'CHA',
+                            2 => 'CTT',
+                            3 => 'DMN',
+                            4 => 'ETO',
+                            5 => 'PED',
+                            6 => 'POS',
+                            7 => 'PRT',
+                            8 => 'PTF',
+                            9 => 'RCM',
                             10 => 'SFO',
                             11 => 'SGE',
                             12 => 'SIP',
@@ -5013,11 +4563,9 @@ class CountriesSeeder extends Seeder
                             15 => 'WTO',
                         ],
                 ],
-            'TUV' =>
-                [
-                    'code'       => 'TUV',
-                    'subregions' =>
-                        [
+            'TUV' => [
+                    'code' => 'TUV',
+                    'subregions' => [
                             0 => 'FUN',
                             1 => 'NIT',
                             2 => 'NKF',
@@ -5028,21 +4576,19 @@ class CountriesSeeder extends Seeder
                             7 => 'VAI',
                         ],
                 ],
-            'TWN' =>
-                [
-                    'code'       => 'TWN',
-                    'subregions' =>
-                        [
-                            0  => 'CHA',
-                            1  => 'CYI',
-                            2  => 'CYQ',
-                            3  => 'HSQ',
-                            4  => 'HSZ',
-                            5  => 'HUA',
-                            6  => 'ILA',
-                            7  => 'KEE',
-                            8  => 'KHH',
-                            9  => 'KHQ',
+            'TWN' => [
+                    'code' => 'TWN',
+                    'subregions' => [
+                            0 => 'CHA',
+                            1 => 'CYI',
+                            2 => 'CYQ',
+                            3 => 'HSQ',
+                            4 => 'HSZ',
+                            5 => 'HUA',
+                            6 => 'ILA',
+                            7 => 'KEE',
+                            8 => 'KHH',
+                            9 => 'KHQ',
                             10 => 'MIA',
                             11 => 'NAN',
                             12 => 'PEN',
@@ -5058,21 +4604,19 @@ class CountriesSeeder extends Seeder
                             22 => 'YUN',
                         ],
                 ],
-            'TZA' =>
-                [
-                    'code'       => 'TZA',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '08',
-                            8  => '09',
-                            9  => '10',
+            'TZA' => [
+                    'code' => 'TZA',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '08',
+                            8 => '09',
+                            9 => '10',
                             10 => '11',
                             11 => '12',
                             12 => '13',
@@ -5091,21 +4635,19 @@ class CountriesSeeder extends Seeder
                             25 => '26',
                         ],
                 ],
-            'UKR' =>
-                [
-                    'code'       => 'UKR',
-                    'subregions' =>
-                        [
-                            0  => '05',
-                            1  => '07',
-                            2  => '09',
-                            3  => '12',
-                            4  => '14',
-                            5  => '18',
-                            6  => '21',
-                            7  => '23',
-                            8  => '26',
-                            9  => '30',
+            'UKR' => [
+                    'code' => 'UKR',
+                    'subregions' => [
+                            0 => '05',
+                            1 => '07',
+                            2 => '09',
+                            3 => '12',
+                            4 => '14',
+                            5 => '18',
+                            6 => '21',
+                            7 => '23',
+                            8 => '26',
+                            9 => '30',
                             10 => '32',
                             11 => '35',
                             12 => '40',
@@ -5125,22 +4667,18 @@ class CountriesSeeder extends Seeder
                             26 => '77',
                         ],
                 ],
-            'UGA' =>
-                [
-                    'code'       => 'UGA',
-                    'subregions' =>
-                        [
+            'UGA' => [
+                    'code' => 'UGA',
+                    'subregions' => [
                             0 => 'C',
                             1 => 'E',
                             2 => 'N',
                             3 => 'W',
                         ],
                 ],
-            'UMI' =>
-                [
-                    'code'       => 'UMI',
-                    'subregions' =>
-                        [
+            'UMI' => [
+                    'code' => 'UMI',
+                    'subregions' => [
                             0 => '67',
                             1 => '71',
                             2 => '76',
@@ -5152,21 +4690,19 @@ class CountriesSeeder extends Seeder
                             8 => '95',
                         ],
                 ],
-            'USA' =>
-                [
-                    'code'       => 'USA',
-                    'subregions' =>
-                        [
-                            0  => 'AK',
-                            1  => 'AL',
-                            2  => 'AR',
-                            3  => 'AS',
-                            4  => 'AZ',
-                            5  => 'CA',
-                            6  => 'CO',
-                            7  => 'CT',
-                            8  => 'DC',
-                            9  => 'DE',
+            'USA' => [
+                    'code' => 'USA',
+                    'subregions' => [
+                            0 => 'AK',
+                            1 => 'AL',
+                            2 => 'AR',
+                            3 => 'AS',
+                            4 => 'AZ',
+                            5 => 'CA',
+                            6 => 'CO',
+                            7 => 'CT',
+                            8 => 'DC',
+                            9 => 'DE',
                             10 => 'FL',
                             11 => 'GA',
                             12 => 'GU',
@@ -5219,21 +4755,19 @@ class CountriesSeeder extends Seeder
                             59 => 'AP',
                         ],
                 ],
-            'URY' =>
-                [
-                    'code'       => 'URY',
-                    'subregions' =>
-                        [
-                            0  => 'AR',
-                            1  => 'CA',
-                            2  => 'CL',
-                            3  => 'CO',
-                            4  => 'DU',
-                            5  => 'FD',
-                            6  => 'FS',
-                            7  => 'LA',
-                            8  => 'MA',
-                            9  => 'MO',
+            'URY' => [
+                    'code' => 'URY',
+                    'subregions' => [
+                            0 => 'AR',
+                            1 => 'CA',
+                            2 => 'CL',
+                            3 => 'CO',
+                            4 => 'DU',
+                            5 => 'FD',
+                            6 => 'FS',
+                            7 => 'LA',
+                            8 => 'MA',
+                            9 => 'MO',
                             10 => 'PA',
                             11 => 'RN',
                             12 => 'RO',
@@ -5245,39 +4779,33 @@ class CountriesSeeder extends Seeder
                             18 => 'TT',
                         ],
                 ],
-            'UZB' =>
-                [
-                    'code'       => 'UZB',
-                    'subregions' =>
-                        [
-                            0  => 'AN',
-                            1  => 'BU',
-                            2  => 'FA',
-                            3  => 'JI',
-                            4  => 'NG',
-                            5  => 'NW',
-                            6  => 'QA',
-                            7  => 'QR',
-                            8  => 'SA',
-                            9  => 'SI',
+            'UZB' => [
+                    'code' => 'UZB',
+                    'subregions' => [
+                            0 => 'AN',
+                            1 => 'BU',
+                            2 => 'FA',
+                            3 => 'JI',
+                            4 => 'NG',
+                            5 => 'NW',
+                            6 => 'QA',
+                            7 => 'QR',
+                            8 => 'SA',
+                            9 => 'SI',
                             10 => 'SU',
                             11 => 'TK',
                             12 => 'TO',
                             13 => 'XO',
                         ],
                 ],
-            'VAT' =>
-                [
-                    'code'       => 'VAT',
-                    'subregions' =>
-                        [
+            'VAT' => [
+                    'code' => 'VAT',
+                    'subregions' => [
                         ],
                 ],
-            'VCT' =>
-                [
-                    'code'       => 'VCT',
-                    'subregions' =>
-                        [
+            'VCT' => [
+                    'code' => 'VCT',
+                    'subregions' => [
                             0 => '01',
                             1 => '02',
                             2 => '03',
@@ -5286,21 +4814,19 @@ class CountriesSeeder extends Seeder
                             5 => '06',
                         ],
                 ],
-            'VEN' =>
-                [
-                    'code'       => 'VEN',
-                    'subregions' =>
-                        [
-                            0  => 'A',
-                            1  => 'B',
-                            2  => 'C',
-                            3  => 'D',
-                            4  => 'E',
-                            5  => 'F',
-                            6  => 'G',
-                            7  => 'H',
-                            8  => 'I',
-                            9  => 'J',
+            'VEN' => [
+                    'code' => 'VEN',
+                    'subregions' => [
+                            0 => 'A',
+                            1 => 'B',
+                            2 => 'C',
+                            3 => 'D',
+                            4 => 'E',
+                            5 => 'F',
+                            6 => 'G',
+                            7 => 'H',
+                            8 => 'I',
+                            9 => 'J',
                             10 => 'K',
                             11 => 'L',
                             12 => 'M',
@@ -5318,35 +4844,29 @@ class CountriesSeeder extends Seeder
                             24 => 'Z',
                         ],
                 ],
-            'VGB' =>
-                [
-                    'code'       => 'VGB',
-                    'subregions' =>
-                        [
+            'VGB' => [
+                    'code' => 'VGB',
+                    'subregions' => [
                         ],
                 ],
-            'VIR' =>
-                [
-                    'code'       => 'VIR',
-                    'subregions' =>
-                        [
+            'VIR' => [
+                    'code' => 'VIR',
+                    'subregions' => [
                         ],
                 ],
-            'VNM' =>
-                [
-                    'code'       => 'VNM',
-                    'subregions' =>
-                        [
-                            0  => '01',
-                            1  => '02',
-                            2  => '03',
-                            3  => '04',
-                            4  => '05',
-                            5  => '06',
-                            6  => '07',
-                            7  => '09',
-                            8  => '13',
-                            9  => '14',
+            'VNM' => [
+                    'code' => 'VNM',
+                    'subregions' => [
+                            0 => '01',
+                            1 => '02',
+                            2 => '03',
+                            3 => '04',
+                            4 => '05',
+                            5 => '06',
+                            6 => '07',
+                            7 => '09',
+                            8 => '13',
+                            9 => '14',
                             10 => '15',
                             11 => '18',
                             12 => '20',
@@ -5403,11 +4923,9 @@ class CountriesSeeder extends Seeder
                             63 => 'SG',
                         ],
                 ],
-            'VUT' =>
-                [
-                    'code'       => 'VUT',
-                    'subregions' =>
-                        [
+            'VUT' => [
+                    'code' => 'VUT',
+                    'subregions' => [
                             0 => 'MAP',
                             1 => 'PAM',
                             2 => 'SAM',
@@ -5416,46 +4934,40 @@ class CountriesSeeder extends Seeder
                             5 => 'TOB',
                         ],
                 ],
-            'WLF' =>
-                [
-                    'code'       => 'WLF',
-                    'subregions' =>
-                        [
+            'WLF' => [
+                    'code' => 'WLF',
+                    'subregions' => [
                         ],
                 ],
-            'WSM' =>
-                [
-                    'code'       => 'WSM',
-                    'subregions' =>
-                        [
-                            0  => 'AA',
-                            1  => 'AL',
-                            2  => 'AT',
-                            3  => 'FA',
-                            4  => 'GE',
-                            5  => 'GI',
-                            6  => 'PA',
-                            7  => 'SA',
-                            8  => 'TU',
-                            9  => 'VF',
+            'WSM' => [
+                    'code' => 'WSM',
+                    'subregions' => [
+                            0 => 'AA',
+                            1 => 'AL',
+                            2 => 'AT',
+                            3 => 'FA',
+                            4 => 'GE',
+                            5 => 'GI',
+                            6 => 'PA',
+                            7 => 'SA',
+                            8 => 'TU',
+                            9 => 'VF',
                             10 => 'VS',
                         ],
                 ],
-            'YEM' =>
-                [
-                    'code'       => 'YEM',
-                    'subregions' =>
-                        [
-                            0  => 'AB',
-                            1  => 'AD',
-                            2  => 'AM',
-                            3  => 'BA',
-                            4  => 'DA',
-                            5  => 'DH',
-                            6  => 'HD',
-                            7  => 'HJ',
-                            8  => 'IB',
-                            9  => 'JA',
+            'YEM' => [
+                    'code' => 'YEM',
+                    'subregions' => [
+                            0 => 'AB',
+                            1 => 'AD',
+                            2 => 'AM',
+                            3 => 'BA',
+                            4 => 'DA',
+                            5 => 'DH',
+                            6 => 'HD',
+                            7 => 'HJ',
+                            8 => 'IB',
+                            9 => 'JA',
                             10 => 'LA',
                             11 => 'MA',
                             12 => 'MR',
@@ -5468,18 +4980,14 @@ class CountriesSeeder extends Seeder
                             19 => 'TA',
                         ],
                 ],
-            'MYT' =>
-                [
-                    'code'       => 'MYT',
-                    'subregions' =>
-                        [
+            'MYT' => [
+                    'code' => 'MYT',
+                    'subregions' => [
                         ],
                 ],
-            'ZAF' =>
-                [
-                    'code'       => 'ZAF',
-                    'subregions' =>
-                        [
+            'ZAF' => [
+                    'code' => 'ZAF',
+                    'subregions' => [
                             0 => 'EC',
                             1 => 'FS',
                             2 => 'GP',
@@ -5491,11 +4999,9 @@ class CountriesSeeder extends Seeder
                             8 => 'ZN',
                         ],
                 ],
-            'ZMB' =>
-                [
-                    'code'       => 'ZMB',
-                    'subregions' =>
-                        [
+            'ZMB' => [
+                    'code' => 'ZMB',
+                    'subregions' => [
                             0 => '01',
                             1 => '02',
                             2 => '03',
@@ -5507,11 +5013,9 @@ class CountriesSeeder extends Seeder
                             8 => '09',
                         ],
                 ],
-            'ZWE' =>
-                [
-                    'code'       => 'ZWE',
-                    'subregions' =>
-                        [
+            'ZWE' => [
+                    'code' => 'ZWE',
+                    'subregions' => [
                             0 => 'BU',
                             1 => 'HA',
                             2 => 'MA',
@@ -5533,7 +5037,9 @@ class CountriesSeeder extends Seeder
                 ]
             );
 
-            if (count($country['subregions']) == 0) continue;
+            if (count($country['subregions']) == 0) {
+                continue;
+            }
 
             \DB::table('subregions')->insert(
                 collect(array_values($country['subregions']))
