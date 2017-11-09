@@ -2,8 +2,8 @@
 
 namespace RainCheck\Policies;
 
-use RainCheck\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
+use RainCheck\Models\User;
 
 class UserPolicy
 {

@@ -2,6 +2,8 @@
 
 namespace RainCheck\Support\Eloquent;
 
+use Illuminate\Database\Eloquent\Model;
+
 trait HasUniqueToken
 {
     protected $return_token_as_id = true;
@@ -9,7 +11,7 @@ trait HasUniqueToken
     public static function bootHasUniqueToken()
     {
         static::creating(
-            function ($model) {
+            function (Model $model) {
                 $model->generateUniqueToken(false);
             }
         );

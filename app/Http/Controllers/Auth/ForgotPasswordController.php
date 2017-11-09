@@ -2,8 +2,8 @@
 
 namespace RainCheck\Http\Controllers\Auth;
 
-use RainCheck\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
+use RainCheck\Http\Controllers\Controller;
 
 class ForgotPasswordController extends Controller
 {
@@ -22,8 +22,6 @@ class ForgotPasswordController extends Controller
 
     /**
      * Create a new controller instance.
-     *
-     * @return void
      */
     public function __construct()
     {

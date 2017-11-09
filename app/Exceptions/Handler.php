@@ -3,12 +3,12 @@
 namespace RainCheck\Exceptions;
 
 use Exception;
-use Illuminate\Routing\Router;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Contracts\Support\Responsable;
-use Illuminate\Validation\ValidationException;
-use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Http\Exceptions\HttpResponseException;
+use Illuminate\Routing\Router;
+use Illuminate\Validation\ValidationException;
 
 class Handler extends ExceptionHandler
 {
@@ -62,6 +62,10 @@ class Handler extends ExceptionHandler
 
     /**
      * {@inhericdoc}.
+     * @param \Illuminate\Http\Request                 $request
+     * @param \Illuminate\Auth\AuthenticationException $exception
+     *
+     * @return \Illuminate\Http\JsonResponse|\Illuminate\Http\Response
      */
     protected function unauthenticated($request, AuthenticationException $exception)
     {
@@ -70,6 +74,10 @@ class Handler extends ExceptionHandler
 
     /**
      * {@inhericdoc}.
+     * @param \Illuminate\Validation\ValidationException $e
+     * @param \Illuminate\Http\Request                   $request
+     *
+     * @return \Illuminate\Http\JsonResponse|null|\Symfony\Component\HttpFoundation\Response
      */
     protected function convertValidationExceptionToResponse(ValidationException $e, $request)
     {

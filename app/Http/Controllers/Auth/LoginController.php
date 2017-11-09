@@ -2,8 +2,8 @@
 
 namespace RainCheck\Http\Controllers\Auth;
 
-use RainCheck\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use RainCheck\Http\Controllers\Controller;
 
 class LoginController extends Controller
 {
@@ -29,8 +29,6 @@ class LoginController extends Controller
 
     /**
      * Create a new controller instance.
-     *
-     * @return void
      */
     public function __construct()
     {
