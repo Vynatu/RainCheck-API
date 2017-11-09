@@ -51,15 +51,17 @@ abstract class AbstractRuntimeException extends Exception
     /**
      * AbstractRuntimeException constructor.
      *
-     * @param string|null            $message
+     * @param string|null     $message
      * @param int             $code
      * @param \Throwable|null $previous
      */
     public function __construct($message = null, $code = 0, \Throwable $previous = null)
     {
         // We can have a generic message and a context-defined message.
-        if ($message != null) {
+        if ($message !== null) {
             $this->message = $message;
+        } else {
+            $this->message = $this->title;
         }
 
         parent::__construct($this->message, $code, $previous);
