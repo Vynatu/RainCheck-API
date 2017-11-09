@@ -2,10 +2,10 @@
 
 namespace RainCheck\Http\Controllers\Auth;
 
-use Illuminate\Foundation\Auth\RegistersUsers;
+use RainCheck\Models\User;
 use Illuminate\Support\Facades\Validator;
 use RainCheck\Http\Controllers\Controller;
-use RainCheck\Models\User;
+use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller
 {

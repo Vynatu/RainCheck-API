@@ -2,10 +2,10 @@
 
 namespace RainCheck\Listeners\OAuth;
 
-use Illuminate\Support\Carbon;
-use Laravel\Passport\Client;
-use Laravel\Passport\Events\AccessTokenCreated;
 use Laravel\Passport\Token;
+use Laravel\Passport\Client;
+use Illuminate\Support\Carbon;
+use Laravel\Passport\Events\AccessTokenCreated;
 
 /**
  * Class RevokeOldTokens.

@@ -2,9 +2,9 @@
 
 namespace RainCheck\Providers;
 
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Database\Eloquent\Collection;
 
 class AppServiceProvider extends ServiceProvider
 {

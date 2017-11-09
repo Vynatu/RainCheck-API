@@ -2,9 +2,9 @@
 
 namespace RainCheck\Console\Commands;
 
-use Illuminate\Console\Command;
-use Illuminate\Support\Carbon;
 use Laravel\Passport\Token;
+use Illuminate\Support\Carbon;
+use Illuminate\Console\Command;
 
 class PruneOldTokens extends Command
 {
