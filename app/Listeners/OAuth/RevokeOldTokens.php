@@ -2,22 +2,18 @@
 
 namespace RainCheck\Listeners\OAuth;
 
-use Illuminate\Support\Carbon;
-use Laravel\Passport\Client;
-use Laravel\Passport\Events\AccessTokenCreated;
 use Laravel\Passport\Token;
+use Laravel\Passport\Client;
+use Illuminate\Support\Carbon;
+use Laravel\Passport\Events\AccessTokenCreated;
 
 /**
- * Class RevokeOldTokens
- *
+ * Class RevokeOldTokens.
  * It is important that this class is executed in sync.
  * 3rd party clients can only have a single active token as a time.
- *
  * It revokes the old access tokens of a single user, scoped by
  * user and client. Revoking does not delete any token. First-party
  * client tokens are left untouched.
- *
- * @package RainCheck\Listeners\OAuth
  */
 class RevokeOldTokens
 {
@@ -32,7 +28,9 @@ class RevokeOldTokens
     {
         $client = Client::find($event->clientId);
 
-        if (! $client || !$client->firstParty()) return;
+        if (! $client || ! $client->firstParty()) {
+            return;
+        }
 
         Token::where(['user_id' => $event->userId, 'client_id' => $event->clientId, 'revoked' => false])
              ->where('expires_at', '>=', Carbon::now())

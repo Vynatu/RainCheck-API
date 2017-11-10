@@ -2,8 +2,8 @@
 
 namespace RainCheck\Policies;
 
-use Illuminate\Auth\Access\HandlesAuthorization;
 use RainCheck\Models\User;
+use Illuminate\Auth\Access\HandlesAuthorization;
 
 class UserPolicy
 {
@@ -19,7 +19,9 @@ class UserPolicy
      */
     public function before(User $user, string $ability)
     {
-        if ($user->is_admin && $ability != 'delete') return true;
+        if ($user->is_admin && $ability != 'delete') {
+            return true;
+        }
     }
 
     /**

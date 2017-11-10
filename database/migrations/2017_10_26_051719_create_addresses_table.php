@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 class CreateAddressesTable extends Migration
 {
@@ -17,14 +17,14 @@ class CreateAddressesTable extends Migration
             'addresses',
             function (Blueprint $table) {
                 $table->increments('id');
-                $table->integer('user_id')->index();
+                $table->unsignedInteger('user_id')->index();
                 $table->string('company')->nullable();
                 $table->string('address1');
                 $table->string('address2')->nullable();
                 $table->string('zip');
                 $table->string('phone')->nullable();
-                $table->integer('country_id')->unsigned();
-                $table->integer('subregion_id')->unsigned()->nullable();
+                $table->unsignedInteger('country_id')->unsigned();
+                $table->unsignedInteger('subregion_id')->unsigned()->nullable();
 
                 $table->timestamps();
 

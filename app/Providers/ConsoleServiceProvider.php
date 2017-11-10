@@ -2,8 +2,8 @@
 
 namespace RainCheck\Providers;
 
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Database\Schema\Blueprint;
 
 class ConsoleServiceProvider extends ServiceProvider
 {

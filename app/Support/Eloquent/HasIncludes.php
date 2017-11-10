@@ -4,13 +4,8 @@ namespace RainCheck\Support\Eloquent;
 
 trait HasIncludes
 {
-    public static function getIncludableRelations()
-    {
-        return property_exists(static::class, 'includable') ? static::$includable : [];
-    }
-
     /**
-     * Begin querying a model with eager loading, with
+     * Begin querying a model with eager loading, with.
      *
      * @return \Illuminate\Database\Eloquent\Builder|static
      */
@@ -27,5 +22,10 @@ trait HasIncludes
         }
 
         return (new static)->newQuery();
+    }
+
+    public static function getIncludableRelations()
+    {
+        return property_exists(static::class, 'includable') ? static::$includable : [];
     }
 }

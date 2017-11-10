@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 class CreateCountriesTable extends Migration
 {
@@ -25,7 +25,7 @@ class CreateCountriesTable extends Migration
             'subregions',
             function (Blueprint $table) {
                 $table->increments('id');
-                $table->integer('country_id')->unsigned()->index();
+                $table->unsignedInteger('country_id')->unsigned()->index();
                 $table->string('country_code', 3)->index();
                 $table->string('subregion_code', 4)->index();
 

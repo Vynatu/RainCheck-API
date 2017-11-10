@@ -3,7 +3,6 @@
 /public/storage
 /storage/*.key
 /vendor
-/.idea
 /.vagrant
 Homestead.json
 Homestead.yaml
@@ -12,12 +11,8 @@ yarn-error.log
 .env
 ### macOS template
 # General
-.DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
-Icon
 
 # Thumbnails
 ._*
@@ -38,11 +33,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 ### Windows template
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
-
 # Dump file
 *.stackdump
 
@@ -189,3 +179,5 @@ fabric.properties
 .phpstorm.meta.php
 _ide_helper.php
 _ide_helper_models.php
+
+storage/debugbar

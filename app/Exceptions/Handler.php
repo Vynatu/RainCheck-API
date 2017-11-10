@@ -3,24 +3,24 @@
 namespace RainCheck\Exceptions;
 
 use Exception;
+use Illuminate\Routing\Router;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Contracts\Support\Responsable;
-use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
-use Illuminate\Http\Exceptions\HttpResponseException;
-use Illuminate\Routing\Router;
 use Illuminate\Validation\ValidationException;
+use Illuminate\Http\Exceptions\HttpResponseException;
+use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class Handler extends ExceptionHandler
 {
     /**
-     * {@inhericdoc}
+     * {@inhericdoc}.
      */
     protected $dontReport = [
         //
     ];
 
     /**
-     * {@inhericdoc}
+     * {@inhericdoc}.
      */
     protected $dontFlash = [
         'password',
@@ -42,7 +42,7 @@ class Handler extends ExceptionHandler
     {
         if (method_exists($e, 'render') && $response = $e->render($request)) {
             return Router::toResponse($request, $response);
-        } else if ($e instanceof Responsable) {
+        } elseif ($e instanceof Responsable) {
             return $e->toResponse($request);
         }
 
@@ -50,9 +50,9 @@ class Handler extends ExceptionHandler
 
         if ($e instanceof HttpResponseException) {
             return $e->getResponse();
-        } else if ($e instanceof AuthenticationException) {
+        } elseif ($e instanceof AuthenticationException) {
             return $this->unauthenticated($request, $e);
-        } else if ($e instanceof ValidationException) {
+        } elseif ($e instanceof ValidationException) {
             return $this->convertValidationExceptionToResponse($e, $request);
         }
 
@@ -61,7 +61,11 @@ class Handler extends ExceptionHandler
     }
 
     /**
-     * {@inhericdoc}
+     * {@inhericdoc}.
+     * @param \Illuminate\Http\Request                 $request
+     * @param \Illuminate\Auth\AuthenticationException $exception
+     *
+     * @return \Illuminate\Http\JsonResponse|\Illuminate\Http\Response
      */
     protected function unauthenticated($request, AuthenticationException $exception)
     {
@@ -69,7 +73,11 @@ class Handler extends ExceptionHandler
     }
 
     /**
-     * {@inhericdoc}
+     * {@inhericdoc}.
+     * @param \Illuminate\Validation\ValidationException $e
+     * @param \Illuminate\Http\Request                   $request
+     *
+     * @return \Illuminate\Http\JsonResponse|null|\Symfony\Component\HttpFoundation\Response
      */
     protected function convertValidationExceptionToResponse(ValidationException $e, $request)
     {

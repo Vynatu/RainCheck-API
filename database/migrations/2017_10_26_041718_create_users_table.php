@@ -13,18 +13,21 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->increments('id');
-            $table->uniqueToken();
-            $table->string('email')->unique();
-            $table->string('password');
-            $table->string('first_name');
-            $table->string('last_name');
-            $table->integer('address_id')->unsigned()->nullable(); // We store the current address ID. The old ones are kept for historic reasons.
-            $table->boolean('is_admin')->default(false);
-            $table->softDeletes();
-            $table->timestamps();
-        });
+        Schema::create('users',
+            function (Blueprint $table) {
+                $table->increments('id');
+                $table->uniqueToken();
+                $table->string('email')->unique();
+                $table->string('password');
+                $table->string('first_name');
+                $table->string('last_name');
+                $table->integer('address_id')->unsigned()->nullable(
+                ); // We store the current address ID. The old ones are kept for historic reasons.
+                $table->boolean('is_admin')->default(false);
+                $table->softDeletes();
+                $table->timestamps();
+            }
+        );
     }
 
     /**

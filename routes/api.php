@@ -22,8 +22,9 @@
 |
 */
 
-
-Route::middleware(['auth:api'])->group(function() {
-    // Fetch the current user
-    Route::get('/user', 'UsersController@currentUser');
-});
+Route::middleware(['auth:api'])->group(
+    function () {
+        // Fetch the current user
+        Route::get('/user', 'UsersController@currentUser');
+    }
+);

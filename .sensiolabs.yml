@@ -1,0 +1,7 @@
+rules:
+  php.interface_has_no_interface_suffix:
+    enabled: false
+
+exclude_patterns:
+  - resources/lang/**/countries.php
+  - database/seeds/CountriesSeeder.php

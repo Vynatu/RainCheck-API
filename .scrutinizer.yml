@@ -1,0 +1,23 @@
+build:
+  nodes:
+    analysis:
+      environment:
+        php:
+          version: 7.1
+        mysql: 5.7
+        redis: true
+    tests:
+      environment:
+        php:
+          version: 7.1
+        mysql: 5.7
+        redis: true
+filter:
+  paths:
+    - 'app/*'
+  excluded_paths:
+    - 'app/views/*'
+    - 'app/config/*'
+    - 'app/database/*'
+checks:
+  php: true

@@ -8,9 +8,8 @@ class UsersController extends Controller
 {
     public function currentUser(Request $request)
     {
-        if ($request->user()->can('view', $request->user()))
+        if ($request->user()->can('view', $request->user())) {
             return $request->user();
-
-        return ['no'];
+        }
     }
 }

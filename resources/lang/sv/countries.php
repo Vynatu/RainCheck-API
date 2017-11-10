@@ -1,9 +1,9 @@
-<?php return [
-    'AND' =>
-        [
-            'name'       => 'Andorra',
-            'subregions' =>
-                [
+<?php
+
+return [
+    'AND' => [
+            'name' => 'Andorra',
+            'subregions' => [
                     '02' => 'Canillo',
                     '03' => 'Encamp',
                     '04' => 'La Massana',
@@ -13,11 +13,9 @@
                     '08' => 'Escaldes-Engordany',
                 ],
         ],
-    'ARE' =>
-        [
-            'name'       => 'Förenade Arabemiraten',
-            'subregions' =>
-                [
+    'ARE' => [
+            'name' => 'Förenade Arabemiraten',
+            'subregions' => [
                     'AJ' => '\'Ajmān',
                     'AZ' => 'Abū Ȥaby [Abu Dhabi]',
                     'DU' => 'Dubayy',
@@ -27,11 +25,9 @@
                     'UQ' => 'Umm al Qaywayn',
                 ],
         ],
-    'AFG' =>
-        [
-            'name'       => 'Afghanistan',
-            'subregions' =>
-                [
+    'AFG' => [
+            'name' => 'Afghanistan',
+            'subregions' => [
                     'BAL' => 'Balkh',
                     'BAM' => 'Bāmyān',
                     'BDG' => 'Bādghīs',
@@ -68,33 +64,27 @@
                     'ZAB' => 'Zābul',
                 ],
         ],
-    'ATG' =>
-        [
-            'name'       => 'Antigua och Barbuda',
-            'subregions' =>
-                [
+    'ATG' => [
+            'name' => 'Antigua och Barbuda',
+            'subregions' => [
                     '03' => 'Saint George',
                     '04' => 'Saint John',
                     '05' => 'Saint Mary',
                     '06' => 'Saint Paul',
                     '07' => 'Saint Peter',
                     '08' => 'Saint Philip',
-                    10   => 'Barbuda',
-                    11   => 'Redonda',
+                    10 => 'Barbuda',
+                    11 => 'Redonda',
                 ],
         ],
-    'AIA' =>
-        [
-            'name'       => 'Anguilla',
-            'subregions' =>
-                [
+    'AIA' => [
+            'name' => 'Anguilla',
+            'subregions' => [
                 ],
         ],
-    'ALB' =>
-        [
-            'name'       => 'Albanien',
-            'subregions' =>
-                [
+    'ALB' => [
+            'name' => 'Albanien',
+            'subregions' => [
                     '01' => 'Berat',
                     '02' => 'Durrës',
                     '03' => 'Elbasan',
@@ -104,16 +94,14 @@
                     '07' => 'Kukës',
                     '08' => 'Lezhë',
                     '09' => 'Dibër',
-                    10   => 'Shkodër',
-                    11   => 'Tiranë',
-                    12   => 'Vlorë',
+                    10 => 'Shkodër',
+                    11 => 'Tiranë',
+                    12 => 'Vlorë',
                 ],
         ],
-    'ARM' =>
-        [
-            'name'       => 'Armenien',
-            'subregions' =>
-                [
+    'ARM' => [
+            'name' => 'Armenien',
+            'subregions' => [
                     'AG' => 'Aragacotn',
                     'AR' => 'Ararat',
                     'AV' => 'Armavir',
@@ -127,11 +115,9 @@
                     'VD' => 'Vayoc Jor',
                 ],
         ],
-    'AGO' =>
-        [
-            'name'       => 'Angola',
-            'subregions' =>
-                [
+    'AGO' => [
+            'name' => 'Angola',
+            'subregions' => [
                     'BGO' => 'Bengo',
                     'BGU' => 'Benguela',
                     'BIE' => 'Bié',
@@ -152,18 +138,14 @@
                     'ZAI' => 'Zaire',
                 ],
         ],
-    'ATA' =>
-        [
-            'name'       => 'Antarktis',
-            'subregions' =>
-                [
+    'ATA' => [
+            'name' => 'Antarktis',
+            'subregions' => [
                 ],
         ],
-    'ARG' =>
-        [
-            'name'       => 'Argentina',
-            'subregions' =>
-                [
+    'ARG' => [
+            'name' => 'Argentina',
+            'subregions' => [
                     'A' => 'Salta',
                     'B' => 'Buenos Aires',
                     'C' => 'Ciudad Autónoma de Buenos Aires',
@@ -190,18 +172,14 @@
                     'F' => 'La Rioja',
                 ],
         ],
-    'ASM' =>
-        [
-            'name'       => 'Amerikanska Samoa',
-            'subregions' =>
-                [
+    'ASM' => [
+            'name' => 'Amerikanska Samoa',
+            'subregions' => [
                 ],
         ],
-    'AUT' =>
-        [
-            'name'       => 'Österrike',
-            'subregions' =>
-                [
+    'AUT' => [
+            'name' => 'Österrike',
+            'subregions' => [
                     1 => 'Burgenland',
                     2 => 'Kärnten',
                     3 => 'Niederösterreich',
@@ -213,40 +191,32 @@
                     9 => 'Wien',
                 ],
         ],
-    'AUS' =>
-        [
-            'name'       => 'Australien',
-            'subregions' =>
-                [
+    'AUS' => [
+            'name' => 'Australien',
+            'subregions' => [
                     'ACT' => 'Australian Capital Territory',
                     'NSW' => 'New South Wales',
-                    'NT'  => 'Northern Territory',
+                    'NT' => 'Northern Territory',
                     'QLD' => 'Queensland',
-                    'SA'  => 'South Australia',
+                    'SA' => 'South Australia',
                     'TAS' => 'Tasmania',
                     'VIC' => 'Victoria',
-                    'WA'  => 'Western Australia',
+                    'WA' => 'Western Australia',
                 ],
         ],
-    'ABW' =>
-        [
-            'name'       => 'Aruba',
-            'subregions' =>
-                [
+    'ABW' => [
+            'name' => 'Aruba',
+            'subregions' => [
                 ],
         ],
-    'ALA' =>
-        [
-            'name'       => 'Åland',
-            'subregions' =>
-                [
+    'ALA' => [
+            'name' => 'Åland',
+            'subregions' => [
                 ],
         ],
-    'AZE' =>
-        [
-            'name'       => 'Azerbajdzjan',
-            'subregions' =>
-                [
+    'AZE' => [
+            'name' => 'Azerbajdzjan',
+            'subregions' => [
                     'ABS' => 'Abşeron',
                     'AGA' => 'Ağstafa',
                     'AGC' => 'Ağcabədi',
@@ -254,7 +224,7 @@
                     'AGS' => 'Ağdaş',
                     'AGU' => 'Ağsu',
                     'AST' => 'Astara',
-                    'BA'  => 'Bakı',
+                    'BA' => 'Bakı',
                     'BAL' => 'Balakən',
                     'BAR' => 'Bərdə',
                     'BEY' => 'Beyləqan',
@@ -263,7 +233,7 @@
                     'CAL' => 'Cəlilabab',
                     'DAS' => 'Daşkəsən',
                     'FUZ' => 'Füzuli',
-                    'GA'  => 'Gəncə',
+                    'GA' => 'Gəncə',
                     'GAD' => 'Gədəbəy',
                     'GOR' => 'Goranboy',
                     'GOY' => 'Göyçay',
@@ -273,15 +243,15 @@
                     'ISM' => 'İsmayıllı',
                     'KAL' => 'Kəlbəcər',
                     'KUR' => 'Kürdəmir',
-                    'LA'  => 'Lənkəran',
+                    'LA' => 'Lənkəran',
                     'LAC' => 'Laçın',
                     'LAN' => 'Lənkəran',
                     'LER' => 'Lerik',
                     'MAS' => 'Masallı',
-                    'MI'  => 'Mingəçevir',
-                    'NA'  => 'Naftalan',
+                    'MI' => 'Mingəçevir',
+                    'NA' => 'Naftalan',
                     'NEF' => 'Neftçala',
-                    'NX'  => 'Naxçıvan',
+                    'NX' => 'Naxçıvan',
                     'OGU' => 'Oğuz',
                     'QAB' => 'Qəbələ',
                     'QAX' => 'Qax',
@@ -290,7 +260,7 @@
                     'QBI' => 'Qubadlı',
                     'QOB' => 'Qobustan',
                     'QUS' => 'Qusar',
-                    'SA'  => 'Şəki',
+                    'SA' => 'Şəki',
                     'SAB' => 'Sabirabad',
                     'SAK' => 'Şəki',
                     'SAL' => 'Salyan',
@@ -298,42 +268,38 @@
                     'SBN' => 'Şabran',
                     'SIY' => 'Siyəzən',
                     'SKR' => 'Şəmkir',
-                    'SM'  => 'Sumqayıt',
+                    'SM' => 'Sumqayıt',
                     'SMI' => 'Şamaxı',
                     'SMX' => 'Samux',
-                    'SR'  => 'Şirvan',
+                    'SR' => 'Şirvan',
                     'SUS' => 'Şuşa',
                     'TAR' => 'Tərtər',
                     'TOV' => 'Tovuz',
                     'UCA' => 'Ucar',
-                    'XA'  => 'Xankəndi',
+                    'XA' => 'Xankəndi',
                     'XAC' => 'Xaçmaz',
                     'XCI' => 'Xocalı',
                     'XIZ' => 'Xızı',
                     'XVD' => 'Xocavənd',
                     'YAR' => 'Yardımlı',
-                    'YE'  => 'Yevlax',
+                    'YE' => 'Yevlax',
                     'YEV' => 'Yevlax',
                     'ZAN' => 'Zəngilan',
                     'ZAQ' => 'Zaqatala',
                     'ZAR' => 'Zərdab',
                 ],
         ],
-    'BIH' =>
-        [
-            'name'       => 'Bosnien och Hercegovina',
-            'subregions' =>
-                [
+    'BIH' => [
+            'name' => 'Bosnien och Hercegovina',
+            'subregions' => [
                     'BIH' => 'Federacija Bosne i Hercegovine',
                     'BRC' => 'Brčko distrikt',
                     'SRP' => 'Republika Srpska',
                 ],
         ],
-    'BRB' =>
-        [
-            'name'       => 'Barbados',
-            'subregions' =>
-                [
+    'BRB' => [
+            'name' => 'Barbados',
+            'subregions' => [
                     '01' => 'Christ Church',
                     '02' => 'Saint Andrew',
                     '03' => 'Saint George',
@@ -343,15 +309,13 @@
                     '07' => 'Saint Lucy',
                     '08' => 'Saint Michael',
                     '09' => 'Saint Peter',
-                    10   => 'Saint Philip',
-                    11   => 'Saint Thomas',
+                    10 => 'Saint Philip',
+                    11 => 'Saint Thomas',
                 ],
         ],
-    'BGD' =>
-        [
-            'name'       => 'Bangladesh',
-            'subregions' =>
-                [
+    'BGD' => [
+            'name' => 'Bangladesh',
+            'subregions' => [
                     'A' => 'Barisal',
                     'B' => 'Chittagong',
                     'C' => 'Dhaka',
@@ -361,21 +325,17 @@
                     'G' => 'Sylhet',
                 ],
         ],
-    'BEL' =>
-        [
-            'name'       => 'Belgien',
-            'subregions' =>
-                [
+    'BEL' => [
+            'name' => 'Belgien',
+            'subregions' => [
                     'BRU' => 'Bruxelles-Capitale, Région de;Brussels Hoofdstedelijk Gewest',
                     'VLG' => 'Vlaams Gewest',
                     'WAL' => 'wallonne, Région',
                 ],
         ],
-    'BFA' =>
-        [
-            'name'       => 'Burkina Faso',
-            'subregions' =>
-                [
+    'BFA' => [
+            'name' => 'Burkina Faso',
+            'subregions' => [
                     '01' => 'Boucle du Mouhoun',
                     '02' => 'Cascades',
                     '03' => 'Centre',
@@ -385,17 +345,15 @@
                     '07' => 'Centre-Sud',
                     '08' => 'Est',
                     '09' => 'Hauts-Bassins',
-                    10   => 'Nord',
-                    11   => 'Plateau-Central',
-                    12   => 'Sahel',
-                    13   => 'Sud-Ouest',
+                    10 => 'Nord',
+                    11 => 'Plateau-Central',
+                    12 => 'Sahel',
+                    13 => 'Sud-Ouest',
                 ],
         ],
-    'BGR' =>
-        [
-            'name'       => 'Bulgarien',
-            'subregions' =>
-                [
+    'BGR' => [
+            'name' => 'Bulgarien',
+            'subregions' => [
                     '01' => 'Blagoevgrad',
                     '02' => 'Burgas',
                     '03' => 'Varna',
@@ -405,32 +363,30 @@
                     '07' => 'Gabrovo',
                     '08' => 'Dobrich',
                     '09' => 'Kardzhali',
-                    10   => 'Kyustendil',
-                    11   => 'Lovech',
-                    12   => 'Montana',
-                    13   => 'Pazardzhik',
-                    14   => 'Pernik',
-                    15   => 'Pleven',
-                    16   => 'Plovdiv',
-                    17   => 'Razgrad',
-                    18   => 'Ruse',
-                    19   => 'Silistra',
-                    20   => 'Sliven',
-                    21   => 'Smolyan',
-                    22   => 'Sofia-Grad',
-                    23   => 'Sofia',
-                    24   => 'Stara Zagora',
-                    25   => 'Targovishte',
-                    26   => 'Haskovo',
-                    27   => 'Shumen',
-                    28   => 'Yambol',
+                    10 => 'Kyustendil',
+                    11 => 'Lovech',
+                    12 => 'Montana',
+                    13 => 'Pazardzhik',
+                    14 => 'Pernik',
+                    15 => 'Pleven',
+                    16 => 'Plovdiv',
+                    17 => 'Razgrad',
+                    18 => 'Ruse',
+                    19 => 'Silistra',
+                    20 => 'Sliven',
+                    21 => 'Smolyan',
+                    22 => 'Sofia-Grad',
+                    23 => 'Sofia',
+                    24 => 'Stara Zagora',
+                    25 => 'Targovishte',
+                    26 => 'Haskovo',
+                    27 => 'Shumen',
+                    28 => 'Yambol',
                 ],
         ],
-    'BHR' =>
-        [
-            'name'       => 'Bahrain',
-            'subregions' =>
-                [
+    'BHR' => [
+            'name' => 'Bahrain',
+            'subregions' => [
                     13 => 'Al Manāmah (Al ‘Āşimah)',
                     14 => 'Al Janūbīyah',
                     15 => 'Al Muḩarraq',
@@ -438,11 +394,9 @@
                     17 => 'Ash Shamālīyah',
                 ],
         ],
-    'BDI' =>
-        [
-            'name'       => 'Burundi',
-            'subregions' =>
-                [
+    'BDI' => [
+            'name' => 'Burundi',
+            'subregions' => [
                     'BB' => 'Bubanza',
                     'BL' => 'Bujumbura Rural',
                     'BM' => 'Bujumbura Mairie',
@@ -461,11 +415,9 @@
                     'RY' => 'Ruyigi',
                 ],
         ],
-    'BEN' =>
-        [
-            'name'       => 'Benin',
-            'subregions' =>
-                [
+    'BEN' => [
+            'name' => 'Benin',
+            'subregions' => [
                     'AK' => 'Atakora',
                     'AL' => 'Alibori',
                     'AQ' => 'Atlantique',
@@ -480,36 +432,28 @@
                     'ZO' => 'Zou',
                 ],
         ],
-    'BLM' =>
-        [
-            'name'       => 'S:t Barthélemy',
-            'subregions' =>
-                [
+    'BLM' => [
+            'name' => 'S:t Barthélemy',
+            'subregions' => [
                 ],
         ],
-    'BMU' =>
-        [
-            'name'       => 'Bermuda',
-            'subregions' =>
-                [
+    'BMU' => [
+            'name' => 'Bermuda',
+            'subregions' => [
                 ],
         ],
-    'BRN' =>
-        [
-            'name'       => 'Brunei',
-            'subregions' =>
-                [
+    'BRN' => [
+            'name' => 'Brunei',
+            'subregions' => [
                     'BE' => 'Belait',
                     'BM' => 'Brunei-Muara',
                     'TE' => 'Temburong',
                     'TU' => 'Tutong',
                 ],
         ],
-    'BOL' =>
-        [
-            'name'       => 'Bolivia',
-            'subregions' =>
-                [
+    'BOL' => [
+            'name' => 'Bolivia',
+            'subregions' => [
                     'B' => 'El Beni',
                     'C' => 'Cochabamba',
                     'H' => 'Chuquisaca',
@@ -521,21 +465,17 @@
                     'T' => 'Tarija',
                 ],
         ],
-    'BES' =>
-        [
-            'name'       => 'BQ',
-            'subregions' =>
-                [
+    'BES' => [
+            'name' => 'BQ',
+            'subregions' => [
                     'BO' => 'Bonaire',
                     'SA' => 'Saba',
                     'SE' => 'Sint Eustatius',
                 ],
         ],
-    'BRA' =>
-        [
-            'name'       => 'Brasilien',
-            'subregions' =>
-                [
+    'BRA' => [
+            'name' => 'Brasilien',
+            'subregions' => [
                     'AC' => 'Acre',
                     'AL' => 'Alagoas',
                     'AM' => 'Amazonas',
@@ -566,11 +506,9 @@
                     'TO' => 'Tocantins',
                 ],
         ],
-    'BHS' =>
-        [
-            'name'       => 'Bahamas',
-            'subregions' =>
-                [
+    'BHS' => [
+            'name' => 'Bahamas',
+            'subregions' => [
                     'AK' => 'Acklins',
                     'BI' => 'Bimini',
                     'BP' => 'Black Point',
@@ -604,45 +542,39 @@
                     'WG' => 'West Grand Bahama',
                 ],
         ],
-    'BTN' =>
-        [
-            'name'       => 'Bhutan',
-            'subregions' =>
-                [
-                    11   => 'Paro',
-                    12   => 'Chhukha',
-                    13   => 'Ha',
-                    14   => 'Samtee',
-                    15   => 'Thimphu',
-                    21   => 'Tsirang',
-                    22   => 'Dagana',
-                    23   => 'Punakha',
-                    24   => 'Wangdue Phodrang',
-                    31   => 'Sarpang',
-                    32   => 'Trongsa',
-                    33   => 'Bumthang',
-                    34   => 'Zhemgang',
-                    41   => 'Trashigang',
-                    42   => 'Monggar',
-                    43   => 'Pemagatshel',
-                    44   => 'Lhuentse',
-                    45   => 'Samdrup Jongkha',
+    'BTN' => [
+            'name' => 'Bhutan',
+            'subregions' => [
+                    11 => 'Paro',
+                    12 => 'Chhukha',
+                    13 => 'Ha',
+                    14 => 'Samtee',
+                    15 => 'Thimphu',
+                    21 => 'Tsirang',
+                    22 => 'Dagana',
+                    23 => 'Punakha',
+                    24 => 'Wangdue Phodrang',
+                    31 => 'Sarpang',
+                    32 => 'Trongsa',
+                    33 => 'Bumthang',
+                    34 => 'Zhemgang',
+                    41 => 'Trashigang',
+                    42 => 'Monggar',
+                    43 => 'Pemagatshel',
+                    44 => 'Lhuentse',
+                    45 => 'Samdrup Jongkha',
                     'GA' => 'Gasa',
                     'TY' => 'Trashi Yangtse',
                 ],
         ],
-    'BVT' =>
-        [
-            'name'       => 'Bouvetön',
-            'subregions' =>
-                [
+    'BVT' => [
+            'name' => 'Bouvetön',
+            'subregions' => [
                 ],
         ],
-    'BWA' =>
-        [
-            'name'       => 'Botswana',
-            'subregions' =>
-                [
+    'BWA' => [
+            'name' => 'Botswana',
+            'subregions' => [
                     'CE' => 'Central',
                     'GH' => 'Ghanzi',
                     'KG' => 'Kgalagadi',
@@ -654,11 +586,9 @@
                     'SO' => 'Southern',
                 ],
         ],
-    'BLR' =>
-        [
-            'name'       => 'Vitryssland',
-            'subregions' =>
-                [
+    'BLR' => [
+            'name' => 'Vitryssland',
+            'subregions' => [
                     'BR' => 'Brèsckaja voblasc\'',
                     'HM' => 'Horad Minsk',
                     'HO' => 'Homel\'skaja voblasc\'',
@@ -668,24 +598,20 @@
                     'VI' => 'Vicebskaja voblasc\'',
                 ],
         ],
-    'BLZ' =>
-        [
-            'name'       => 'Belize',
-            'subregions' =>
-                [
-                    'BZ'  => 'Belize',
-                    'CY'  => 'Cayo',
+    'BLZ' => [
+            'name' => 'Belize',
+            'subregions' => [
+                    'BZ' => 'Belize',
+                    'CY' => 'Cayo',
                     'CZL' => 'Corozal',
-                    'OW'  => 'Orange Walk',
-                    'SC'  => 'Stann Creek',
+                    'OW' => 'Orange Walk',
+                    'SC' => 'Stann Creek',
                     'TOL' => 'Toledo',
                 ],
         ],
-    'CAN' =>
-        [
-            'name'       => 'Kanada',
-            'subregions' =>
-                [
+    'CAN' => [
+            'name' => 'Kanada',
+            'subregions' => [
                     'AB' => 'Alberta',
                     'BC' => 'British Columbia',
                     'MB' => 'Manitoba',
@@ -701,18 +627,14 @@
                     'YT' => 'Yukon Territory',
                 ],
         ],
-    'CCK' =>
-        [
-            'name'       => 'Kokosöarna',
-            'subregions' =>
-                [
+    'CCK' => [
+            'name' => 'Kokosöarna',
+            'subregions' => [
                 ],
         ],
-    'COD' =>
-        [
-            'name'       => 'Kongo-Kinshasa',
-            'subregions' =>
-                [
+    'COD' => [
+            'name' => 'Kongo-Kinshasa',
+            'subregions' => [
                     'BC' => 'Bas-Congo',
                     'BN' => 'Bandundu',
                     'EQ' => 'Équateur',
@@ -726,53 +648,47 @@
                     'SK' => 'Sud-Kivu',
                 ],
         ],
-    'CAF' =>
-        [
-            'name'       => 'Centralafrikanska republiken',
-            'subregions' =>
-                [
-                    'AC'  => 'Ouham',
-                    'BB'  => 'Bamingui-Bangoran',
+    'CAF' => [
+            'name' => 'Centralafrikanska republiken',
+            'subregions' => [
+                    'AC' => 'Ouham',
+                    'BB' => 'Bamingui-Bangoran',
                     'BGF' => 'Bangui',
-                    'BK'  => 'Basse-Kotto',
-                    'HK'  => 'Haute-Kotto',
-                    'HM'  => 'Haut-Mbomou',
-                    'HS'  => 'Haute-Sangha / Mambéré-Kadéï',
-                    'KB'  => 'Gribingui',
-                    'KG'  => 'Kémo-Gribingui',
-                    'LB'  => 'Lobaye',
-                    'MB'  => 'Mbomou',
-                    'MP'  => 'Ombella-M\'poko',
-                    'NM'  => 'Nana-Mambéré',
-                    'OP'  => 'Ouham-Pendé',
-                    'SE'  => 'Sangha',
-                    'UK'  => 'Ouaka',
-                    'VK'  => 'Vakaga',
+                    'BK' => 'Basse-Kotto',
+                    'HK' => 'Haute-Kotto',
+                    'HM' => 'Haut-Mbomou',
+                    'HS' => 'Haute-Sangha / Mambéré-Kadéï',
+                    'KB' => 'Gribingui',
+                    'KG' => 'Kémo-Gribingui',
+                    'LB' => 'Lobaye',
+                    'MB' => 'Mbomou',
+                    'MP' => 'Ombella-M\'poko',
+                    'NM' => 'Nana-Mambéré',
+                    'OP' => 'Ouham-Pendé',
+                    'SE' => 'Sangha',
+                    'UK' => 'Ouaka',
+                    'VK' => 'Vakaga',
                 ],
         ],
-    'COG' =>
-        [
-            'name'       => 'Kongo-Brazzaville',
-            'subregions' =>
-                [
-                    11    => 'Bouenza',
-                    12    => 'Pool',
-                    13    => 'Sangha',
-                    14    => 'Plateaux',
-                    15    => 'Cuvette-Ouest',
-                    2     => 'Lékoumou',
-                    5     => 'Kouilou',
-                    7     => 'Likouala',
-                    8     => 'Cuvette',
-                    9     => 'Niari',
+    'COG' => [
+            'name' => 'Kongo-Brazzaville',
+            'subregions' => [
+                    11 => 'Bouenza',
+                    12 => 'Pool',
+                    13 => 'Sangha',
+                    14 => 'Plateaux',
+                    15 => 'Cuvette-Ouest',
+                    2 => 'Lékoumou',
+                    5 => 'Kouilou',
+                    7 => 'Likouala',
+                    8 => 'Cuvette',
+                    9 => 'Niari',
                     'BZV' => 'Brazzaville',
                 ],
         ],
-    'CHE' =>
-        [
-            'name'       => 'Schweiz',
-            'subregions' =>
-                [
+    'CHE' => [
+            'name' => 'Schweiz',
+            'subregions' => [
                     'AG' => 'Aargau',
                     'AI' => 'Appenzell Innerrhoden',
                     'AR' => 'Appenzell Ausserrhoden',
@@ -801,11 +717,9 @@
                     'ZH' => 'Zürich',
                 ],
         ],
-    'CIV' =>
-        [
-            'name'       => 'Elfenbenskusten',
-            'subregions' =>
-                [
+    'CIV' => [
+            'name' => 'Elfenbenskusten',
+            'subregions' => [
                     '01' => 'Lagunes (Région des)',
                     '02' => 'Haut-Sassandra (Région du)',
                     '03' => 'Savanes (Région des)',
@@ -815,30 +729,26 @@
                     '07' => 'Lacs (Région des)',
                     '08' => 'Zanzan (Région du)',
                     '09' => 'Bas-Sassandra (Région du)',
-                    10   => 'Denguélé (Région du)',
-                    11   => 'Nzi-Comoé (Région)',
-                    12   => 'Marahoué (Région de la)',
-                    13   => 'Sud-Comoé (Région du)',
-                    14   => 'Worodouqou (Région du)',
-                    15   => 'Sud-Bandama (Région du)',
-                    16   => 'Agnébi (Région de l\')',
-                    17   => 'Bafing (Région du)',
-                    18   => 'Fromager (Région du)',
-                    19   => 'Moyen-Cavally (Région du)',
+                    10 => 'Denguélé (Région du)',
+                    11 => 'Nzi-Comoé (Région)',
+                    12 => 'Marahoué (Région de la)',
+                    13 => 'Sud-Comoé (Région du)',
+                    14 => 'Worodouqou (Région du)',
+                    15 => 'Sud-Bandama (Région du)',
+                    16 => 'Agnébi (Région de l\')',
+                    17 => 'Bafing (Région du)',
+                    18 => 'Fromager (Région du)',
+                    19 => 'Moyen-Cavally (Région du)',
                 ],
         ],
-    'COK' =>
-        [
-            'name'       => 'Cooköarna',
-            'subregions' =>
-                [
+    'COK' => [
+            'name' => 'Cooköarna',
+            'subregions' => [
                 ],
         ],
-    'CHL' =>
-        [
-            'name'       => 'Chile',
-            'subregions' =>
-                [
+    'CHL' => [
+            'name' => 'Chile',
+            'subregions' => [
                     'AI' => 'Aisén del General Carlos Ibáñez del Campo',
                     'AN' => 'Antofagasta',
                     'AP' => 'Arica y Parinacota',
@@ -856,11 +766,9 @@
                     'VS' => 'Valparaíso',
                 ],
         ],
-    'CMR' =>
-        [
-            'name'       => 'Kamerun',
-            'subregions' =>
-                [
+    'CMR' => [
+            'name' => 'Kamerun',
+            'subregions' => [
                     'AD' => 'Adamaoua',
                     'CE' => 'Centre',
                     'EN' => 'Far North',
@@ -873,11 +781,9 @@
                     'SW' => 'South-West',
                 ],
         ],
-    'CHN' =>
-        [
-            'name'       => 'Kina',
-            'subregions' =>
-                [
+    'CHN' => [
+            'name' => 'Kina',
+            'subregions' => [
                     11 => 'Beijing',
                     12 => 'Tianjin',
                     13 => 'Hebei',
@@ -914,11 +820,9 @@
                     92 => 'Aomen (Macau)',
                 ],
         ],
-    'COL' =>
-        [
-            'name'       => 'Colombia',
-            'subregions' =>
-                [
+    'COL' => [
+            'name' => 'Colombia',
+            'subregions' => [
                     'AMA' => 'Amazonas',
                     'ANT' => 'Antioquia',
                     'ARA' => 'Arauca',
@@ -933,7 +837,7 @@
                     'CHO' => 'Chocó',
                     'COR' => 'Córdoba',
                     'CUN' => 'Cundinamarca',
-                    'DC'  => 'Distrito Capital de Bogotá',
+                    'DC' => 'Distrito Capital de Bogotá',
                     'GUA' => 'Guainía',
                     'GUV' => 'Guaviare',
                     'HUI' => 'Huila',
@@ -954,25 +858,21 @@
                     'VID' => 'Vichada',
                 ],
         ],
-    'CRI' =>
-        [
-            'name'       => 'Costa Rica',
-            'subregions' =>
-                [
-                    'A'  => 'Alajuela',
-                    'C'  => 'Cartago',
-                    'G'  => 'Guanacaste',
-                    'H'  => 'Heredia',
-                    'L'  => 'Limón',
-                    'P'  => 'Puntarenas',
+    'CRI' => [
+            'name' => 'Costa Rica',
+            'subregions' => [
+                    'A' => 'Alajuela',
+                    'C' => 'Cartago',
+                    'G' => 'Guanacaste',
+                    'H' => 'Heredia',
+                    'L' => 'Limón',
+                    'P' => 'Puntarenas',
                     'SJ' => 'San José',
                 ],
         ],
-    'CUB' =>
-        [
-            'name'       => 'Kuba',
-            'subregions' =>
-                [
+    'CUB' => [
+            'name' => 'Kuba',
+            'subregions' => [
                     '01' => 'Pinar del Rio',
                     '02' => 'La Habana',
                     '03' => 'Ciudad de La Habana',
@@ -982,42 +882,34 @@
                     '07' => 'Sancti Spíritus',
                     '08' => 'Ciego de Ávila',
                     '09' => 'Camagüey',
-                    10   => 'Las Tunas',
-                    11   => 'Holguín',
-                    12   => 'Granma',
-                    13   => 'Santiago de Cuba',
-                    14   => 'Guantánamo',
-                    99   => 'Isla de la Juventud',
+                    10 => 'Las Tunas',
+                    11 => 'Holguín',
+                    12 => 'Granma',
+                    13 => 'Santiago de Cuba',
+                    14 => 'Guantánamo',
+                    99 => 'Isla de la Juventud',
                 ],
         ],
-    'CPV' =>
-        [
-            'name'       => 'Kap Verde',
-            'subregions' =>
-                [
+    'CPV' => [
+            'name' => 'Kap Verde',
+            'subregions' => [
                     'B' => 'Ilhas de Barlavento',
                     'S' => 'Ilhas de Sotavento',
                 ],
         ],
-    'CUW' =>
-        [
-            'name'       => 'CW',
-            'subregions' =>
-                [
+    'CUW' => [
+            'name' => 'CW',
+            'subregions' => [
                 ],
         ],
-    'CXR' =>
-        [
-            'name'       => 'Julön',
-            'subregions' =>
-                [
+    'CXR' => [
+            'name' => 'Julön',
+            'subregions' => [
                 ],
         ],
-    'CYP' =>
-        [
-            'name'       => 'Cypern',
-            'subregions' =>
-                [
+    'CYP' => [
+            'name' => 'Cypern',
+            'subregions' => [
                     '01' => 'Lefkosía',
                     '02' => 'Lemesós',
                     '03' => 'Lárnaka',
@@ -1026,11 +918,9 @@
                     '06' => 'Kerýneia',
                 ],
         ],
-    'CZE' =>
-        [
-            'name'       => 'Tjeckien',
-            'subregions' =>
-                [
+    'CZE' => [
+            'name' => 'Tjeckien',
+            'subregions' => [
                     'JC' => 'Jihočeský kraj',
                     'JM' => 'Jihomoravský kraj',
                     'KA' => 'Karlovarský kraj',
@@ -1047,11 +937,9 @@
                     'ZL' => 'Zlínský kraj',
                 ],
         ],
-    'DEU' =>
-        [
-            'name'       => 'Tyskland',
-            'subregions' =>
-                [
+    'DEU' => [
+            'name' => 'Tyskland',
+            'subregions' => [
                     'BB' => 'Brandenburg',
                     'BE' => 'Berlin',
                     'BW' => 'Baden-Württemberg',
@@ -1070,11 +958,9 @@
                     'TH' => 'Thüringen',
                 ],
         ],
-    'DJI' =>
-        [
-            'name'       => 'Djibouti',
-            'subregions' =>
-                [
+    'DJI' => [
+            'name' => 'Djibouti',
+            'subregions' => [
                     'AR' => 'Arta',
                     'AS' => 'Ali Sabieh',
                     'DI' => 'Dikhil',
@@ -1083,11 +969,9 @@
                     'TA' => 'Tadjourah',
                 ],
         ],
-    'DNK' =>
-        [
-            'name'       => 'Danmark',
-            'subregions' =>
-                [
+    'DNK' => [
+            'name' => 'Danmark',
+            'subregions' => [
                     81 => 'Nordjylland',
                     82 => 'Midtjylland',
                     83 => 'Syddanmark',
@@ -1095,11 +979,9 @@
                     85 => 'Sjælland',
                 ],
         ],
-    'DMA' =>
-        [
-            'name'       => 'Dominica',
-            'subregions' =>
-                [
+    'DMA' => [
+            'name' => 'Dominica',
+            'subregions' => [
                     '01' => 'Saint Peter',
                     '02' => 'Saint Andrew',
                     '03' => 'Saint David',
@@ -1109,14 +991,12 @@
                     '07' => 'Saint Luke',
                     '08' => 'Saint Mark',
                     '09' => 'Saint Patrick',
-                    10   => 'Saint Paul',
+                    10 => 'Saint Paul',
                 ],
         ],
-    'DOM' =>
-        [
-            'name'       => 'Dominikanska republiken',
-            'subregions' =>
-                [
+    'DOM' => [
+            'name' => 'Dominikanska republiken',
+            'subregions' => [
                     '01' => 'Distrito Nacional (Santo Domingo)',
                     '02' => 'Azua',
                     '03' => 'Bahoruco',
@@ -1126,34 +1006,32 @@
                     '07' => 'La Estrelleta [Elías Piña]',
                     '08' => 'El Seybo [El Seibo]',
                     '09' => 'Espaillat',
-                    10   => 'Independencia',
-                    11   => 'La Altagracia',
-                    12   => 'La Romana',
-                    13   => 'La Vega',
-                    14   => 'María Trinidad Sánchez',
-                    15   => 'Monte Cristi',
-                    16   => 'Pedernales',
-                    17   => 'Peravia',
-                    18   => 'Puerto Plata',
-                    19   => 'Salcedo',
-                    20   => 'Samaná',
-                    21   => 'San Cristóbal',
-                    22   => 'San Juan',
-                    23   => 'San Pedro de Macorís',
-                    24   => 'Sánchez Ramírez',
-                    25   => 'Santiago',
-                    26   => 'Santiago Rodríguez',
-                    27   => 'Valverde',
-                    28   => 'Monseñor Nouel',
-                    29   => 'Monte Plata',
-                    30   => 'Hato Mayor',
+                    10 => 'Independencia',
+                    11 => 'La Altagracia',
+                    12 => 'La Romana',
+                    13 => 'La Vega',
+                    14 => 'María Trinidad Sánchez',
+                    15 => 'Monte Cristi',
+                    16 => 'Pedernales',
+                    17 => 'Peravia',
+                    18 => 'Puerto Plata',
+                    19 => 'Salcedo',
+                    20 => 'Samaná',
+                    21 => 'San Cristóbal',
+                    22 => 'San Juan',
+                    23 => 'San Pedro de Macorís',
+                    24 => 'Sánchez Ramírez',
+                    25 => 'Santiago',
+                    26 => 'Santiago Rodríguez',
+                    27 => 'Valverde',
+                    28 => 'Monseñor Nouel',
+                    29 => 'Monte Plata',
+                    30 => 'Hato Mayor',
                 ],
         ],
-    'DZA' =>
-        [
-            'name'       => 'Algeriet',
-            'subregions' =>
-                [
+    'DZA' => [
+            'name' => 'Algeriet',
+            'subregions' => [
                     '01' => 'Adrar',
                     '02' => 'Chlef',
                     '03' => 'Laghouat',
@@ -1163,83 +1041,79 @@
                     '07' => 'Biskra',
                     '08' => 'Béchar',
                     '09' => 'Blida',
-                    10   => 'Bouira',
-                    11   => 'Tamanghasset',
-                    12   => 'Tébessa',
-                    13   => 'Tlemcen',
-                    14   => 'Tiaret',
-                    15   => 'Tizi Ouzou',
-                    16   => 'Alger',
-                    17   => 'Djelfa',
-                    18   => 'Jijel',
-                    19   => 'Sétif',
-                    20   => 'Saïda',
-                    21   => 'Skikda',
-                    22   => 'Sidi Bel Abbès',
-                    23   => 'Annaba',
-                    24   => 'Guelma',
-                    25   => 'Constantine',
-                    26   => 'Médéa',
-                    27   => 'Mostaganem',
-                    28   => 'Msila',
-                    29   => 'Mascara',
-                    30   => 'Ouargla',
-                    31   => 'Oran',
-                    32   => 'El Bayadh',
-                    33   => 'Illizi',
-                    34   => 'Bordj Bou Arréridj',
-                    35   => 'Boumerdès',
-                    36   => 'El Tarf',
-                    37   => 'Tindouf',
-                    38   => 'Tissemsilt',
-                    39   => 'El Oued',
-                    40   => 'Khenchela',
-                    41   => 'Souk Ahras',
-                    42   => 'Tipaza',
-                    43   => 'Mila',
-                    44   => 'Aïn Defla',
-                    45   => 'Naama',
-                    46   => 'Aïn Témouchent',
-                    47   => 'Ghardaïa',
-                    48   => 'Relizane',
+                    10 => 'Bouira',
+                    11 => 'Tamanghasset',
+                    12 => 'Tébessa',
+                    13 => 'Tlemcen',
+                    14 => 'Tiaret',
+                    15 => 'Tizi Ouzou',
+                    16 => 'Alger',
+                    17 => 'Djelfa',
+                    18 => 'Jijel',
+                    19 => 'Sétif',
+                    20 => 'Saïda',
+                    21 => 'Skikda',
+                    22 => 'Sidi Bel Abbès',
+                    23 => 'Annaba',
+                    24 => 'Guelma',
+                    25 => 'Constantine',
+                    26 => 'Médéa',
+                    27 => 'Mostaganem',
+                    28 => 'Msila',
+                    29 => 'Mascara',
+                    30 => 'Ouargla',
+                    31 => 'Oran',
+                    32 => 'El Bayadh',
+                    33 => 'Illizi',
+                    34 => 'Bordj Bou Arréridj',
+                    35 => 'Boumerdès',
+                    36 => 'El Tarf',
+                    37 => 'Tindouf',
+                    38 => 'Tissemsilt',
+                    39 => 'El Oued',
+                    40 => 'Khenchela',
+                    41 => 'Souk Ahras',
+                    42 => 'Tipaza',
+                    43 => 'Mila',
+                    44 => 'Aïn Defla',
+                    45 => 'Naama',
+                    46 => 'Aïn Témouchent',
+                    47 => 'Ghardaïa',
+                    48 => 'Relizane',
                 ],
         ],
-    'ECU' =>
-        [
-            'name'       => 'Ecuador',
-            'subregions' =>
-                [
-                    'A'  => 'Azuay',
-                    'B'  => 'Bolívar',
-                    'C'  => 'Carchi',
-                    'D'  => 'Orellana',
-                    'E'  => 'Esmeraldas',
-                    'F'  => 'Cañar',
-                    'G'  => 'Guayas',
-                    'H'  => 'Chimborazo',
-                    'I'  => 'Imbabura',
-                    'L'  => 'Loja',
-                    'M'  => 'Manabí',
-                    'N'  => 'Napo',
-                    'O'  => 'El Oro',
-                    'P'  => 'Pichincha',
-                    'R'  => 'Los Ríos',
-                    'S'  => 'Morona-Santiago',
+    'ECU' => [
+            'name' => 'Ecuador',
+            'subregions' => [
+                    'A' => 'Azuay',
+                    'B' => 'Bolívar',
+                    'C' => 'Carchi',
+                    'D' => 'Orellana',
+                    'E' => 'Esmeraldas',
+                    'F' => 'Cañar',
+                    'G' => 'Guayas',
+                    'H' => 'Chimborazo',
+                    'I' => 'Imbabura',
+                    'L' => 'Loja',
+                    'M' => 'Manabí',
+                    'N' => 'Napo',
+                    'O' => 'El Oro',
+                    'P' => 'Pichincha',
+                    'R' => 'Los Ríos',
+                    'S' => 'Morona-Santiago',
                     'SD' => 'Santo Domingo de los Tsáchilas',
                     'SE' => 'Santa Elena',
-                    'T'  => 'Tungurahua',
-                    'U'  => 'Sucumbíos',
-                    'W'  => 'Galápagos',
-                    'X'  => 'Cotopaxi',
-                    'Y'  => 'Pastaza',
-                    'Z'  => 'Zamora-Chinchipe',
+                    'T' => 'Tungurahua',
+                    'U' => 'Sucumbíos',
+                    'W' => 'Galápagos',
+                    'X' => 'Cotopaxi',
+                    'Y' => 'Pastaza',
+                    'Z' => 'Zamora-Chinchipe',
                 ],
         ],
-    'EST' =>
-        [
-            'name'       => 'Estland',
-            'subregions' =>
-                [
+    'EST' => [
+            'name' => 'Estland',
+            'subregions' => [
                     37 => 'Harjumaa',
                     39 => 'Hiiumaa',
                     44 => 'Ida-Virumaa',
@@ -1257,53 +1131,47 @@
                     86 => 'Võrumaa',
                 ],
         ],
-    'EGY' =>
-        [
-            'name'       => 'Egypten',
-            'subregions' =>
-                [
+    'EGY' => [
+            'name' => 'Egypten',
+            'subregions' => [
                     'ALX' => 'Al Iskandarīyah',
                     'ASN' => 'Aswān',
                     'AST' => 'Asyūt',
-                    'BA'  => 'Al Bahr al Ahmar',
-                    'BH'  => 'Al Buhayrah',
+                    'BA' => 'Al Bahr al Ahmar',
+                    'BH' => 'Al Buhayrah',
                     'BNS' => 'Banī Suwayf',
-                    'C'   => 'Al Qāhirah',
-                    'DK'  => 'Ad Daqahlīyah',
-                    'DT'  => 'Dumyāt',
+                    'C' => 'Al Qāhirah',
+                    'DK' => 'Ad Daqahlīyah',
+                    'DT' => 'Dumyāt',
                     'FYM' => 'Al Fayyūm',
-                    'GH'  => 'Al Gharbīyah',
-                    'GZ'  => 'Al Jīzah',
-                    'HU'  => 'Ḩulwān',
-                    'IS'  => 'Al Ismā`īlīyah',
-                    'JS'  => 'Janūb Sīnā\'',
-                    'KB'  => 'Al Qalyūbīyah',
+                    'GH' => 'Al Gharbīyah',
+                    'GZ' => 'Al Jīzah',
+                    'HU' => 'Ḩulwān',
+                    'IS' => 'Al Ismā`īlīyah',
+                    'JS' => 'Janūb Sīnā\'',
+                    'KB' => 'Al Qalyūbīyah',
                     'KFS' => 'Kafr ash Shaykh',
-                    'KN'  => 'Qinā',
-                    'MN'  => 'Al Minyā',
+                    'KN' => 'Qinā',
+                    'MN' => 'Al Minyā',
                     'MNF' => 'Al Minūfīyah',
-                    'MT'  => 'Matrūh',
+                    'MT' => 'Matrūh',
                     'PTS' => 'Būr Sa`īd',
                     'SHG' => 'Sūhāj',
                     'SHR' => 'Ash Sharqīyah',
                     'SIN' => 'Shamal Sīnā\'',
-                    'SU'  => 'As Sādis min Uktūbar',
+                    'SU' => 'As Sādis min Uktūbar',
                     'SUZ' => 'As Suways',
                     'WAD' => 'Al Wādī al Jadīd',
                 ],
         ],
-    'ESH' =>
-        [
-            'name'       => 'Västsahara',
-            'subregions' =>
-                [
+    'ESH' => [
+            'name' => 'Västsahara',
+            'subregions' => [
                 ],
         ],
-    'ERI' =>
-        [
-            'name'       => 'Eritrea',
-            'subregions' =>
-                [
+    'ERI' => [
+            'name' => 'Eritrea',
+            'subregions' => [
                     'AN' => 'Ansabā',
                     'DK' => 'Janūbī al Baḩrī al Aḩmar',
                     'DU' => 'Al Janūbī',
@@ -1312,11 +1180,9 @@
                     'SK' => 'Shimālī al Baḩrī al Aḩmar',
                 ],
         ],
-    'ESP' =>
-        [
-            'name'       => 'Spanien',
-            'subregions' =>
-                [
+    'ESP' => [
+            'name' => 'Spanien',
+            'subregions' => [
                     'AN' => 'Andalucía',
                     'AR' => 'Aragón',
                     'AS' => 'Asturias, Principado de',
@@ -1338,11 +1204,9 @@
                     'VC' => 'Valenciana, Comunidad / Valenciana, Comunitat ',
                 ],
         ],
-    'ETH' =>
-        [
-            'name'       => 'Etiopien',
-            'subregions' =>
-                [
+    'ETH' => [
+            'name' => 'Etiopien',
+            'subregions' => [
                     'AA' => 'Ādīs Ābeba',
                     'AF' => 'Āfar',
                     'AM' => 'Āmara',
@@ -1356,11 +1220,9 @@
                     'TI' => 'Tigray',
                 ],
         ],
-    'FIN' =>
-        [
-            'name'       => 'Finland',
-            'subregions' =>
-                [
+    'FIN' => [
+            'name' => 'Finland',
+            'subregions' => [
                     '01' => 'Ahvenanmaan maakunta',
                     '02' => 'Etelä-Karjala',
                     '03' => 'Etelä-Pohjanmaa',
@@ -1370,23 +1232,21 @@
                     '07' => 'Keski-Pohjanmaa',
                     '08' => 'Keski-Suomi',
                     '09' => 'Kymenlaakso',
-                    10   => 'Lappi',
-                    11   => 'Pirkanmaa',
-                    12   => 'Pohjanmaa',
-                    13   => 'Pohjois-Karjala',
-                    14   => 'Pohjois-Pohjanmaa',
-                    15   => 'Pohjois-Savo',
-                    16   => 'Päijät-Häme',
-                    17   => 'Satakunta',
-                    18   => 'Uusimaa',
-                    19   => 'Varsinais-Suomi',
+                    10 => 'Lappi',
+                    11 => 'Pirkanmaa',
+                    12 => 'Pohjanmaa',
+                    13 => 'Pohjois-Karjala',
+                    14 => 'Pohjois-Pohjanmaa',
+                    15 => 'Pohjois-Savo',
+                    16 => 'Päijät-Häme',
+                    17 => 'Satakunta',
+                    18 => 'Uusimaa',
+                    19 => 'Varsinais-Suomi',
                 ],
         ],
-    'FJI' =>
-        [
-            'name'       => 'Fiji',
-            'subregions' =>
-                [
+    'FJI' => [
+            'name' => 'Fiji',
+            'subregions' => [
                     'C' => 'Central',
                     'E' => 'Eastern',
                     'N' => 'Northern',
@@ -1394,78 +1254,68 @@
                     'W' => 'Western',
                 ],
         ],
-    'FLK' =>
-        [
-            'name'       => 'Falklandsöarna',
-            'subregions' =>
-                [
+    'FLK' => [
+            'name' => 'Falklandsöarna',
+            'subregions' => [
                 ],
         ],
-    'FSM' =>
-        [
-            'name'       => 'Mikronesien',
-            'subregions' =>
-                [
+    'FSM' => [
+            'name' => 'Mikronesien',
+            'subregions' => [
                     'KSA' => 'Kosrae',
                     'PNI' => 'Pohnpei',
                     'TRK' => 'Chuuk',
                     'YAP' => 'Yap',
                 ],
         ],
-    'FRO' =>
-        [
-            'name'       => 'Färöarna',
-            'subregions' =>
-                [
+    'FRO' => [
+            'name' => 'Färöarna',
+            'subregions' => [
                 ],
         ],
-    'FRA' =>
-        [
-            'name'       => 'Frankrike',
-            'subregions' =>
-                [
-                    'A'  => 'Alsace',
-                    'B'  => 'Aquitaine',
+    'FRA' => [
+            'name' => 'Frankrike',
+            'subregions' => [
+                    'A' => 'Alsace',
+                    'B' => 'Aquitaine',
                     'BL' => 'Saint-Barthélemy',
-                    'C'  => 'Auvergne',
+                    'C' => 'Auvergne',
                     'CP' => 'Clipperton',
-                    'D'  => 'Bourgogne',
-                    'E'  => 'Bretagne',
-                    'F'  => 'Centre',
-                    'G'  => 'Champagne-Ardenne',
+                    'D' => 'Bourgogne',
+                    'E' => 'Bretagne',
+                    'F' => 'Centre',
+                    'G' => 'Champagne-Ardenne',
                     'GF' => 'Guyane',
                     'GP' => 'Guadeloupe',
-                    'H'  => 'Corse',
-                    'I'  => 'Franche-Comté',
-                    'J'  => 'Île-de-France',
-                    'K'  => 'Languedoc-Roussillon',
-                    'L'  => 'Limousin',
-                    'M'  => 'Lorraine',
+                    'H' => 'Corse',
+                    'I' => 'Franche-Comté',
+                    'J' => 'Île-de-France',
+                    'K' => 'Languedoc-Roussillon',
+                    'L' => 'Limousin',
+                    'M' => 'Lorraine',
                     'MF' => 'Saint-Martin',
                     'MQ' => 'Martinique',
-                    'N'  => 'Midi-Pyrénées',
+                    'N' => 'Midi-Pyrénées',
                     'NC' => 'Nouvelle-Calédonie',
-                    'O'  => 'Nord-Pas-de-Calais',
-                    'P'  => 'Basse-Normandie',
+                    'O' => 'Nord-Pas-de-Calais',
+                    'P' => 'Basse-Normandie',
                     'PF' => 'Polynésie française',
                     'PM' => 'Saint-Pierre-et-Miquelon',
-                    'Q'  => 'Haute-Normandie',
-                    'R'  => 'Pays de la Loire',
+                    'Q' => 'Haute-Normandie',
+                    'R' => 'Pays de la Loire',
                     'RE' => 'La Réunion',
-                    'S'  => 'Picardie',
-                    'T'  => 'Poitou-Charentes',
+                    'S' => 'Picardie',
+                    'T' => 'Poitou-Charentes',
                     'TF' => 'Terres australes françaises',
-                    'U'  => 'Provence-Alpes-Côte d\'Azur',
-                    'V'  => 'Rhône-Alpes',
+                    'U' => 'Provence-Alpes-Côte d\'Azur',
+                    'V' => 'Rhône-Alpes',
                     'WF' => 'Wallis-et-Futuna',
                     'YT' => 'Mayotte',
                 ],
         ],
-    'GAB' =>
-        [
-            'name'       => 'Gabon',
-            'subregions' =>
-                [
+    'GAB' => [
+            'name' => 'Gabon',
+            'subregions' => [
                     1 => 'Estuaire',
                     2 => 'Haut-Ogooué',
                     3 => 'Moyen-Ogooué',
@@ -1477,11 +1327,9 @@
                     9 => 'Woleu-Ntem',
                 ],
         ],
-    'GBR' =>
-        [
-            'name'       => 'Storbritannien',
-            'subregions' =>
-                [
+    'GBR' => [
+            'name' => 'Storbritannien',
+            'subregions' => [
                     'ABD' => 'Aberdeenshire',
                     'ABE' => 'Aberdeen City',
                     'AGB' => 'Argyll and Bute',
@@ -1722,25 +1570,21 @@
                     'WIL' => 'Wiltshire',
                 ],
         ],
-    'GRD' =>
-        [
-            'name'       => 'Grenada',
-            'subregions' =>
-                [
+    'GRD' => [
+            'name' => 'Grenada',
+            'subregions' => [
                     '01' => 'Saint Andrew',
                     '02' => 'Saint David',
                     '03' => 'Saint George',
                     '04' => 'Saint John',
                     '05' => 'Saint Mark',
                     '06' => 'Saint Patrick',
-                    10   => 'Southern Grenadine Islands',
+                    10 => 'Southern Grenadine Islands',
                 ],
         ],
-    'GEO' =>
-        [
-            'name'       => 'Georgien',
-            'subregions' =>
-                [
+    'GEO' => [
+            'name' => 'Georgien',
+            'subregions' => [
                     'AB' => 'Abkhazia',
                     'AJ' => 'Ajaria',
                     'GU' => 'Guria',
@@ -1755,25 +1599,19 @@
                     'TB' => 'T’bilisi',
                 ],
         ],
-    'GUF' =>
-        [
-            'name'       => 'Franska Guyana',
-            'subregions' =>
-                [
+    'GUF' => [
+            'name' => 'Franska Guyana',
+            'subregions' => [
                 ],
         ],
-    'GGY' =>
-        [
-            'name'       => 'Guernsey',
-            'subregions' =>
-                [
+    'GGY' => [
+            'name' => 'Guernsey',
+            'subregions' => [
                 ],
         ],
-    'GHA' =>
-        [
-            'name'       => 'Ghana',
-            'subregions' =>
-                [
+    'GHA' => [
+            'name' => 'Ghana',
+            'subregions' => [
                     'AA' => 'Greater Accra',
                     'AH' => 'Ashanti',
                     'BA' => 'Brong-Ahafo',
@@ -1786,29 +1624,23 @@
                     'WP' => 'Western',
                 ],
         ],
-    'GIB' =>
-        [
-            'name'       => 'Gibraltar',
-            'subregions' =>
-                [
+    'GIB' => [
+            'name' => 'Gibraltar',
+            'subregions' => [
                 ],
         ],
-    'GRL' =>
-        [
-            'name'       => 'Grönland',
-            'subregions' =>
-                [
+    'GRL' => [
+            'name' => 'Grönland',
+            'subregions' => [
                     'KU' => 'Kommune Kujalleq',
                     'QA' => 'Qaasuitsup Kommunia',
                     'QE' => 'Qeqqata Kommunia',
                     'SM' => 'Kommuneqarfik Sermersooq',
                 ],
         ],
-    'GMB' =>
-        [
-            'name'       => 'Gambia',
-            'subregions' =>
-                [
+    'GMB' => [
+            'name' => 'Gambia',
+            'subregions' => [
                     'B' => 'Banjul',
                     'L' => 'Lower River',
                     'M' => 'Central River',
@@ -1817,11 +1649,9 @@
                     'W' => 'Western',
                 ],
         ],
-    'GIN' =>
-        [
-            'name'       => 'Guinea',
-            'subregions' =>
-                [
+    'GIN' => [
+            'name' => 'Guinea',
+            'subregions' => [
                     'B' => 'Boké',
                     'C' => 'Conakry',
                     'D' => 'Kindia',
@@ -1832,28 +1662,22 @@
                     'N' => 'Nzérékoré',
                 ],
         ],
-    'GLP' =>
-        [
-            'name'       => 'Guadeloupe',
-            'subregions' =>
-                [
+    'GLP' => [
+            'name' => 'Guadeloupe',
+            'subregions' => [
                 ],
         ],
-    'GNQ' =>
-        [
-            'name'       => 'Ekvatorialguinea',
-            'subregions' =>
-                [
+    'GNQ' => [
+            'name' => 'Ekvatorialguinea',
+            'subregions' => [
                     'C' => 'Región Continental',
                     'I' => 'Región Insular',
                 ],
         ],
-    'GRC' =>
-        [
-            'name'       => 'Grekland',
-            'subregions' =>
-                [
-                    69  => 'Agio Oros',
+    'GRC' => [
+            'name' => 'Grekland',
+            'subregions' => [
+                    69 => 'Agio Oros',
                     'A' => 'Anatoliki Makedonia kai Thraki',
                     'B' => 'Kentriki Makedonia',
                     'C' => 'Dytiki Makedonia',
@@ -1869,18 +1693,14 @@
                     'M' => 'Kriti',
                 ],
         ],
-    'SGS' =>
-        [
-            'name'       => 'Sydgeorgien och Sydsandwichöarna',
-            'subregions' =>
-                [
+    'SGS' => [
+            'name' => 'Sydgeorgien och Sydsandwichöarna',
+            'subregions' => [
                 ],
         ],
-    'GTM' =>
-        [
-            'name'       => 'Guatemala',
-            'subregions' =>
-                [
+    'GTM' => [
+            'name' => 'Guatemala',
+            'subregions' => [
                     'AV' => 'Alta Verapaz',
                     'BV' => 'Baja Verapaz',
                     'CM' => 'Chimaltenango',
@@ -1905,29 +1725,23 @@
                     'ZA' => 'Zacapa',
                 ],
         ],
-    'GUM' =>
-        [
-            'name'       => 'Guam',
-            'subregions' =>
-                [
+    'GUM' => [
+            'name' => 'Guam',
+            'subregions' => [
                 ],
         ],
-    'GNB' =>
-        [
-            'name'       => 'Guinea-Bissau',
-            'subregions' =>
-                [
+    'GNB' => [
+            'name' => 'Guinea-Bissau',
+            'subregions' => [
                     'BS' => 'Bissau',
-                    'L'  => 'Leste',
-                    'N'  => 'Norte',
-                    'S'  => 'Sul',
+                    'L' => 'Leste',
+                    'N' => 'Norte',
+                    'S' => 'Sul',
                 ],
         ],
-    'GUY' =>
-        [
-            'name'       => 'Guyana',
-            'subregions' =>
-                [
+    'GUY' => [
+            'name' => 'Guyana',
+            'subregions' => [
                     'BA' => 'Barima-Waini',
                     'CU' => 'Cuyuni-Mazaruni',
                     'DE' => 'Demerara-Mahaica',
@@ -1940,25 +1754,19 @@
                     'UT' => 'Upper Takutu-Upper Essequibo',
                 ],
         ],
-    'HKG' =>
-        [
-            'name'       => 'Hongkong',
-            'subregions' =>
-                [
+    'HKG' => [
+            'name' => 'Hongkong',
+            'subregions' => [
                 ],
         ],
-    'HMD' =>
-        [
-            'name'       => 'Heard- och McDonaldöarna',
-            'subregions' =>
-                [
+    'HMD' => [
+            'name' => 'Heard- och McDonaldöarna',
+            'subregions' => [
                 ],
         ],
-    'HND' =>
-        [
-            'name'       => 'Honduras',
-            'subregions' =>
-                [
+    'HND' => [
+            'name' => 'Honduras',
+            'subregions' => [
                     'AT' => 'Atlántida',
                     'CH' => 'Choluteca',
                     'CL' => 'Colón',
@@ -1979,11 +1787,9 @@
                     'YO' => 'Yoro',
                 ],
         ],
-    'HRV' =>
-        [
-            'name'       => 'Kroatien',
-            'subregions' =>
-                [
+    'HRV' => [
+            'name' => 'Kroatien',
+            'subregions' => [
                     '01' => 'Zagrebačka županija',
                     '02' => 'Krapinsko-zagorska županija',
                     '03' => 'Sisačko-moslavačka županija',
@@ -1993,25 +1799,23 @@
                     '07' => 'Bjelovarsko-bilogorska županija',
                     '08' => 'Primorsko-goranska županija',
                     '09' => 'Ličko-senjska županija',
-                    10   => 'Virovitičko-podravska županija',
-                    11   => 'Požeško-slavonska županija',
-                    12   => 'Brodsko-posavska županija',
-                    13   => 'Zadarska županija',
-                    14   => 'Osječko-baranjska županija',
-                    15   => 'Šibensko-kninska županija',
-                    16   => 'Vukovarsko-srijemska županija',
-                    17   => 'Splitsko-dalmatinska županija',
-                    18   => 'Istarska županija',
-                    19   => 'Dubrovačko-neretvanska županija',
-                    20   => 'Međimurska županija',
-                    21   => 'Grad Zagreb',
+                    10 => 'Virovitičko-podravska županija',
+                    11 => 'Požeško-slavonska županija',
+                    12 => 'Brodsko-posavska županija',
+                    13 => 'Zadarska županija',
+                    14 => 'Osječko-baranjska županija',
+                    15 => 'Šibensko-kninska županija',
+                    16 => 'Vukovarsko-srijemska županija',
+                    17 => 'Splitsko-dalmatinska županija',
+                    18 => 'Istarska županija',
+                    19 => 'Dubrovačko-neretvanska županija',
+                    20 => 'Međimurska županija',
+                    21 => 'Grad Zagreb',
                 ],
         ],
-    'HTI' =>
-        [
-            'name'       => 'Haiti',
-            'subregions' =>
-                [
+    'HTI' => [
+            'name' => 'Haiti',
+            'subregions' => [
                     'AR' => 'Artibonite',
                     'CE' => 'Centre',
                     'GA' => 'Grande-Anse',
@@ -2023,11 +1827,9 @@
                     'SE' => 'Sud-Est',
                 ],
         ],
-    'HUN' =>
-        [
-            'name'       => 'Ungern',
-            'subregions' =>
-                [
+    'HUN' => [
+            'name' => 'Ungern',
+            'subregions' => [
                     'BA' => 'Baranya',
                     'BC' => 'Békéscsaba',
                     'BE' => 'Békés',
@@ -2073,11 +1875,9 @@
                     'ZE' => 'Zalaegerszeg',
                 ],
         ],
-    'IDN' =>
-        [
-            'name'       => 'Indonesien',
-            'subregions' =>
-                [
+    'IDN' => [
+            'name' => 'Indonesien',
+            'subregions' => [
                     'IJ' => 'Papua',
                     'JW' => 'Jawa',
                     'KA' => 'Kalimantan',
@@ -2087,42 +1887,34 @@
                     'SM' => 'Sumatera',
                 ],
         ],
-    'IRL' =>
-        [
-            'name'       => 'Irland',
-            'subregions' =>
-                [
+    'IRL' => [
+            'name' => 'Irland',
+            'subregions' => [
                     'C' => 'Connacht',
                     'L' => 'Leinster',
                     'M' => 'Munster',
                     'U' => 'Ulster',
                 ],
         ],
-    'ISR' =>
-        [
-            'name'       => 'Israel',
-            'subregions' =>
-                [
-                    'D'  => 'HaDarom',
+    'ISR' => [
+            'name' => 'Israel',
+            'subregions' => [
+                    'D' => 'HaDarom',
                     'HA' => 'Hefa',
                     'JM' => 'Yerushalayim Al Quds',
-                    'M'  => 'HaMerkaz',
+                    'M' => 'HaMerkaz',
                     'TA' => 'Tel-Aviv',
-                    'Z'  => 'HaZafon',
+                    'Z' => 'HaZafon',
                 ],
         ],
-    'IMN' =>
-        [
-            'name'       => 'Isle of Man',
-            'subregions' =>
-                [
+    'IMN' => [
+            'name' => 'Isle of Man',
+            'subregions' => [
                 ],
         ],
-    'IND' =>
-        [
-            'name'       => 'Indien',
-            'subregions' =>
-                [
+    'IND' => [
+            'name' => 'Indien',
+            'subregions' => [
                     'AN' => 'Andaman and Nicobar Islands',
                     'AP' => 'Andhra Pradesh',
                     'AR' => 'Arunachal Pradesh',
@@ -2160,18 +1952,14 @@
                     'WB' => 'West Bengal',
                 ],
         ],
-    'IOT' =>
-        [
-            'name'       => 'Brittiska Indiska oceanöarna',
-            'subregions' =>
-                [
+    'IOT' => [
+            'name' => 'Brittiska Indiska oceanöarna',
+            'subregions' => [
                 ],
         ],
-    'IRQ' =>
-        [
-            'name'       => 'Irak',
-            'subregions' =>
-                [
+    'IRQ' => [
+            'name' => 'Irak',
+            'subregions' => [
                     'AN' => 'Al Anbar',
                     'AR' => 'Arbil',
                     'BA' => 'Al Basrah',
@@ -2192,11 +1980,9 @@
                     'WA' => 'Wasit',
                 ],
         ],
-    'IRN' =>
-        [
-            'name'       => 'Iran',
-            'subregions' =>
-                [
+    'IRN' => [
+            'name' => 'Iran',
+            'subregions' => [
                     '01' => 'Āzarbāyjān-e Sharqī',
                     '02' => 'Āzarbāyjān-e Gharbī',
                     '03' => 'Ardabīl',
@@ -2205,35 +1991,33 @@
                     '06' => 'Būshehr',
                     '07' => 'Tehrān',
                     '08' => 'Chahār Mahāll va Bakhtīārī',
-                    10   => 'Khūzestān',
-                    11   => 'Zanjān',
-                    12   => 'Semnān',
-                    13   => 'Sīstān va Balūchestān',
-                    14   => 'Fārs',
-                    15   => 'Kermān',
-                    16   => 'Kordestān',
-                    17   => 'Kermānshāh',
-                    18   => 'Kohgīlūyeh va Būyer Ahmad',
-                    19   => 'Gīlān',
-                    20   => 'Lorestān',
-                    21   => 'Māzandarān',
-                    22   => 'Markazī',
-                    23   => 'Hormozgān',
-                    24   => 'Hamadān',
-                    25   => 'Yazd',
-                    26   => 'Qom',
-                    27   => 'Golestān',
-                    28   => 'Qazvīn',
-                    29   => 'Khorāsān-e Janūbī',
-                    30   => 'Khorāsān-e Razavī',
-                    31   => 'Khorāsān-e Shemālī',
+                    10 => 'Khūzestān',
+                    11 => 'Zanjān',
+                    12 => 'Semnān',
+                    13 => 'Sīstān va Balūchestān',
+                    14 => 'Fārs',
+                    15 => 'Kermān',
+                    16 => 'Kordestān',
+                    17 => 'Kermānshāh',
+                    18 => 'Kohgīlūyeh va Būyer Ahmad',
+                    19 => 'Gīlān',
+                    20 => 'Lorestān',
+                    21 => 'Māzandarān',
+                    22 => 'Markazī',
+                    23 => 'Hormozgān',
+                    24 => 'Hamadān',
+                    25 => 'Yazd',
+                    26 => 'Qom',
+                    27 => 'Golestān',
+                    28 => 'Qazvīn',
+                    29 => 'Khorāsān-e Janūbī',
+                    30 => 'Khorāsān-e Razavī',
+                    31 => 'Khorāsān-e Shemālī',
                 ],
         ],
-    'ISL' =>
-        [
-            'name'       => 'Island',
-            'subregions' =>
-                [
+    'ISL' => [
+            'name' => 'Island',
+            'subregions' => [
                     0 => 'Reykjavík',
                     1 => 'Höfuðborgarsvæðið',
                     2 => 'Suðurnes',
@@ -2245,11 +2029,9 @@
                     8 => 'Suðurland',
                 ],
         ],
-    'ITA' =>
-        [
-            'name'       => 'Italien',
-            'subregions' =>
-                [
+    'ITA' => [
+            'name' => 'Italien',
+            'subregions' => [
                     21 => 'Piemonte',
                     23 => 'Valle d\'Aosta',
                     25 => 'Lombardia',
@@ -2272,18 +2054,14 @@
                     88 => 'Sardegna',
                 ],
         ],
-    'JEY' =>
-        [
-            'name'       => 'Jersey',
-            'subregions' =>
-                [
+    'JEY' => [
+            'name' => 'Jersey',
+            'subregions' => [
                 ],
         ],
-    'JAM' =>
-        [
-            'name'       => 'Jamaica',
-            'subregions' =>
-                [
+    'JAM' => [
+            'name' => 'Jamaica',
+            'subregions' => [
                     '01' => 'Kingston',
                     '02' => 'Saint Andrew',
                     '03' => 'Saint Thomas',
@@ -2293,18 +2071,16 @@
                     '07' => 'Trelawny',
                     '08' => 'Saint James',
                     '09' => 'Hanover',
-                    10   => 'Westmoreland',
-                    11   => 'Saint Elizabeth',
-                    12   => 'Manchester',
-                    13   => 'Clarendon',
-                    14   => 'Saint Catherine',
+                    10 => 'Westmoreland',
+                    11 => 'Saint Elizabeth',
+                    12 => 'Manchester',
+                    13 => 'Clarendon',
+                    14 => 'Saint Catherine',
                 ],
         ],
-    'JOR' =>
-        [
-            'name'       => 'Jordanien',
-            'subregions' =>
-                [
+    'JOR' => [
+            'name' => 'Jordanien',
+            'subregions' => [
                     'AJ' => '‘Ajlūn',
                     'AM' => '‘Ammān (Al ‘Aşimah)',
                     'AQ' => 'Al ‘Aqabah',
@@ -2319,11 +2095,9 @@
                     'MN' => 'Ma‘ān',
                 ],
         ],
-    'JPN' =>
-        [
-            'name'       => 'Japan',
-            'subregions' =>
-                [
+    'JPN' => [
+            'name' => 'Japan',
+            'subregions' => [
                     '01' => 'Hokkaido',
                     '02' => 'Aomori',
                     '03' => 'Iwate',
@@ -2333,51 +2107,49 @@
                     '07' => 'Fukushima',
                     '08' => 'Ibaraki',
                     '09' => 'Tochigi',
-                    10   => 'Gunma',
-                    11   => 'Saitama',
-                    12   => 'Chiba',
-                    13   => 'Tokyo',
-                    14   => 'Kanagawa',
-                    15   => 'Niigata',
-                    16   => 'Toyama',
-                    17   => 'Ishikawa',
-                    18   => 'Fukui',
-                    19   => 'Yamanashi',
-                    20   => 'Nagano',
-                    21   => 'Gifu',
-                    22   => 'Shizuoka',
-                    23   => 'Aichi',
-                    24   => 'Mie',
-                    25   => 'Shiga',
-                    26   => 'Kyoto',
-                    27   => 'Osaka',
-                    28   => 'Hyogo',
-                    29   => 'Nara',
-                    30   => 'Wakayama',
-                    31   => 'Tottori',
-                    32   => 'Shimane',
-                    33   => 'Okayama',
-                    34   => 'Hiroshima',
-                    35   => 'Yamaguchi',
-                    36   => 'Tokushima',
-                    37   => 'Kagawa',
-                    38   => 'Ehime',
-                    39   => 'Kochi',
-                    40   => 'Fukuoka',
-                    41   => 'Saga',
-                    42   => 'Nagasaki',
-                    43   => 'Kumamoto',
-                    44   => 'Oita',
-                    45   => 'Miyazaki',
-                    46   => 'Kagoshima',
-                    47   => 'Okinawa',
+                    10 => 'Gunma',
+                    11 => 'Saitama',
+                    12 => 'Chiba',
+                    13 => 'Tokyo',
+                    14 => 'Kanagawa',
+                    15 => 'Niigata',
+                    16 => 'Toyama',
+                    17 => 'Ishikawa',
+                    18 => 'Fukui',
+                    19 => 'Yamanashi',
+                    20 => 'Nagano',
+                    21 => 'Gifu',
+                    22 => 'Shizuoka',
+                    23 => 'Aichi',
+                    24 => 'Mie',
+                    25 => 'Shiga',
+                    26 => 'Kyoto',
+                    27 => 'Osaka',
+                    28 => 'Hyogo',
+                    29 => 'Nara',
+                    30 => 'Wakayama',
+                    31 => 'Tottori',
+                    32 => 'Shimane',
+                    33 => 'Okayama',
+                    34 => 'Hiroshima',
+                    35 => 'Yamaguchi',
+                    36 => 'Tokushima',
+                    37 => 'Kagawa',
+                    38 => 'Ehime',
+                    39 => 'Kochi',
+                    40 => 'Fukuoka',
+                    41 => 'Saga',
+                    42 => 'Nagasaki',
+                    43 => 'Kumamoto',
+                    44 => 'Oita',
+                    45 => 'Miyazaki',
+                    46 => 'Kagoshima',
+                    47 => 'Okinawa',
                 ],
         ],
-    'KEN' =>
-        [
-            'name'       => 'Kenya',
-            'subregions' =>
-                [
+    'KEN' => [
+            'name' => 'Kenya',
+            'subregions' => [
                     110 => 'Nairobi Municipality',
                     200 => 'Central',
                     300 => 'Coast',
@@ -2387,27 +2159,23 @@
                     800 => 'Western Magharibi',
                 ],
         ],
-    'KGZ' =>
-        [
-            'name'       => 'Kirgizistan',
-            'subregions' =>
-                [
-                    'B'  => 'Batken',
-                    'C'  => 'Chü',
+    'KGZ' => [
+            'name' => 'Kirgizistan',
+            'subregions' => [
+                    'B' => 'Batken',
+                    'C' => 'Chü',
                     'GB' => 'Bishkek',
-                    'J'  => 'Jalal-Abad',
-                    'N'  => 'Naryn',
-                    'O'  => 'Osh',
-                    'T'  => 'Talas',
-                    'Y'  => 'Ysyk-Köl',
+                    'J' => 'Jalal-Abad',
+                    'N' => 'Naryn',
+                    'O' => 'Osh',
+                    'T' => 'Talas',
+                    'Y' => 'Ysyk-Köl',
                 ],
         ],
-    'KHM' =>
-        [
-            'name'       => 'Kambodja',
-            'subregions' =>
-                [
-                    1  => 'Banteay Mean Chey',
+    'KHM' => [
+            'name' => 'Kambodja',
+            'subregions' => [
+                    1 => 'Banteay Mean Chey',
                     10 => 'Krachoh',
                     11 => 'Mondol Kiri',
                     12 => 'Phnom Penh',
@@ -2418,55 +2186,47 @@
                     17 => 'Siem Reab',
                     18 => 'Krong Preah Sihanouk',
                     19 => 'Stueng Traeng',
-                    2  => 'Battambang',
+                    2 => 'Battambang',
                     20 => 'Svaay Rieng',
                     21 => 'Taakaev',
                     22 => 'Otdar Mean Chey',
                     23 => 'Krong Kaeb',
                     24 => 'Krong Pailin',
-                    3  => 'Kampong Cham',
-                    4  => 'Kampong Chhnang',
-                    5  => 'Kampong Speu',
-                    6  => 'Kampong Thom',
-                    7  => 'Kampot',
-                    8  => 'Kandal',
-                    9  => 'Kach Kong',
+                    3 => 'Kampong Cham',
+                    4 => 'Kampong Chhnang',
+                    5 => 'Kampong Speu',
+                    6 => 'Kampong Thom',
+                    7 => 'Kampot',
+                    8 => 'Kandal',
+                    9 => 'Kach Kong',
                 ],
         ],
-    'KIR' =>
-        [
-            'name'       => 'Kiribati',
-            'subregions' =>
-                [
+    'KIR' => [
+            'name' => 'Kiribati',
+            'subregions' => [
                     'G' => 'Gilbert Islands',
                     'L' => 'Line Islands',
                     'P' => 'Phoenix Islands',
                 ],
         ],
-    'COM' =>
-        [
-            'name'       => 'Komorerna',
-            'subregions' =>
-                [
+    'COM' => [
+            'name' => 'Komorerna',
+            'subregions' => [
                     'A' => 'Andjouân (Anjwān)',
                     'G' => 'Andjazîdja (Anjazījah)',
                     'M' => 'Moûhîlî (Mūhīlī)',
                 ],
         ],
-    'KNA' =>
-        [
-            'name'       => 'S:t Kitts och Nevis',
-            'subregions' =>
-                [
+    'KNA' => [
+            'name' => 'S:t Kitts och Nevis',
+            'subregions' => [
                     'K' => 'Saint Kitts',
                     'N' => 'Nevis',
                 ],
         ],
-    'PRK' =>
-        [
-            'name'       => 'Nordkorea',
-            'subregions' =>
-                [
+    'PRK' => [
+            'name' => 'Nordkorea',
+            'subregions' => [
                     '01' => 'P’yŏngyang',
                     '02' => 'P’yŏngan-namdo',
                     '03' => 'P’yŏngan-bukto',
@@ -2476,15 +2236,13 @@
                     '07' => 'Kangwŏn-do',
                     '08' => 'Hamgyŏng-namdo',
                     '09' => 'Hamgyŏng-bukto',
-                    10   => 'Yanggang-do',
-                    13   => 'Nasŏn (Najin-Sŏnbong)',
+                    10 => 'Yanggang-do',
+                    13 => 'Nasŏn (Najin-Sŏnbong)',
                 ],
         ],
-    'KOR' =>
-        [
-            'name'       => 'Sydkorea',
-            'subregions' =>
-                [
+    'KOR' => [
+            'name' => 'Sydkorea',
+            'subregions' => [
                     11 => 'Seoul Teugbyeolsi',
                     26 => 'Busan Gwang\'yeogsi',
                     27 => 'Daegu Gwang\'yeogsi',
@@ -2503,11 +2261,9 @@
                     49 => 'Jejudo',
                 ],
         ],
-    'KWT' =>
-        [
-            'name'       => 'Kuwait',
-            'subregions' =>
-                [
+    'KWT' => [
+            'name' => 'Kuwait',
+            'subregions' => [
                     'AH' => 'Al Ahmadi',
                     'FA' => 'Al Farwānīyah',
                     'HA' => 'Hawallī',
@@ -2516,18 +2272,14 @@
                     'MU' => 'Mubārak al Kabīr',
                 ],
         ],
-    'CYM' =>
-        [
-            'name'       => 'Caymanöarna',
-            'subregions' =>
-                [
+    'CYM' => [
+            'name' => 'Caymanöarna',
+            'subregions' => [
                 ],
         ],
-    'KAZ' =>
-        [
-            'name'       => 'Kazakstan',
-            'subregions' =>
-                [
+    'KAZ' => [
+            'name' => 'Kazakstan',
+            'subregions' => [
                     'AKM' => 'Aqmola oblysy',
                     'AKT' => 'Aqtöbe oblysy',
                     'ALA' => 'Almaty',
@@ -2546,11 +2298,9 @@
                     'ZHA' => 'Zhambyl oblysy',
                 ],
         ],
-    'LAO' =>
-        [
-            'name'       => 'Laos',
-            'subregions' =>
-                [
+    'LAO' => [
+            'name' => 'Laos',
+            'subregions' => [
                     'AT' => 'Attapu',
                     'BK' => 'Bokèo',
                     'BL' => 'Bolikhamxai',
@@ -2571,11 +2321,9 @@
                     'XN' => 'Xiasômboun',
                 ],
         ],
-    'LBN' =>
-        [
-            'name'       => 'Libanon',
-            'subregions' =>
-                [
+    'LBN' => [
+            'name' => 'Libanon',
+            'subregions' => [
                     'AK' => 'Aakkâr',
                     'AS' => 'Liban-Nord',
                     'BA' => 'Beyrouth',
@@ -2586,18 +2334,14 @@
                     'NA' => 'Nabatîyé',
                 ],
         ],
-    'LCA' =>
-        [
-            'name'       => 'S:t Lucia',
-            'subregions' =>
-                [
+    'LCA' => [
+            'name' => 'S:t Lucia',
+            'subregions' => [
                 ],
         ],
-    'LIE' =>
-        [
-            'name'       => 'Liechtenstein',
-            'subregions' =>
-                [
+    'LIE' => [
+            'name' => 'Liechtenstein',
+            'subregions' => [
                     '01' => 'Balzers',
                     '02' => 'Eschen',
                     '03' => 'Gamprin',
@@ -2607,15 +2351,13 @@
                     '07' => 'Schaan',
                     '08' => 'Schellenberg',
                     '09' => 'Triesen',
-                    10   => 'Triesenberg',
-                    11   => 'Vaduz',
+                    10 => 'Triesenberg',
+                    11 => 'Vaduz',
                 ],
         ],
-    'LKA' =>
-        [
-            'name'       => 'Sri Lanka',
-            'subregions' =>
-                [
+    'LKA' => [
+            'name' => 'Sri Lanka',
+            'subregions' => [
                     1 => 'Basnāhira paḷāta',
                     2 => 'Madhyama paḷāta',
                     3 => 'Dakuṇu paḷāta',
@@ -2627,11 +2369,9 @@
                     9 => 'Sabaragamuva paḷāta',
                 ],
         ],
-    'LBR' =>
-        [
-            'name'       => 'Liberia',
-            'subregions' =>
-                [
+    'LBR' => [
+            'name' => 'Liberia',
+            'subregions' => [
                     'BG' => 'Bong',
                     'BM' => 'Bomi',
                     'CM' => 'Grand Cape Mount',
@@ -2647,11 +2387,9 @@
                     'SI' => 'Sinoe',
                 ],
         ],
-    'LSO' =>
-        [
-            'name'       => 'Lesotho',
-            'subregions' =>
-                [
+    'LSO' => [
+            'name' => 'Lesotho',
+            'subregions' => [
                     'A' => 'Maseru',
                     'B' => 'Butha-Buthe',
                     'C' => 'Leribe',
@@ -2664,11 +2402,9 @@
                     'K' => 'Thaba-Tseka',
                 ],
         ],
-    'LTU' =>
-        [
-            'name'       => 'Litauen',
-            'subregions' =>
-                [
+    'LTU' => [
+            'name' => 'Litauen',
+            'subregions' => [
                     'AL' => 'Alytaus Apskritis',
                     'KL' => 'Klaipėdos Apskritis',
                     'KU' => 'Kauno Apskritis',
@@ -2681,21 +2417,17 @@
                     'VL' => 'Vilniaus Apskritis',
                 ],
         ],
-    'LUX' =>
-        [
-            'name'       => 'Luxemburg',
-            'subregions' =>
-                [
+    'LUX' => [
+            'name' => 'Luxemburg',
+            'subregions' => [
                     'D' => 'Diekirch',
                     'G' => 'Grevenmacher',
                     'L' => 'Luxembourg',
                 ],
         ],
-    'LVA' =>
-        [
-            'name'       => 'Lettland',
-            'subregions' =>
-                [
+    'LVA' => [
+            'name' => 'Lettland',
+            'subregions' => [
                     '001' => 'Aglonas novads',
                     '002' => 'Aizkraukles novads',
                     '003' => 'Aizputes novads',
@@ -2795,17 +2527,17 @@
                     '097' => 'Talsu novads',
                     '098' => 'Tērvetes novads',
                     '099' => 'Tukuma novads',
-                    100   => 'Vaiņodes novads',
-                    101   => 'Valkas novads',
-                    102   => 'Varakļānu novads',
-                    103   => 'Vārkavas novads',
-                    104   => 'Vecpiebalgas novads',
-                    105   => 'Vecumnieku novads',
-                    106   => 'Ventspils novads',
-                    107   => 'Viesītes novads',
-                    108   => 'Viļakas novads',
-                    109   => 'Viļānu novads',
-                    110   => 'Zilupes novads',
+                    100 => 'Vaiņodes novads',
+                    101 => 'Valkas novads',
+                    102 => 'Varakļānu novads',
+                    103 => 'Vārkavas novads',
+                    104 => 'Vecpiebalgas novads',
+                    105 => 'Vecumnieku novads',
+                    106 => 'Ventspils novads',
+                    107 => 'Viesītes novads',
+                    108 => 'Viļakas novads',
+                    109 => 'Viļānu novads',
+                    110 => 'Zilupes novads',
                     'DGV' => 'Daugavpils',
                     'JEL' => 'Jelgava',
                     'JKB' => 'Jēkabpils',
@@ -2817,11 +2549,9 @@
                     'VMR' => 'Valmiera',
                 ],
         ],
-    'LBY' =>
-        [
-            'name'       => 'Libyen',
-            'subregions' =>
-                [
+    'LBY' => [
+            'name' => 'Libyen',
+            'subregions' => [
                     'BA' => 'Banghāzī',
                     'BU' => 'Al Buţnān',
                     'DR' => 'Darnah',
@@ -2847,11 +2577,9 @@
                     'ZA' => 'Az Zāwiyah',
                 ],
         ],
-    'MAR' =>
-        [
-            'name'       => 'Marocko',
-            'subregions' =>
-                [
+    'MAR' => [
+            'name' => 'Marocko',
+            'subregions' => [
                     '01' => 'Tanger-Tétouan',
                     '02' => 'Gharb-Chrarda-Beni Hssen',
                     '03' => 'Taza-Al Hoceima-Taounate',
@@ -2861,20 +2589,18 @@
                     '07' => 'Rabat-Salé-Zemmour-Zaer',
                     '08' => 'Grand Casablanca',
                     '09' => 'Chaouia-Ouardigha',
-                    10   => 'Doukhala-Abda',
-                    11   => 'Marrakech-Tensift-Al Haouz',
-                    12   => 'Tadla-Azilal',
-                    13   => 'Sous-Massa-Draa',
-                    14   => 'Guelmim-Es Smara',
-                    15   => 'Laâyoune-Boujdour-Sakia el Hamra',
-                    16   => 'Oued ed Dahab-Lagouira',
+                    10 => 'Doukhala-Abda',
+                    11 => 'Marrakech-Tensift-Al Haouz',
+                    12 => 'Tadla-Azilal',
+                    13 => 'Sous-Massa-Draa',
+                    14 => 'Guelmim-Es Smara',
+                    15 => 'Laâyoune-Boujdour-Sakia el Hamra',
+                    16 => 'Oued ed Dahab-Lagouira',
                 ],
         ],
-    'MCO' =>
-        [
-            'name'       => 'Monaco',
-            'subregions' =>
-                [
+    'MCO' => [
+            'name' => 'Monaco',
+            'subregions' => [
                     'CL' => 'La Colle',
                     'CO' => 'La Condamine',
                     'FO' => 'Fontvieille',
@@ -2894,11 +2620,9 @@
                     'VR' => 'Vallon de la Rousse',
                 ],
         ],
-    'MDA' =>
-        [
-            'name'       => 'Moldavien',
-            'subregions' =>
-                [
+    'MDA' => [
+            'name' => 'Moldavien',
+            'subregions' => [
                     'AN' => 'Anenii Noi',
                     'BA' => 'Bălți',
                     'BD' => 'Tighina',
@@ -2938,11 +2662,9 @@
                     'UN' => 'Ungheni',
                 ],
         ],
-    'MNE' =>
-        [
-            'name'       => 'Montenegro',
-            'subregions' =>
-                [
+    'MNE' => [
+            'name' => 'Montenegro',
+            'subregions' => [
                     '01' => 'Andrijevica',
                     '02' => 'Bar',
                     '03' => 'Berane',
@@ -2952,32 +2674,28 @@
                     '07' => 'Danilovgrad',
                     '08' => 'Herceg-Novi',
                     '09' => 'Kolašin',
-                    10   => 'Kotor',
-                    11   => 'Mojkovac',
-                    12   => 'Nikšić',
-                    13   => 'Plav',
-                    14   => 'Pljevlja',
-                    15   => 'Plužine',
-                    16   => 'Podgorica',
-                    17   => 'Rožaje',
-                    18   => 'Šavnik',
-                    19   => 'Tivat',
-                    20   => 'Ulcinj',
-                    21   => 'Žabljak',
+                    10 => 'Kotor',
+                    11 => 'Mojkovac',
+                    12 => 'Nikšić',
+                    13 => 'Plav',
+                    14 => 'Pljevlja',
+                    15 => 'Plužine',
+                    16 => 'Podgorica',
+                    17 => 'Rožaje',
+                    18 => 'Šavnik',
+                    19 => 'Tivat',
+                    20 => 'Ulcinj',
+                    21 => 'Žabljak',
                 ],
         ],
-    'MAF' =>
-        [
-            'name'       => 'S:t Martin',
-            'subregions' =>
-                [
+    'MAF' => [
+            'name' => 'S:t Martin',
+            'subregions' => [
                 ],
         ],
-    'MDG' =>
-        [
-            'name'       => 'Madagaskar',
-            'subregions' =>
-                [
+    'MDG' => [
+            'name' => 'Madagaskar',
+            'subregions' => [
                     'A' => 'Toamasina',
                     'D' => 'Antsiranana',
                     'F' => 'Fianarantsoa',
@@ -2986,20 +2704,16 @@
                     'U' => 'Toliara',
                 ],
         ],
-    'MHL' =>
-        [
-            'name'       => 'Marshallöarna',
-            'subregions' =>
-                [
+    'MHL' => [
+            'name' => 'Marshallöarna',
+            'subregions' => [
                     'L' => 'Ralik chain',
                     'T' => 'Ratak chain',
                 ],
         ],
-    'MKD' =>
-        [
-            'name'       => 'Makedonien',
-            'subregions' =>
-                [
+    'MKD' => [
+            'name' => 'Makedonien',
+            'subregions' => [
                     '01' => 'Aerodrom',
                     '02' => 'Aračinovo',
                     '03' => 'Berovo',
@@ -3009,104 +2723,100 @@
                     '07' => 'Bosilovo',
                     '08' => 'Brvenica',
                     '09' => 'Butel',
-                    10   => 'Valandovo',
-                    11   => 'Vasilevo',
-                    12   => 'Vevčani',
-                    13   => 'Veles',
-                    14   => 'Vinica',
-                    15   => 'Vraneštica',
-                    16   => 'Vrapčište',
-                    17   => 'Gazi Baba',
-                    18   => 'Gevgelija',
-                    19   => 'Gostivar',
-                    20   => 'Gradsko',
-                    21   => 'Debar',
-                    22   => 'Debarca',
-                    23   => 'Delčevo',
-                    24   => 'Demir Kapija',
-                    25   => 'Demir Hisar',
-                    26   => 'Dojran',
-                    27   => 'Dolneni',
-                    28   => 'Drugovo',
-                    29   => 'Gjorče Petrov',
-                    30   => 'Želino',
-                    31   => 'Zajas',
-                    32   => 'Zelenikovo',
-                    33   => 'Zrnovci',
-                    34   => 'Ilinden',
-                    35   => 'Jegunovce',
-                    36   => 'Kavadarci',
-                    37   => 'Karbinci',
-                    38   => 'Karpoš',
-                    39   => 'Kisela Voda',
-                    40   => 'Kičevo',
-                    41   => 'Konče',
-                    42   => 'Kočani',
-                    43   => 'Kratovo',
-                    44   => 'Kriva Palanka',
-                    45   => 'Krivogaštani',
-                    46   => 'Kruševo',
-                    47   => 'Kumanovo',
-                    48   => 'Lipkovo',
-                    49   => 'Lozovo',
-                    50   => 'Mavrovo-i-Rostuša',
-                    51   => 'Makedonska Kamenica',
-                    52   => 'Makedonski Brod',
-                    53   => 'Mogila',
-                    54   => 'Negotino',
-                    55   => 'Novaci',
-                    56   => 'Novo Selo',
-                    57   => 'Oslomej',
-                    58   => 'Ohrid',
-                    59   => 'Petrovec',
-                    60   => 'Pehčevo',
-                    61   => 'Plasnica',
-                    62   => 'Prilep',
-                    63   => 'Probištip',
-                    64   => 'Radoviš',
-                    65   => 'Rankovce',
-                    66   => 'Resen',
-                    67   => 'Rosoman',
-                    68   => 'Saraj',
-                    69   => 'Sveti Nikole',
-                    70   => 'Sopište',
-                    71   => 'Staro Nagoričane',
-                    72   => 'Struga',
-                    73   => 'Strumica',
-                    74   => 'Studeničani',
-                    75   => 'Tearce',
-                    76   => 'Tetovo',
-                    77   => 'Centar',
-                    78   => 'Centar Župa',
-                    79   => 'Čair',
-                    80   => 'Čaška',
-                    81   => 'Češinovo-Obleševo',
-                    82   => 'Čučer Sandevo',
-                    83   => 'Štip',
-                    84   => 'Šuto Orizari',
+                    10 => 'Valandovo',
+                    11 => 'Vasilevo',
+                    12 => 'Vevčani',
+                    13 => 'Veles',
+                    14 => 'Vinica',
+                    15 => 'Vraneštica',
+                    16 => 'Vrapčište',
+                    17 => 'Gazi Baba',
+                    18 => 'Gevgelija',
+                    19 => 'Gostivar',
+                    20 => 'Gradsko',
+                    21 => 'Debar',
+                    22 => 'Debarca',
+                    23 => 'Delčevo',
+                    24 => 'Demir Kapija',
+                    25 => 'Demir Hisar',
+                    26 => 'Dojran',
+                    27 => 'Dolneni',
+                    28 => 'Drugovo',
+                    29 => 'Gjorče Petrov',
+                    30 => 'Želino',
+                    31 => 'Zajas',
+                    32 => 'Zelenikovo',
+                    33 => 'Zrnovci',
+                    34 => 'Ilinden',
+                    35 => 'Jegunovce',
+                    36 => 'Kavadarci',
+                    37 => 'Karbinci',
+                    38 => 'Karpoš',
+                    39 => 'Kisela Voda',
+                    40 => 'Kičevo',
+                    41 => 'Konče',
+                    42 => 'Kočani',
+                    43 => 'Kratovo',
+                    44 => 'Kriva Palanka',
+                    45 => 'Krivogaštani',
+                    46 => 'Kruševo',
+                    47 => 'Kumanovo',
+                    48 => 'Lipkovo',
+                    49 => 'Lozovo',
+                    50 => 'Mavrovo-i-Rostuša',
+                    51 => 'Makedonska Kamenica',
+                    52 => 'Makedonski Brod',
+                    53 => 'Mogila',
+                    54 => 'Negotino',
+                    55 => 'Novaci',
+                    56 => 'Novo Selo',
+                    57 => 'Oslomej',
+                    58 => 'Ohrid',
+                    59 => 'Petrovec',
+                    60 => 'Pehčevo',
+                    61 => 'Plasnica',
+                    62 => 'Prilep',
+                    63 => 'Probištip',
+                    64 => 'Radoviš',
+                    65 => 'Rankovce',
+                    66 => 'Resen',
+                    67 => 'Rosoman',
+                    68 => 'Saraj',
+                    69 => 'Sveti Nikole',
+                    70 => 'Sopište',
+                    71 => 'Staro Nagoričane',
+                    72 => 'Struga',
+                    73 => 'Strumica',
+                    74 => 'Studeničani',
+                    75 => 'Tearce',
+                    76 => 'Tetovo',
+                    77 => 'Centar',
+                    78 => 'Centar Župa',
+                    79 => 'Čair',
+                    80 => 'Čaška',
+                    81 => 'Češinovo-Obleševo',
+                    82 => 'Čučer Sandevo',
+                    83 => 'Štip',
+                    84 => 'Šuto Orizari',
                 ],
         ],
-    'MLI' =>
-        [
-            'name'       => 'Mali',
-            'subregions' =>
-                [
-                    1     => 'Kayes',
-                    2     => 'Koulikoro',
-                    3     => 'Sikasso',
-                    4     => 'Ségou',
-                    5     => 'Mopti',
-                    6     => 'Tombouctou',
-                    7     => 'Gao',
-                    8     => 'Kidal',
+    'MLI' => [
+            'name' => 'Mali',
+            'subregions' => [
+                    1 => 'Kayes',
+                    2 => 'Koulikoro',
+                    3 => 'Sikasso',
+                    4 => 'Ségou',
+                    5 => 'Mopti',
+                    6 => 'Tombouctou',
+                    7 => 'Gao',
+                    8 => 'Kidal',
                     'BK0' => 'Bamako',
                 ],
         ],
-    'MMR' =>
-        [
-            'name'       => 'Myanmar',
-            'subregions' =>
-                [
+    'MMR' => [
+            'name' => 'Myanmar',
+            'subregions' => [
                     '01' => 'Sagaing',
                     '02' => 'Bago',
                     '03' => 'Magway',
@@ -3114,20 +2824,18 @@
                     '05' => 'Tanintharyi',
                     '06' => 'Yangon',
                     '07' => 'Ayeyarwady',
-                    11   => 'Kachin',
-                    12   => 'Kayah',
-                    13   => 'Kayin',
-                    14   => 'Chin',
-                    15   => 'Mon',
-                    16   => 'Rakhine',
-                    17   => 'Shan',
+                    11 => 'Kachin',
+                    12 => 'Kayah',
+                    13 => 'Kayin',
+                    14 => 'Chin',
+                    15 => 'Mon',
+                    16 => 'Rakhine',
+                    17 => 'Shan',
                 ],
         ],
-    'MNG' =>
-        [
-            'name'       => 'Mongoliet',
-            'subregions' =>
-                [
+    'MNG' => [
+            'name' => 'Mongoliet',
+            'subregions' => [
                     '035' => 'Orhon',
                     '037' => 'Darhan uul',
                     '039' => 'Hentiy',
@@ -3149,62 +2857,50 @@
                     '069' => 'Bayanhongor',
                     '071' => 'Bayan-Ölgiy',
                     '073' => 'Arhangay',
-                    1     => 'Ulanbaatar',
+                    1 => 'Ulanbaatar',
                 ],
         ],
-    'MAC' =>
-        [
-            'name'       => 'Macao',
-            'subregions' =>
-                [
+    'MAC' => [
+            'name' => 'Macao',
+            'subregions' => [
                 ],
         ],
-    'MNP' =>
-        [
-            'name'       => 'Nordmarianerna',
-            'subregions' =>
-                [
+    'MNP' => [
+            'name' => 'Nordmarianerna',
+            'subregions' => [
                 ],
         ],
-    'MTQ' =>
-        [
-            'name'       => 'Martinique',
-            'subregions' =>
-                [
+    'MTQ' => [
+            'name' => 'Martinique',
+            'subregions' => [
                 ],
         ],
-    'MRT' =>
-        [
-            'name'       => 'Mauretanien',
-            'subregions' =>
-                [
-                    '01'  => 'Hodh ech Chargui',
-                    '02'  => 'Hodh el Charbi',
-                    '03'  => 'Assaba',
-                    '04'  => 'Gorgol',
-                    '05'  => 'Brakna',
-                    '06'  => 'Trarza',
-                    '07'  => 'Adrar',
-                    '08'  => 'Dakhlet Nouadhibou',
-                    '09'  => 'Tagant',
-                    10    => 'Guidimaka',
-                    11    => 'Tiris Zemmour',
-                    12    => 'Inchiri',
+    'MRT' => [
+            'name' => 'Mauretanien',
+            'subregions' => [
+                    '01' => 'Hodh ech Chargui',
+                    '02' => 'Hodh el Charbi',
+                    '03' => 'Assaba',
+                    '04' => 'Gorgol',
+                    '05' => 'Brakna',
+                    '06' => 'Trarza',
+                    '07' => 'Adrar',
+                    '08' => 'Dakhlet Nouadhibou',
+                    '09' => 'Tagant',
+                    10 => 'Guidimaka',
+                    11 => 'Tiris Zemmour',
+                    12 => 'Inchiri',
                     'NKC' => 'Nouakchott',
                 ],
         ],
-    'MSR' =>
-        [
-            'name'       => 'Montserrat',
-            'subregions' =>
-                [
+    'MSR' => [
+            'name' => 'Montserrat',
+            'subregions' => [
                 ],
         ],
-    'MLT' =>
-        [
-            'name'       => 'Malta',
-            'subregions' =>
-                [
+    'MLT' => [
+            'name' => 'Malta',
+            'subregions' => [
                     '01' => 'Attard',
                     '02' => 'Balzan',
                     '03' => 'Birgu',
@@ -3214,72 +2910,70 @@
                     '07' => 'Dingli',
                     '08' => 'Fgura',
                     '09' => 'Floriana',
-                    10   => 'Fontana',
-                    11   => 'Gudja',
-                    12   => 'Gżira',
-                    13   => 'Għajnsielem',
-                    14   => 'Għarb',
-                    15   => 'Għargħur',
-                    16   => 'Għasri',
-                    17   => 'Għaxaq',
-                    18   => 'Ħamrun',
-                    19   => 'Iklin',
-                    20   => 'Isla',
-                    21   => 'Kalkara',
-                    22   => 'Kerċem',
-                    23   => 'Kirkop',
-                    24   => 'Lija',
-                    25   => 'Luqa',
-                    26   => 'Marsa',
-                    27   => 'Marsaskala',
-                    28   => 'Marsaxlokk',
-                    29   => 'Mdina',
-                    30   => 'Mellieħa',
-                    31   => 'Mġarr',
-                    32   => 'Mosta',
-                    33   => 'Mqabba',
-                    34   => 'Msida',
-                    35   => 'Mtarfa',
-                    36   => 'Munxar',
-                    37   => 'Nadur',
-                    38   => 'Naxxar',
-                    39   => 'Paola',
-                    40   => 'Pembroke',
-                    41   => 'Pietà',
-                    42   => 'Qala',
-                    43   => 'Qormi',
-                    44   => 'Qrendi',
-                    45   => 'Rabat Għawdex',
-                    46   => 'Rabat Malta',
-                    47   => 'Safi',
-                    48   => 'San Ġiljan',
-                    49   => 'San Ġwann',
-                    50   => 'San Lawrenz',
-                    51   => 'San Pawl il-Baħar',
-                    52   => 'Sannat',
-                    53   => 'Santa Luċija',
-                    54   => 'Santa Venera',
-                    55   => 'Siġġiewi',
-                    56   => 'Sliema',
-                    57   => 'Swieqi',
-                    58   => 'Ta’ Xbiex',
-                    59   => 'Tarxien',
-                    60   => 'Valletta',
-                    61   => 'Xagħra',
-                    62   => 'Xewkija',
-                    63   => 'Xgħajra',
-                    64   => 'Żabbar',
-                    65   => 'Żebbuġ Għawdex',
-                    66   => 'Żebbuġ Malta',
-                    67   => 'Żejtun',
-                    68   => 'Żurrieq',
+                    10 => 'Fontana',
+                    11 => 'Gudja',
+                    12 => 'Gżira',
+                    13 => 'Għajnsielem',
+                    14 => 'Għarb',
+                    15 => 'Għargħur',
+                    16 => 'Għasri',
+                    17 => 'Għaxaq',
+                    18 => 'Ħamrun',
+                    19 => 'Iklin',
+                    20 => 'Isla',
+                    21 => 'Kalkara',
+                    22 => 'Kerċem',
+                    23 => 'Kirkop',
+                    24 => 'Lija',
+                    25 => 'Luqa',
+                    26 => 'Marsa',
+                    27 => 'Marsaskala',
+                    28 => 'Marsaxlokk',
+                    29 => 'Mdina',
+                    30 => 'Mellieħa',
+                    31 => 'Mġarr',
+                    32 => 'Mosta',
+                    33 => 'Mqabba',
+                    34 => 'Msida',
+                    35 => 'Mtarfa',
+                    36 => 'Munxar',
+                    37 => 'Nadur',
+                    38 => 'Naxxar',
+                    39 => 'Paola',
+                    40 => 'Pembroke',
+                    41 => 'Pietà',
+                    42 => 'Qala',
+                    43 => 'Qormi',
+                    44 => 'Qrendi',
+                    45 => 'Rabat Għawdex',
+                    46 => 'Rabat Malta',
+                    47 => 'Safi',
+                    48 => 'San Ġiljan',
+                    49 => 'San Ġwann',
+                    50 => 'San Lawrenz',
+                    51 => 'San Pawl il-Baħar',
+                    52 => 'Sannat',
+                    53 => 'Santa Luċija',
+                    54 => 'Santa Venera',
+                    55 => 'Siġġiewi',
+                    56 => 'Sliema',
+                    57 => 'Swieqi',
+                    58 => 'Ta’ Xbiex',
+                    59 => 'Tarxien',
+                    60 => 'Valletta',
+                    61 => 'Xagħra',
+                    62 => 'Xewkija',
+                    63 => 'Xgħajra',
+                    64 => 'Żabbar',
+                    65 => 'Żebbuġ Għawdex',
+                    66 => 'Żebbuġ Malta',
+                    67 => 'Żejtun',
+                    68 => 'Żurrieq',
                 ],
         ],
-    'MUS' =>
-        [
-            'name'       => 'Mauritius',
-            'subregions' =>
-                [
+    'MUS' => [
+            'name' => 'Mauritius',
+            'subregions' => [
                     'AG' => 'Agalega Islands',
                     'BL' => 'Black River',
                     'BR' => 'Beau Bassin-Rose Hill',
@@ -3299,36 +2993,30 @@
                     'VP' => 'Vacoas-Phoenix',
                 ],
         ],
-    'MDV' =>
-        [
-            'name'       => 'Maldiverna',
-            'subregions' =>
-                [
-                    'CE'  => 'Central',
+    'MDV' => [
+            'name' => 'Maldiverna',
+            'subregions' => [
+                    'CE' => 'Central',
                     'MLE' => 'Male',
-                    'NC'  => 'North Central',
-                    'NO'  => 'North',
-                    'SC'  => 'South Central',
-                    'SU'  => 'South',
-                    'UN'  => 'Upper North',
-                    'US'  => 'Upper South',
+                    'NC' => 'North Central',
+                    'NO' => 'North',
+                    'SC' => 'South Central',
+                    'SU' => 'South',
+                    'UN' => 'Upper North',
+                    'US' => 'Upper South',
                 ],
         ],
-    'MWI' =>
-        [
-            'name'       => 'Malawi',
-            'subregions' =>
-                [
+    'MWI' => [
+            'name' => 'Malawi',
+            'subregions' => [
                     'C' => 'Central Region',
                     'N' => 'Northern Region',
                     'S' => 'Southern Region',
                 ],
         ],
-    'MEX' =>
-        [
-            'name'       => 'Mexiko',
-            'subregions' =>
-                [
+    'MEX' => [
+            'name' => 'Mexiko',
+            'subregions' => [
                     'AGU' => 'Aguascalientes',
                     'BCN' => 'Baja California',
                     'BCS' => 'Baja California Sur',
@@ -3363,11 +3051,9 @@
                     'ZAC' => 'Zacatecas',
                 ],
         ],
-    'MYS' =>
-        [
-            'name'       => 'Malaysia',
-            'subregions' =>
-                [
+    'MYS' => [
+            'name' => 'Malaysia',
+            'subregions' => [
                     '01' => 'Johor',
                     '02' => 'Kedah',
                     '03' => 'Kelantan',
@@ -3377,38 +3063,34 @@
                     '07' => 'Pulau Pinang',
                     '08' => 'Perak',
                     '09' => 'Perlis',
-                    10   => 'Selangor',
-                    11   => 'Terengganu',
-                    12   => 'Sabah',
-                    13   => 'Sarawak',
-                    14   => 'Wilayah Persekutuan Kuala Lumpur',
-                    15   => 'Wilayah Persekutuan Labuan',
-                    16   => 'Wilayah Persekutuan Putrajaya',
+                    10 => 'Selangor',
+                    11 => 'Terengganu',
+                    12 => 'Sabah',
+                    13 => 'Sarawak',
+                    14 => 'Wilayah Persekutuan Kuala Lumpur',
+                    15 => 'Wilayah Persekutuan Labuan',
+                    16 => 'Wilayah Persekutuan Putrajaya',
                 ],
         ],
-    'MOZ' =>
-        [
-            'name'       => 'Moçambique',
-            'subregions' =>
-                [
-                    'A'   => 'Niassa',
-                    'B'   => 'Manica',
-                    'G'   => 'Gaza',
-                    'I'   => 'Inhambane',
-                    'L'   => 'Maputo',
+    'MOZ' => [
+            'name' => 'Moçambique',
+            'subregions' => [
+                    'A' => 'Niassa',
+                    'B' => 'Manica',
+                    'G' => 'Gaza',
+                    'I' => 'Inhambane',
+                    'L' => 'Maputo',
                     'MPM' => 'Maputo (city)',
-                    'N'   => 'Numpula',
-                    'P'   => 'Cabo Delgado',
-                    'Q'   => 'Zambezia',
-                    'S'   => 'Sofala',
-                    'T'   => 'Tete',
+                    'N' => 'Numpula',
+                    'P' => 'Cabo Delgado',
+                    'Q' => 'Zambezia',
+                    'S' => 'Sofala',
+                    'T' => 'Tete',
                 ],
         ],
-    'NAM' =>
-        [
-            'name'       => 'Namibia',
-            'subregions' =>
-                [
+    'NAM' => [
+            'name' => 'Namibia',
+            'subregions' => [
                     'CA' => 'Caprivi',
                     'ER' => 'Erongo',
                     'HA' => 'Hardap',
@@ -3424,18 +3106,14 @@
                     'OW' => 'Ohangwena',
                 ],
         ],
-    'NCL' =>
-        [
-            'name'       => 'Nya Kaledonien',
-            'subregions' =>
-                [
+    'NCL' => [
+            'name' => 'Nya Kaledonien',
+            'subregions' => [
                 ],
         ],
-    'NER' =>
-        [
-            'name'       => 'Niger',
-            'subregions' =>
-                [
+    'NER' => [
+            'name' => 'Niger',
+            'subregions' => [
                     1 => 'Agadez',
                     2 => 'Diffa',
                     3 => 'Dosso',
@@ -3446,18 +3124,14 @@
                     8 => 'Niamey',
                 ],
         ],
-    'NFK' =>
-        [
-            'name'       => 'Norfolkön',
-            'subregions' =>
-                [
+    'NFK' => [
+            'name' => 'Norfolkön',
+            'subregions' => [
                 ],
         ],
-    'NGA' =>
-        [
-            'name'       => 'Nigeria',
-            'subregions' =>
-                [
+    'NGA' => [
+            'name' => 'Nigeria',
+            'subregions' => [
                     'AB' => 'Abia',
                     'AD' => 'Adamawa',
                     'AK' => 'Akwa Ibom',
@@ -3497,11 +3171,9 @@
                     'ZA' => 'Zamfara',
                 ],
         ],
-    'NIC' =>
-        [
-            'name'       => 'Nicaragua',
-            'subregions' =>
-                [
+    'NIC' => [
+            'name' => 'Nicaragua',
+            'subregions' => [
                     'AN' => 'Atlántico Norte',
                     'AS' => 'Atlántico Sur',
                     'BO' => 'Boaco',
@@ -3521,36 +3193,32 @@
                     'SJ' => 'Río San Juan',
                 ],
         ],
-    'NLD' =>
-        [
-            'name'       => 'Nederländerna',
-            'subregions' =>
-                [
-                    'AW'  => 'Aruba',
+    'NLD' => [
+            'name' => 'Nederländerna',
+            'subregions' => [
+                    'AW' => 'Aruba',
                     'BQ1' => 'Bonaire',
                     'BQ2' => 'Saba',
                     'BQ3' => 'Sint Eustatius',
-                    'CW'  => 'Curaçao',
-                    'DR'  => 'Drenthe',
-                    'FL'  => 'Flevoland',
-                    'FR'  => 'Friesland',
-                    'GE'  => 'Gelderland',
-                    'GR'  => 'Groningen',
-                    'LI'  => 'Limburg',
-                    'NB'  => 'Noord-Brabant',
-                    'NH'  => 'Noord-Holland',
-                    'OV'  => 'Overijssel',
-                    'SX'  => 'Sint Maarten',
-                    'UT'  => 'Utrecht',
-                    'ZE'  => 'Zeeland',
-                    'ZH'  => 'Zuid-Holland',
+                    'CW' => 'Curaçao',
+                    'DR' => 'Drenthe',
+                    'FL' => 'Flevoland',
+                    'FR' => 'Friesland',
+                    'GE' => 'Gelderland',
+                    'GR' => 'Groningen',
+                    'LI' => 'Limburg',
+                    'NB' => 'Noord-Brabant',
+                    'NH' => 'Noord-Holland',
+                    'OV' => 'Overijssel',
+                    'SX' => 'Sint Maarten',
+                    'UT' => 'Utrecht',
+                    'ZE' => 'Zeeland',
+                    'ZH' => 'Zuid-Holland',
                 ],
         ],
-    'NOR' =>
-        [
-            'name'       => 'Norge',
-            'subregions' =>
-                [
+    'NOR' => [
+            'name' => 'Norge',
+            'subregions' => [
                     '01' => 'Østfold',
                     '02' => 'Akershus',
                     '03' => 'Oslo',
@@ -3560,25 +3228,23 @@
                     '07' => 'Vestfold',
                     '08' => 'Telemark',
                     '09' => 'Aust-Agder',
-                    10   => 'Vest-Agder',
-                    11   => 'Rogaland',
-                    12   => 'Hordaland',
-                    14   => 'Sogn og Fjordane',
-                    15   => 'Møre og Romsdal',
-                    16   => 'Sør-Trøndelag',
-                    17   => 'Nord-Trøndelag',
-                    18   => 'Nordland',
-                    19   => 'Troms',
-                    20   => 'Finnmark',
-                    21   => 'Svalbard (Arctic Region)',
-                    22   => 'Jan Mayen (Arctic Region)',
+                    10 => 'Vest-Agder',
+                    11 => 'Rogaland',
+                    12 => 'Hordaland',
+                    14 => 'Sogn og Fjordane',
+                    15 => 'Møre og Romsdal',
+                    16 => 'Sør-Trøndelag',
+                    17 => 'Nord-Trøndelag',
+                    18 => 'Nordland',
+                    19 => 'Troms',
+                    20 => 'Finnmark',
+                    21 => 'Svalbard (Arctic Region)',
+                    22 => 'Jan Mayen (Arctic Region)',
                 ],
         ],
-    'NPL' =>
-        [
-            'name'       => 'Nepal',
-            'subregions' =>
-                [
+    'NPL' => [
+            'name' => 'Nepal',
+            'subregions' => [
                     1 => 'Madhyamanchal',
                     2 => 'Madhya Pashchimanchal',
                     3 => 'Pashchimanchal',
@@ -3586,11 +3252,9 @@
                     5 => 'Sudur Pashchimanchal',
                 ],
         ],
-    'NRU' =>
-        [
-            'name'       => 'Nauru',
-            'subregions' =>
-                [
+    'NRU' => [
+            'name' => 'Nauru',
+            'subregions' => [
                     '01' => 'Aiwo',
                     '02' => 'Anabar',
                     '03' => 'Anetan',
@@ -3600,35 +3264,29 @@
                     '07' => 'Buada',
                     '08' => 'Denigomodu',
                     '09' => 'Ewa',
-                    10   => 'Ijuw',
-                    11   => 'Meneng',
-                    12   => 'Nibok',
-                    13   => 'Uaboe',
-                    14   => 'Yaren',
+                    10 => 'Ijuw',
+                    11 => 'Meneng',
+                    12 => 'Nibok',
+                    13 => 'Uaboe',
+                    14 => 'Yaren',
                 ],
         ],
-    'NIU' =>
-        [
-            'name'       => 'Niue',
-            'subregions' =>
-                [
+    'NIU' => [
+            'name' => 'Niue',
+            'subregions' => [
                 ],
         ],
-    'NZL' =>
-        [
-            'name'       => 'Nya Zeeland',
-            'subregions' =>
-                [
+    'NZL' => [
+            'name' => 'Nya Zeeland',
+            'subregions' => [
                     'CIT' => 'Chatham Islands Territory',
-                    'N'   => 'North Island',
-                    'S'   => 'South Island',
+                    'N' => 'North Island',
+                    'S' => 'South Island',
                 ],
         ],
-    'OMN' =>
-        [
-            'name'       => 'Oman',
-            'subregions' =>
-                [
+    'OMN' => [
+            'name' => 'Oman',
+            'subregions' => [
                     'BA' => 'Al Bāţinah',
                     'BU' => 'Al Buraymī',
                     'DA' => 'Ad Dākhilīya',
@@ -3640,30 +3298,26 @@
                     'ZU' => 'Z̧ufār',
                 ],
         ],
-    'PAN' =>
-        [
-            'name'       => 'Panama',
-            'subregions' =>
-                [
-                    1    => 'Bocas del Toro',
-                    2    => 'Coclé',
-                    3    => 'Colón',
-                    4    => 'Chiriquí',
-                    5    => 'Darién',
-                    6    => 'Herrera',
-                    7    => 'Los Santos',
-                    8    => 'Panamá',
-                    9    => 'Veraguas',
+    'PAN' => [
+            'name' => 'Panama',
+            'subregions' => [
+                    1 => 'Bocas del Toro',
+                    2 => 'Coclé',
+                    3 => 'Colón',
+                    4 => 'Chiriquí',
+                    5 => 'Darién',
+                    6 => 'Herrera',
+                    7 => 'Los Santos',
+                    8 => 'Panamá',
+                    9 => 'Veraguas',
                     'EM' => 'Emberá',
                     'KY' => 'Kuna Yala',
                     'NB' => 'Ngöbe-Buglé',
                 ],
         ],
-    'PER' =>
-        [
-            'name'       => 'Peru',
-            'subregions' =>
-                [
+    'PER' => [
+            'name' => 'Peru',
+            'subregions' => [
                     'AMA' => 'Amazonas',
                     'ANC' => 'Ancash',
                     'APU' => 'Apurímac',
@@ -3692,18 +3346,14 @@
                     'UCA' => 'Ucayali',
                 ],
         ],
-    'PYF' =>
-        [
-            'name'       => 'Franska Polynesien',
-            'subregions' =>
-                [
+    'PYF' => [
+            'name' => 'Franska Polynesien',
+            'subregions' => [
                 ],
         ],
-    'PNG' =>
-        [
-            'name'       => 'Papua Nya Guinea',
-            'subregions' =>
-                [
+    'PNG' => [
+            'name' => 'Papua Nya Guinea',
+            'subregions' => [
                     'CPK' => 'Chimbu',
                     'CPM' => 'Central',
                     'EBR' => 'East New Britain',
@@ -3726,11 +3376,9 @@
                     'WPD' => 'Western',
                 ],
         ],
-    'PHL' =>
-        [
-            'name'       => 'Filippinerna',
-            'subregions' =>
-                [
+    'PHL' => [
+            'name' => 'Filippinerna',
+            'subregions' => [
                     '00' => 'National Capital Region',
                     '01' => 'Ilocos (Region I)',
                     '02' => 'Cagayan Valley (Region II)',
@@ -3740,21 +3388,19 @@
                     '07' => 'Central Visayas (Region VII)',
                     '08' => 'Eastern Visayas (Region VIII)',
                     '09' => 'Zamboanga Peninsula (Region IX)',
-                    10   => 'Northern Mindanao (Region X)',
-                    11   => 'Davao (Region XI)',
-                    12   => 'Soccsksargen (Region XII)',
-                    13   => 'Caraga (Region XIII)',
-                    14   => 'Autonomous Region in Muslim Mindanao (ARMM)',
-                    15   => 'Cordillera Administrative Region (CAR)',
-                    40   => 'CALABARZON (Region IV-A)',
-                    41   => 'MIMAROPA (Region IV-B)',
+                    10 => 'Northern Mindanao (Region X)',
+                    11 => 'Davao (Region XI)',
+                    12 => 'Soccsksargen (Region XII)',
+                    13 => 'Caraga (Region XIII)',
+                    14 => 'Autonomous Region in Muslim Mindanao (ARMM)',
+                    15 => 'Cordillera Administrative Region (CAR)',
+                    40 => 'CALABARZON (Region IV-A)',
+                    41 => 'MIMAROPA (Region IV-B)',
                 ],
         ],
-    'PAK' =>
-        [
-            'name'       => 'Pakistan',
-            'subregions' =>
-                [
+    'PAK' => [
+            'name' => 'Pakistan',
+            'subregions' => [
                     'BA' => 'Balochistan',
                     'GB' => 'Gilgit-Baltistan',
                     'IS' => 'Islamabad',
@@ -3765,11 +3411,9 @@
                     'TA' => 'Federally Administered Tribal Areas',
                 ],
         ],
-    'POL' =>
-        [
-            'name'       => 'Polen',
-            'subregions' =>
-                [
+    'POL' => [
+            'name' => 'Polen',
+            'subregions' => [
                     'DS' => 'Dolnośląskie',
                     'KP' => 'Kujawsko-pomorskie',
                     'LB' => 'Lubuskie',
@@ -3788,25 +3432,19 @@
                     'ZP' => 'Zachodniopomorskie',
                 ],
         ],
-    'SPM' =>
-        [
-            'name'       => 'S:t Pierre och Miquelon',
-            'subregions' =>
-                [
+    'SPM' => [
+            'name' => 'S:t Pierre och Miquelon',
+            'subregions' => [
                 ],
         ],
-    'PCN' =>
-        [
-            'name'       => 'Pitcairn',
-            'subregions' =>
-                [
+    'PCN' => [
+            'name' => 'Pitcairn',
+            'subregions' => [
                 ],
         ],
-    'PSE' =>
-        [
-            'name'       => 'Palestinska territoriet',
-            'subregions' =>
-                [
+    'PSE' => [
+            'name' => 'Palestinska territoriet',
+            'subregions' => [
                     'BTH' => 'Bethlehem',
                     'DEB' => 'Deir El Balah',
                     'GZA' => 'Gaza',
@@ -3825,11 +3463,9 @@
                     'TKM' => 'Tulkarm',
                 ],
         ],
-    'PRT' =>
-        [
-            'name'       => 'Portugal',
-            'subregions' =>
-                [
+    'PRT' => [
+            'name' => 'Portugal',
+            'subregions' => [
                     '01' => 'Aveiro',
                     '02' => 'Beja',
                     '03' => 'Braga',
@@ -3839,72 +3475,66 @@
                     '07' => 'Évora',
                     '08' => 'Faro',
                     '09' => 'Guarda',
-                    10   => 'Leiria',
-                    11   => 'Lisboa',
-                    12   => 'Portalegre',
-                    13   => 'Porto',
-                    14   => 'Santarém',
-                    15   => 'Setúbal',
-                    16   => 'Viana do Castelo',
-                    17   => 'Vila Real',
-                    18   => 'Viseu',
-                    20   => 'Região Autónoma dos Açores',
-                    30   => 'Região Autónoma da Madeira',
+                    10 => 'Leiria',
+                    11 => 'Lisboa',
+                    12 => 'Portalegre',
+                    13 => 'Porto',
+                    14 => 'Santarém',
+                    15 => 'Setúbal',
+                    16 => 'Viana do Castelo',
+                    17 => 'Vila Real',
+                    18 => 'Viseu',
+                    20 => 'Região Autónoma dos Açores',
+                    30 => 'Região Autónoma da Madeira',
                 ],
         ],
-    'PLW' =>
-        [
-            'name'       => 'Palau',
-            'subregions' =>
-                [
+    'PLW' => [
+            'name' => 'Palau',
+            'subregions' => [
                     '002' => 'Aimeliik',
                     '004' => 'Airai',
                     '010' => 'Angaur',
                     '050' => 'Hatobohei',
-                    100   => 'Kayangel',
-                    150   => 'Koror',
-                    212   => 'Melekeok',
-                    214   => 'Ngaraard',
-                    218   => 'Ngarchelong',
-                    222   => 'Ngardmau',
-                    224   => 'Ngatpang',
-                    226   => 'Ngchesar',
-                    227   => 'Ngeremlengui',
-                    228   => 'Ngiwal',
-                    350   => 'Peleliu',
-                    370   => 'Sonsorol',
+                    100 => 'Kayangel',
+                    150 => 'Koror',
+                    212 => 'Melekeok',
+                    214 => 'Ngaraard',
+                    218 => 'Ngarchelong',
+                    222 => 'Ngardmau',
+                    224 => 'Ngatpang',
+                    226 => 'Ngchesar',
+                    227 => 'Ngeremlengui',
+                    228 => 'Ngiwal',
+                    350 => 'Peleliu',
+                    370 => 'Sonsorol',
                 ],
         ],
-    'PRY' =>
-        [
-            'name'       => 'Paraguay',
-            'subregions' =>
-                [
-                    1     => 'Concepción',
-                    10    => 'Alto Paraná',
-                    11    => 'Central',
-                    12    => 'Ñeembucú',
-                    13    => 'Amambay',
-                    14    => 'Canindeyú',
-                    15    => 'Presidente Hayes',
-                    16    => 'Alto Paraguay',
-                    19    => 'Boquerón',
-                    2     => 'San Pedro',
-                    3     => 'Cordillera',
-                    4     => 'Guairá',
-                    5     => 'Caaguazú',
-                    6     => 'Caazapá',
-                    7     => 'Itapúa',
-                    8     => 'Misiones',
-                    9     => 'Paraguarí',
+    'PRY' => [
+            'name' => 'Paraguay',
+            'subregions' => [
+                    1 => 'Concepción',
+                    10 => 'Alto Paraná',
+                    11 => 'Central',
+                    12 => 'Ñeembucú',
+                    13 => 'Amambay',
+                    14 => 'Canindeyú',
+                    15 => 'Presidente Hayes',
+                    16 => 'Alto Paraguay',
+                    19 => 'Boquerón',
+                    2 => 'San Pedro',
+                    3 => 'Cordillera',
+                    4 => 'Guairá',
+                    5 => 'Caaguazú',
+                    6 => 'Caazapá',
+                    7 => 'Itapúa',
+                    8 => 'Misiones',
+                    9 => 'Paraguarí',
                     'ASU' => 'Asunción',
                 ],
         ],
-    'QAT' =>
-        [
-            'name'       => 'Qatar',
-            'subregions' =>
-                [
+    'QAT' => [
+            'name' => 'Qatar',
+            'subregions' => [
                     'DA' => 'Ad Dawhah',
                     'KH' => 'Al Khawr wa adh Dhakhīrah',
                     'MS' => 'Ash Shamal',
@@ -3914,22 +3544,18 @@
                     'ZA' => 'Az̧ Z̧a‘āyin',
                 ],
         ],
-    'REU' =>
-        [
-            'name'       => 'Réunion',
-            'subregions' =>
-                [
+    'REU' => [
+            'name' => 'Réunion',
+            'subregions' => [
                 ],
         ],
-    'ROU' =>
-        [
-            'name'       => 'Rumänien',
-            'subregions' =>
-                [
+    'ROU' => [
+            'name' => 'Rumänien',
+            'subregions' => [
                     'AB' => 'Alba',
                     'AG' => 'Argeș',
                     'AR' => 'Arad',
-                    'B'  => 'București',
+                    'B' => 'București',
                     'BC' => 'Bacău',
                     'BH' => 'Bihor',
                     'BN' => 'Bistrița-Năsăud',
@@ -3970,59 +3596,55 @@
                     'VS' => 'Vaslui',
                 ],
         ],
-    'SRB' =>
-        [
-            'name'       => 'Serbien',
-            'subregions' =>
-                [
+    'SRB' => [
+            'name' => 'Serbien',
+            'subregions' => [
                     '00' => 'Beograd',
                     '08' => 'Mačvanski okrug',
                     '09' => 'Kolubarski okrug',
-                    10   => 'Podunavski okrug',
-                    11   => 'Braničevski okrug',
-                    12   => 'Šumadijski okrug',
-                    13   => 'Pomoravski okrug',
-                    14   => 'Borski okrug',
-                    15   => 'Zaječarski okrug',
-                    16   => 'Zlatiborski okrug',
-                    17   => 'Moravički okrug',
-                    18   => 'Raški okrug',
-                    19   => 'Rasinski okrug',
-                    20   => 'Nišavski okrug',
-                    21   => 'Toplički okrug',
-                    22   => 'Pirotski okrug',
-                    23   => 'Jablanički okrug',
-                    24   => 'Pčinjski okrug',
+                    10 => 'Podunavski okrug',
+                    11 => 'Braničevski okrug',
+                    12 => 'Šumadijski okrug',
+                    13 => 'Pomoravski okrug',
+                    14 => 'Borski okrug',
+                    15 => 'Zaječarski okrug',
+                    16 => 'Zlatiborski okrug',
+                    17 => 'Moravički okrug',
+                    18 => 'Raški okrug',
+                    19 => 'Rasinski okrug',
+                    20 => 'Nišavski okrug',
+                    21 => 'Toplički okrug',
+                    22 => 'Pirotski okrug',
+                    23 => 'Jablanički okrug',
+                    24 => 'Pčinjski okrug',
                     'KM' => 'Kosovo-Metohija',
                     'VO' => 'Vojvodina',
                 ],
         ],
-    'RUS' =>
-        [
-            'name'       => 'Ryssland',
-            'subregions' =>
-                [
-                    'AD'  => 'Adygeya, Respublika',
-                    'AL'  => 'Altay, Respublika',
+    'RUS' => [
+            'name' => 'Ryssland',
+            'subregions' => [
+                    'AD' => 'Adygeya, Respublika',
+                    'AL' => 'Altay, Respublika',
                     'ALT' => 'Altayskiy kray',
                     'AMU' => 'Amurskaya oblast\'',
                     'ARK' => 'Arkhangel\'skaya oblast\'',
                     'AST' => 'Astrakhanskaya oblast\'',
-                    'BA'  => 'Bashkortostan, Respublika',
+                    'BA' => 'Bashkortostan, Respublika',
                     'BEL' => 'Belgorodskaya oblast\'',
                     'BRY' => 'Bryanskaya oblast\'',
-                    'BU'  => 'Buryatiya, Respublika',
-                    'CE'  => 'Chechenskaya Respublika',
+                    'BU' => 'Buryatiya, Respublika',
+                    'CE' => 'Chechenskaya Respublika',
                     'CHE' => 'Chelyabinskaya oblast\'',
                     'CHU' => 'Chukotskiy avtonomnyy okrug',
-                    'CU'  => 'Chuvashskaya Respublika',
-                    'DA'  => 'Dagestan, Respublika',
-                    'IN'  => 'Respublika Ingushetiya',
+                    'CU' => 'Chuvashskaya Respublika',
+                    'DA' => 'Dagestan, Respublika',
+                    'IN' => 'Respublika Ingushetiya',
                     'IRK' => 'Irkutiskaya oblast\'',
                     'IVA' => 'Ivanovskaya oblast\'',
                     'KAM' => 'Kamchatskiy kray',
-                    'KB'  => 'Kabardino-Balkarskaya Respublika',
-                    'KC'  => 'Karachayevo-Cherkesskaya Respublika',
+                    'KB' => 'Kabardino-Balkarskaya Respublika',
+                    'KC' => 'Karachayevo-Cherkesskaya Respublika',
                     'KDA' => 'Krasnodarskiy kray',
                     'KEM' => 'Kemerovskaya oblast\'',
                     'KGD' => 'Kaliningradskaya oblast\'',
@@ -4030,19 +3652,19 @@
                     'KHA' => 'Khabarovskiy kray',
                     'KHM' => 'Khanty-Mansiysky avtonomnyy okrug-Yugra',
                     'KIR' => 'Kirovskaya oblast\'',
-                    'KK'  => 'Khakasiya, Respublika',
-                    'KL'  => 'Kalmykiya, Respublika',
+                    'KK' => 'Khakasiya, Respublika',
+                    'KL' => 'Kalmykiya, Respublika',
                     'KLU' => 'Kaluzhskaya oblast\'',
-                    'KO'  => 'Komi, Respublika',
+                    'KO' => 'Komi, Respublika',
                     'KOS' => 'Kostromskaya oblast\'',
-                    'KR'  => 'Kareliya, Respublika',
+                    'KR' => 'Kareliya, Respublika',
                     'KRS' => 'Kurskaya oblast\'',
                     'KYA' => 'Krasnoyarskiy kray',
                     'LEN' => 'Leningradskaya oblast\'',
                     'LIP' => 'Lipetskaya oblast\'',
                     'MAG' => 'Magadanskaya oblast\'',
-                    'ME'  => 'Mariy El, Respublika',
-                    'MO'  => 'Mordoviya, Respublika',
+                    'ME' => 'Mariy El, Respublika',
+                    'MO' => 'Mordoviya, Respublika',
                     'MOS' => 'Moskovskaya oblast\'',
                     'MOW' => 'Moskva',
                     'MUR' => 'Murmanskaya oblast\'',
@@ -4059,23 +3681,23 @@
                     'PSK' => 'Pskovskaya oblast\'',
                     'ROS' => 'Rostovskaya oblast\'',
                     'RYA' => 'Ryazanskaya oblast\'',
-                    'SA'  => 'Sakha, Respublika [Yakutiya]',
+                    'SA' => 'Sakha, Respublika [Yakutiya]',
                     'SAK' => 'Sakhalinskaya oblast\'',
                     'SAM' => 'Samaraskaya oblast\'',
                     'SAR' => 'Saratovskaya oblast\'',
-                    'SE'  => 'Severnaya Osetiya-Alaniya, Respublika',
+                    'SE' => 'Severnaya Osetiya-Alaniya, Respublika',
                     'SMO' => 'Smolenskaya oblast\'',
                     'SPE' => 'Sankt-Peterburg',
                     'STA' => 'Stavropol\'skiy kray',
                     'SVE' => 'Sverdlovskaya oblast\'',
-                    'TA'  => 'Tatarstan, Respublika',
+                    'TA' => 'Tatarstan, Respublika',
                     'TAM' => 'Tambovskaya oblast\'',
                     'TOM' => 'Tomskaya oblast\'',
                     'TUL' => 'Tul\'skaya oblast\'',
                     'TVE' => 'Tverskaya oblast\'',
-                    'TY'  => 'Tyva, Respublika [Tuva]',
+                    'TY' => 'Tyva, Respublika [Tuva]',
                     'TYU' => 'Tyumenskaya oblast\'',
-                    'UD'  => 'Udmurtskaya Respublika',
+                    'UD' => 'Udmurtskaya Respublika',
                     'ULY' => 'Ul\'yanovskaya oblast\'',
                     'VGG' => 'Volgogradskaya oblast\'',
                     'VLA' => 'Vladimirskaya oblast\'',
@@ -4087,11 +3709,9 @@
                     'ZAB' => 'Zabajkal\'skij kraj',
                 ],
         ],
-    'RWA' =>
-        [
-            'name'       => 'Rwanda',
-            'subregions' =>
-                [
+    'RWA' => [
+            'name' => 'Rwanda',
+            'subregions' => [
                     '01' => 'Ville de Kigali',
                     '02' => 'Est',
                     '03' => 'Nord',
@@ -4099,11 +3719,9 @@
                     '05' => 'Sud',
                 ],
         ],
-    'SAU' =>
-        [
-            'name'       => 'Saudiarabien',
-            'subregions' =>
-                [
+    'SAU' => [
+            'name' => 'Saudiarabien',
+            'subregions' => [
                     '01' => 'Ar Riyāḍ',
                     '02' => 'Makkah',
                     '03' => 'Al Madīnah',
@@ -4113,17 +3731,15 @@
                     '07' => 'Tabūk',
                     '08' => 'Al Ḥudūd ash Shamāliyah',
                     '09' => 'Jīzan',
-                    10   => 'Najrān',
-                    11   => 'Al Bāhah',
-                    12   => 'Al Jawf',
-                    14   => '`Asīr',
+                    10 => 'Najrān',
+                    11 => 'Al Bāhah',
+                    12 => 'Al Jawf',
+                    14 => '`Asīr',
                 ],
         ],
-    'SLB' =>
-        [
-            'name'       => 'Salomonöarna',
-            'subregions' =>
-                [
+    'SLB' => [
+            'name' => 'Salomonöarna',
+            'subregions' => [
                     'CE' => 'Central',
                     'CH' => 'Choiseul',
                     'CT' => 'Capital Territory (Honiara)',
@@ -4136,11 +3752,9 @@
                     'WE' => 'Western',
                 ],
         ],
-    'SYC' =>
-        [
-            'name'       => 'Seychellerna',
-            'subregions' =>
-                [
+    'SYC' => [
+            'name' => 'Seychellerna',
+            'subregions' => [
                     '01' => 'Anse aux Pins',
                     '02' => 'Anse Boileau',
                     '03' => 'Anse Etoile',
@@ -4150,29 +3764,27 @@
                     '07' => 'Baie Sainte Anne',
                     '08' => 'Beau Vallon',
                     '09' => 'Bel Air',
-                    10   => 'Bel Ombre',
-                    11   => 'Cascade',
-                    12   => 'Glacis',
-                    13   => 'Grand Anse Mahe',
-                    14   => 'Grand Anse Praslin',
-                    15   => 'La Digue',
-                    16   => 'English River',
-                    17   => 'Mont Buxton',
-                    18   => 'Mont Fleuri',
-                    19   => 'Plaisance',
-                    20   => 'Pointe Larue',
-                    21   => 'Port Glaud',
-                    22   => 'Saint Louis',
-                    23   => 'Takamaka',
-                    24   => 'Les Mamelles',
-                    25   => 'Roche Caiman',
+                    10 => 'Bel Ombre',
+                    11 => 'Cascade',
+                    12 => 'Glacis',
+                    13 => 'Grand Anse Mahe',
+                    14 => 'Grand Anse Praslin',
+                    15 => 'La Digue',
+                    16 => 'English River',
+                    17 => 'Mont Buxton',
+                    18 => 'Mont Fleuri',
+                    19 => 'Plaisance',
+                    20 => 'Pointe Larue',
+                    21 => 'Port Glaud',
+                    22 => 'Saint Louis',
+                    23 => 'Takamaka',
+                    24 => 'Les Mamelles',
+                    25 => 'Roche Caiman',
                 ],
         ],
-    'SDN' =>
-        [
-            'name'       => 'Sudan',
-            'subregions' =>
-                [
+    'SDN' => [
+            'name' => 'Sudan',
+            'subregions' => [
                     'DC' => 'Zalingei',
                     'DE' => 'Sharq Dārfūr',
                     'DN' => 'Shamāl Dārfūr',
@@ -4192,39 +3804,35 @@
                     'SI' => 'Sinnār',
                 ],
         ],
-    'SWE' =>
-        [
-            'name'       => 'Sverige',
-            'subregions' =>
-                [
+    'SWE' => [
+            'name' => 'Sverige',
+            'subregions' => [
                     'AB' => 'Stockholms län',
                     'AC' => 'Västerbottens län',
                     'BD' => 'Norrbottens län',
-                    'C'  => 'Uppsala län',
-                    'D'  => 'Södermanlands län',
-                    'E'  => 'Östergötlands län',
-                    'F'  => 'Jönköpings län',
-                    'G'  => 'Kronobergs län',
-                    'H'  => 'Kalmar län',
-                    'I'  => 'Gotlands län',
-                    'K'  => 'Blekinge län',
-                    'M'  => 'Skåne län',
-                    'N'  => 'Hallands län',
-                    'O'  => 'Västra Götalands län',
-                    'S'  => 'Värmlands län',
-                    'T'  => 'Örebro län',
-                    'U'  => 'Västmanlands län',
-                    'W'  => 'Dalarnas län',
-                    'X'  => 'Gävleborgs län',
-                    'Y'  => 'Västernorrlands län',
-                    'Z'  => 'Jämtlands län',
+                    'C' => 'Uppsala län',
+                    'D' => 'Södermanlands län',
+                    'E' => 'Östergötlands län',
+                    'F' => 'Jönköpings län',
+                    'G' => 'Kronobergs län',
+                    'H' => 'Kalmar län',
+                    'I' => 'Gotlands län',
+                    'K' => 'Blekinge län',
+                    'M' => 'Skåne län',
+                    'N' => 'Hallands län',
+                    'O' => 'Västra Götalands län',
+                    'S' => 'Värmlands län',
+                    'T' => 'Örebro län',
+                    'U' => 'Västmanlands län',
+                    'W' => 'Dalarnas län',
+                    'X' => 'Gävleborgs län',
+                    'Y' => 'Västernorrlands län',
+                    'Z' => 'Jämtlands län',
                 ],
         ],
-    'SGP' =>
-        [
-            'name'       => 'Singapore',
-            'subregions' =>
-                [
+    'SGP' => [
+            'name' => 'Singapore',
+            'subregions' => [
                     '01' => 'Central Singapore',
                     '02' => 'North East',
                     '03' => 'North West',
@@ -4232,21 +3840,17 @@
                     '05' => 'South West',
                 ],
         ],
-    'SHN' =>
-        [
-            'name'       => 'S:t Helena',
-            'subregions' =>
-                [
+    'SHN' => [
+            'name' => 'S:t Helena',
+            'subregions' => [
                     'AC' => 'Ascension',
                     'HL' => 'Saint Helena',
                     'TA' => 'Tristan da Cunha',
                 ],
         ],
-    'SVN' =>
-        [
-            'name'       => 'Slovenien',
-            'subregions' =>
-                [
+    'SVN' => [
+            'name' => 'Slovenien',
+            'subregions' => [
                     '001' => 'Ajdovščina',
                     '002' => 'Beltinci',
                     '003' => 'Bled',
@@ -4346,131 +3950,127 @@
                     '097' => 'Puconci',
                     '098' => 'Rače-Fram',
                     '099' => 'Radeče',
-                    100   => 'Radenci',
-                    101   => 'Radlje ob Dravi',
-                    102   => 'Radovljica',
-                    103   => 'Ravne na Koroškem',
-                    104   => 'Ribnica',
-                    105   => 'Rogašovci',
-                    106   => 'Rogaška Slatina',
-                    107   => 'Rogatec',
-                    108   => 'Ruše',
-                    109   => 'Semič',
-                    110   => 'Sevnica',
-                    111   => 'Sežana',
-                    112   => 'Slovenj Gradec',
-                    113   => 'Slovenska Bistrica',
-                    114   => 'Slovenske Konjice',
-                    115   => 'Starče',
-                    116   => 'Sveti Jurij',
-                    117   => 'Šenčur',
-                    118   => 'Šentilj',
-                    119   => 'Šentjernej',
-                    120   => 'Šentjur',
-                    121   => 'Škocjan',
-                    122   => 'Škofja Loka',
-                    123   => 'Škofljica',
-                    124   => 'Šmarje pri Jelšah',
-                    125   => 'Šmartno ob Paki',
-                    126   => 'Šoštanj',
-                    127   => 'Štore',
-                    128   => 'Tolmin',
-                    129   => 'Trbovlje',
-                    130   => 'Trebnje',
-                    131   => 'Tržič',
-                    132   => 'Turnišče',
-                    133   => 'Velenje',
-                    134   => 'Velike Lašče',
-                    135   => 'Videm',
-                    136   => 'Vipava',
-                    137   => 'Vitanje',
-                    138   => 'Vodice',
-                    139   => 'Vojnik',
-                    140   => 'Vrhnika',
-                    141   => 'Vuzenica',
-                    142   => 'Zagorje ob Savi',
-                    143   => 'Zavrč',
-                    144   => 'Zreče',
-                    146   => 'Železniki',
-                    147   => 'Žiri',
-                    148   => 'Benedikt',
-                    149   => 'Bistrica ob Sotli',
-                    150   => 'Bloke',
-                    151   => 'Braslovče',
-                    152   => 'Cankova',
-                    153   => 'Cerkvenjak',
-                    154   => 'Dobje',
-                    155   => 'Dobrna',
-                    156   => 'Dobrovnik/Dobronak',
-                    157   => 'Dolenjske Toplice',
-                    158   => 'Grad',
-                    159   => 'Hajdina',
-                    160   => 'Hoče-Slivnica',
-                    161   => 'Hodoš/Hodos',
-                    162   => 'Horjul',
-                    163   => 'Jezersko',
-                    164   => 'Komenda',
-                    165   => 'Kostel',
-                    166   => 'Križevci',
-                    167   => 'Lovrenc na Pohorju',
-                    168   => 'Markovci',
-                    169   => 'Miklavž na Dravskem polju',
-                    170   => 'Mirna Peč',
-                    171   => 'Oplotnica',
-                    172   => 'Podlehnik',
-                    173   => 'Polzela',
-                    174   => 'Prebold',
-                    175   => 'Prevalje',
-                    176   => 'Razkrižje',
-                    177   => 'Ribnica na Pohorju',
-                    178   => 'Selnica ob Dravi',
-                    179   => 'Sodražica',
-                    180   => 'Solčava',
-                    181   => 'Sveta Ana',
-                    182   => 'Sveta Andraž v Slovenskih Goricah',
-                    183   => 'Šempeter-Vrtojba',
-                    184   => 'Tabor',
-                    185   => 'Trnovska vas',
-                    186   => 'Trzin',
-                    187   => 'Velika Polana',
-                    188   => 'Veržej',
-                    189   => 'Vransko',
-                    190   => 'Žalec',
-                    191   => 'Žetale',
-                    192   => 'Žirovnica',
-                    193   => 'Žužemberk',
-                    194   => 'Šmartno pri Litiji',
-                    195   => 'Apače',
-                    196   => 'Cirkulane',
-                    197   => 'Kosanjevica na Krki',
-                    198   => 'Makole',
-                    199   => 'Mokronog-Trebelno',
-                    200   => 'Poljčane',
-                    201   => 'Renče-Vogrsko',
-                    202   => 'Središče ob Dravi',
-                    203   => 'Straža',
-                    204   => 'Sveta Trojica v Slovenskih Goricah',
-                    205   => 'Sveti Tomaž',
-                    206   => 'Šmarjeske Topliče',
-                    207   => 'Gorje',
-                    208   => 'Log-Dragomer',
-                    209   => 'Rečica ob Savinji',
-                    210   => 'Sveti Jurij v Slovenskih Goricah',
-                    211   => 'Šentrupert',
+                    100 => 'Radenci',
+                    101 => 'Radlje ob Dravi',
+                    102 => 'Radovljica',
+                    103 => 'Ravne na Koroškem',
+                    104 => 'Ribnica',
+                    105 => 'Rogašovci',
+                    106 => 'Rogaška Slatina',
+                    107 => 'Rogatec',
+                    108 => 'Ruše',
+                    109 => 'Semič',
+                    110 => 'Sevnica',
+                    111 => 'Sežana',
+                    112 => 'Slovenj Gradec',
+                    113 => 'Slovenska Bistrica',
+                    114 => 'Slovenske Konjice',
+                    115 => 'Starče',
+                    116 => 'Sveti Jurij',
+                    117 => 'Šenčur',
+                    118 => 'Šentilj',
+                    119 => 'Šentjernej',
+                    120 => 'Šentjur',
+                    121 => 'Škocjan',
+                    122 => 'Škofja Loka',
+                    123 => 'Škofljica',
+                    124 => 'Šmarje pri Jelšah',
+                    125 => 'Šmartno ob Paki',
+                    126 => 'Šoštanj',
+                    127 => 'Štore',
+                    128 => 'Tolmin',
+                    129 => 'Trbovlje',
+                    130 => 'Trebnje',
+                    131 => 'Tržič',
+                    132 => 'Turnišče',
+                    133 => 'Velenje',
+                    134 => 'Velike Lašče',
+                    135 => 'Videm',
+                    136 => 'Vipava',
+                    137 => 'Vitanje',
+                    138 => 'Vodice',
+                    139 => 'Vojnik',
+                    140 => 'Vrhnika',
+                    141 => 'Vuzenica',
+                    142 => 'Zagorje ob Savi',
+                    143 => 'Zavrč',
+                    144 => 'Zreče',
+                    146 => 'Železniki',
+                    147 => 'Žiri',
+                    148 => 'Benedikt',
+                    149 => 'Bistrica ob Sotli',
+                    150 => 'Bloke',
+                    151 => 'Braslovče',
+                    152 => 'Cankova',
+                    153 => 'Cerkvenjak',
+                    154 => 'Dobje',
+                    155 => 'Dobrna',
+                    156 => 'Dobrovnik/Dobronak',
+                    157 => 'Dolenjske Toplice',
+                    158 => 'Grad',
+                    159 => 'Hajdina',
+                    160 => 'Hoče-Slivnica',
+                    161 => 'Hodoš/Hodos',
+                    162 => 'Horjul',
+                    163 => 'Jezersko',
+                    164 => 'Komenda',
+                    165 => 'Kostel',
+                    166 => 'Križevci',
+                    167 => 'Lovrenc na Pohorju',
+                    168 => 'Markovci',
+                    169 => 'Miklavž na Dravskem polju',
+                    170 => 'Mirna Peč',
+                    171 => 'Oplotnica',
+                    172 => 'Podlehnik',
+                    173 => 'Polzela',
+                    174 => 'Prebold',
+                    175 => 'Prevalje',
+                    176 => 'Razkrižje',
+                    177 => 'Ribnica na Pohorju',
+                    178 => 'Selnica ob Dravi',
+                    179 => 'Sodražica',
+                    180 => 'Solčava',
+                    181 => 'Sveta Ana',
+                    182 => 'Sveta Andraž v Slovenskih Goricah',
+                    183 => 'Šempeter-Vrtojba',
+                    184 => 'Tabor',
+                    185 => 'Trnovska vas',
+                    186 => 'Trzin',
+                    187 => 'Velika Polana',
+                    188 => 'Veržej',
+                    189 => 'Vransko',
+                    190 => 'Žalec',
+                    191 => 'Žetale',
+                    192 => 'Žirovnica',
+                    193 => 'Žužemberk',
+                    194 => 'Šmartno pri Litiji',
+                    195 => 'Apače',
+                    196 => 'Cirkulane',
+                    197 => 'Kosanjevica na Krki',
+                    198 => 'Makole',
+                    199 => 'Mokronog-Trebelno',
+                    200 => 'Poljčane',
+                    201 => 'Renče-Vogrsko',
+                    202 => 'Središče ob Dravi',
+                    203 => 'Straža',
+                    204 => 'Sveta Trojica v Slovenskih Goricah',
+                    205 => 'Sveti Tomaž',
+                    206 => 'Šmarjeske Topliče',
+                    207 => 'Gorje',
+                    208 => 'Log-Dragomer',
+                    209 => 'Rečica ob Savinji',
+                    210 => 'Sveti Jurij v Slovenskih Goricah',
+                    211 => 'Šentrupert',
                 ],
         ],
-    'SJM' =>
-        [
-            'name'       => 'Svalbard och Jan Mayen',
-            'subregions' =>
-                [
+    'SJM' => [
+            'name' => 'Svalbard och Jan Mayen',
+            'subregions' => [
                 ],
         ],
-    'SVK' =>
-        [
-            'name'       => 'Slovakien',
-            'subregions' =>
-                [
+    'SVK' => [
+            'name' => 'Slovakien',
+            'subregions' => [
                     'BC' => 'Banskobystrický kraj',
                     'BL' => 'Bratislavský kraj',
                     'KI' => 'Košický kraj',
@@ -4481,22 +4081,18 @@
                     'ZI' => 'Žilinský kraj',
                 ],
         ],
-    'SLE' =>
-        [
-            'name'       => 'Sierra Leone',
-            'subregions' =>
-                [
+    'SLE' => [
+            'name' => 'Sierra Leone',
+            'subregions' => [
                     'E' => 'Eastern',
                     'N' => 'Northern',
                     'S' => 'Southern (Sierra Leone)',
                     'W' => 'Western Area (Freetown)',
                 ],
         ],
-    'SMR' =>
-        [
-            'name'       => 'San Marino',
-            'subregions' =>
-                [
+    'SMR' => [
+            'name' => 'San Marino',
+            'subregions' => [
                     '01' => 'Acquaviva',
                     '02' => 'Chiesanuova',
                     '03' => 'Domagnano',
@@ -4508,11 +4104,9 @@
                     '09' => 'Serravalle',
                 ],
         ],
-    'SEN' =>
-        [
-            'name'       => 'Senegal',
-            'subregions' =>
-                [
+    'SEN' => [
+            'name' => 'Senegal',
+            'subregions' => [
                     'DB' => 'Diourbel',
                     'DK' => 'Dakar',
                     'FK' => 'Fatick',
@@ -4529,11 +4123,9 @@
                     'ZG' => 'Ziguinchor',
                 ],
         ],
-    'SOM' =>
-        [
-            'name'       => 'Somalia',
-            'subregions' =>
-                [
+    'SOM' => [
+            'name' => 'Somalia',
+            'subregions' => [
                     'AW' => 'Awdal',
                     'BK' => 'Bakool',
                     'BN' => 'Banaadir',
@@ -4554,11 +4146,9 @@
                     'WO' => 'Woqooyi Galbeed',
                 ],
         ],
-    'SUR' =>
-        [
-            'name'       => 'Surinam',
-            'subregions' =>
-                [
+    'SUR' => [
+            'name' => 'Surinam',
+            'subregions' => [
                     'BR' => 'Brokopondo',
                     'CM' => 'Commewijne',
                     'CR' => 'Coronie',
@@ -4571,37 +4161,31 @@
                     'WA' => 'Wanica',
                 ],
         ],
-    'SSD' =>
-        [
-            'name'       => 'Sydsudan',
-            'subregions' =>
-                [
-                    'BN'  => 'Northern Bahr el-Ghazal',
-                    'BW'  => 'Western Bahr el-Ghazal',
-                    'EC'  => 'Central Equatoria',
+    'SSD' => [
+            'name' => 'Sydsudan',
+            'subregions' => [
+                    'BN' => 'Northern Bahr el-Ghazal',
+                    'BW' => 'Western Bahr el-Ghazal',
+                    'EC' => 'Central Equatoria',
                     'EE8' => 'Eastern Equatoria',
-                    'EW'  => 'Western Equatoria',
-                    'JG'  => 'Jonglei',
-                    'LK'  => 'Lakes',
-                    'NU'  => 'Upper Nile',
-                    'UY'  => 'Unity',
-                    'WR'  => 'Warrap',
+                    'EW' => 'Western Equatoria',
+                    'JG' => 'Jonglei',
+                    'LK' => 'Lakes',
+                    'NU' => 'Upper Nile',
+                    'UY' => 'Unity',
+                    'WR' => 'Warrap',
                 ],
         ],
-    'STP' =>
-        [
-            'name'       => 'São Tomé och Príncipe',
-            'subregions' =>
-                [
+    'STP' => [
+            'name' => 'São Tomé och Príncipe',
+            'subregions' => [
                     'P' => 'Príncipe',
                     'S' => 'São Tomé',
                 ],
         ],
-    'SLV' =>
-        [
-            'name'       => 'El Salvador',
-            'subregions' =>
-                [
+    'SLV' => [
+            'name' => 'El Salvador',
+            'subregions' => [
                     'AH' => 'Ahuachapán',
                     'CA' => 'Cabañas',
                     'CH' => 'Chalatenango',
@@ -4618,18 +4202,14 @@
                     'US' => 'Usulután',
                 ],
         ],
-    'SXM' =>
-        [
-            'name'       => 'SX',
-            'subregions' =>
-                [
+    'SXM' => [
+            'name' => 'SX',
+            'subregions' => [
                 ],
         ],
-    'SYR' =>
-        [
-            'name'       => 'Syrien',
-            'subregions' =>
-                [
+    'SYR' => [
+            'name' => 'Syrien',
+            'subregions' => [
                     'DI' => 'Dimashq',
                     'DR' => 'Dar\'a',
                     'DY' => 'Dayr az Zawr',
@@ -4646,29 +4226,23 @@
                     'TA' => 'Tartus',
                 ],
         ],
-    'SWZ' =>
-        [
-            'name'       => 'Swaziland',
-            'subregions' =>
-                [
+    'SWZ' => [
+            'name' => 'Swaziland',
+            'subregions' => [
                     'HH' => 'Hhohho',
                     'LU' => 'Lubombo',
                     'MA' => 'Manzini',
                     'SH' => 'Shiselweni',
                 ],
         ],
-    'TCA' =>
-        [
-            'name'       => 'Turks- och Caicosöarna',
-            'subregions' =>
-                [
+    'TCA' => [
+            'name' => 'Turks- och Caicosöarna',
+            'subregions' => [
                 ],
         ],
-    'TCD' =>
-        [
-            'name'       => 'Tchad',
-            'subregions' =>
-                [
+    'TCD' => [
+            'name' => 'Tchad',
+            'subregions' => [
                     'BA' => 'Al Baṭḩah',
                     'BG' => 'Baḩr al Ghazāl',
                     'BO' => 'Būrkū',
@@ -4693,18 +4267,14 @@
                     'WF' => 'Wādī Fīrā',
                 ],
         ],
-    'ATF' =>
-        [
-            'name'       => 'Franska Sydterritorierna',
-            'subregions' =>
-                [
+    'ATF' => [
+            'name' => 'Franska Sydterritorierna',
+            'subregions' => [
                 ],
         ],
-    'TGO' =>
-        [
-            'name'       => 'Togo',
-            'subregions' =>
-                [
+    'TGO' => [
+            'name' => 'Togo',
+            'subregions' => [
                     'C' => 'Région du Centre',
                     'K' => 'Région de la Kara',
                     'M' => 'Région Maritime',
@@ -4712,112 +4282,104 @@
                     'S' => 'Région des Savannes',
                 ],
         ],
-    'THA' =>
-        [
-            'name'       => 'Thailand',
-            'subregions' =>
-                [
-                    10  => 'Krung Thep Maha Nakhon Bangkok',
-                    11  => 'Samut Prakan',
-                    12  => 'Nonthaburi',
-                    13  => 'Pathum Thani',
-                    14  => 'Phra Nakhon Si Ayutthaya',
-                    15  => 'Ang Thong',
-                    16  => 'Lop Buri',
-                    17  => 'Sing Buri',
-                    18  => 'Chai Nat',
-                    19  => 'Saraburi',
-                    20  => 'Chon Buri',
-                    21  => 'Rayong',
-                    22  => 'Chanthaburi',
-                    23  => 'Trat',
-                    24  => 'Chachoengsao',
-                    25  => 'Prachin Buri',
-                    26  => 'Nakhon Nayok',
-                    27  => 'Sa Kaeo',
-                    30  => 'Nakhon Ratchasima',
-                    31  => 'Buri Ram',
-                    32  => 'Surin',
-                    33  => 'Si Sa Ket',
-                    34  => 'Ubon Ratchathani',
-                    35  => 'Yasothon',
-                    36  => 'Chaiyaphum',
-                    37  => 'Amnat Charoen',
-                    39  => 'Nong Bua Lam Phu',
-                    40  => 'Khon Kaen',
-                    41  => 'Udon Thani',
-                    42  => 'Loei',
-                    43  => 'Nong Khai',
-                    44  => 'Maha Sarakham',
-                    45  => 'Roi Et',
-                    46  => 'Kalasin',
-                    47  => 'Sakon Nakhon',
-                    48  => 'Nakhon Phanom',
-                    49  => 'Mukdahan',
-                    50  => 'Chiang Mai',
-                    51  => 'Lamphun',
-                    52  => 'Lampang',
-                    53  => 'Uttaradit',
-                    54  => 'Phrae',
-                    55  => 'Nan',
-                    56  => 'Phayao',
-                    57  => 'Chiang Rai',
-                    58  => 'Mae Hong Son',
-                    60  => 'Nakhon Sawan',
-                    61  => 'Uthai Thani',
-                    62  => 'Kamphaeng Phet',
-                    63  => 'Tak',
-                    64  => 'Sukhothai',
-                    65  => 'Phitsanulok',
-                    66  => 'Phichit',
-                    67  => 'Phetchabun',
-                    70  => 'Ratchaburi',
-                    71  => 'Kanchanaburi',
-                    72  => 'Suphan Buri',
-                    73  => 'Nakhon Pathom',
-                    74  => 'Samut Sakhon',
-                    75  => 'Samut Songkhram',
-                    76  => 'Phetchaburi',
-                    77  => 'Prachuap Khiri Khan',
-                    80  => 'Nakhon Si Thammarat',
-                    81  => 'Krabi',
-                    82  => 'Phangnga',
-                    83  => 'Phuket',
-                    84  => 'Surat Thani',
-                    85  => 'Ranong',
-                    86  => 'Chumphon',
-                    90  => 'Songkhla',
-                    91  => 'Satun',
-                    92  => 'Trang',
-                    93  => 'Phatthalung',
-                    94  => 'Pattani',
-                    95  => 'Yala',
-                    96  => 'Narathiwat',
+    'THA' => [
+            'name' => 'Thailand',
+            'subregions' => [
+                    10 => 'Krung Thep Maha Nakhon Bangkok',
+                    11 => 'Samut Prakan',
+                    12 => 'Nonthaburi',
+                    13 => 'Pathum Thani',
+                    14 => 'Phra Nakhon Si Ayutthaya',
+                    15 => 'Ang Thong',
+                    16 => 'Lop Buri',
+                    17 => 'Sing Buri',
+                    18 => 'Chai Nat',
+                    19 => 'Saraburi',
+                    20 => 'Chon Buri',
+                    21 => 'Rayong',
+                    22 => 'Chanthaburi',
+                    23 => 'Trat',
+                    24 => 'Chachoengsao',
+                    25 => 'Prachin Buri',
+                    26 => 'Nakhon Nayok',
+                    27 => 'Sa Kaeo',
+                    30 => 'Nakhon Ratchasima',
+                    31 => 'Buri Ram',
+                    32 => 'Surin',
+                    33 => 'Si Sa Ket',
+                    34 => 'Ubon Ratchathani',
+                    35 => 'Yasothon',
+                    36 => 'Chaiyaphum',
+                    37 => 'Amnat Charoen',
+                    39 => 'Nong Bua Lam Phu',
+                    40 => 'Khon Kaen',
+                    41 => 'Udon Thani',
+                    42 => 'Loei',
+                    43 => 'Nong Khai',
+                    44 => 'Maha Sarakham',
+                    45 => 'Roi Et',
+                    46 => 'Kalasin',
+                    47 => 'Sakon Nakhon',
+                    48 => 'Nakhon Phanom',
+                    49 => 'Mukdahan',
+                    50 => 'Chiang Mai',
+                    51 => 'Lamphun',
+                    52 => 'Lampang',
+                    53 => 'Uttaradit',
+                    54 => 'Phrae',
+                    55 => 'Nan',
+                    56 => 'Phayao',
+                    57 => 'Chiang Rai',
+                    58 => 'Mae Hong Son',
+                    60 => 'Nakhon Sawan',
+                    61 => 'Uthai Thani',
+                    62 => 'Kamphaeng Phet',
+                    63 => 'Tak',
+                    64 => 'Sukhothai',
+                    65 => 'Phitsanulok',
+                    66 => 'Phichit',
+                    67 => 'Phetchabun',
+                    70 => 'Ratchaburi',
+                    71 => 'Kanchanaburi',
+                    72 => 'Suphan Buri',
+                    73 => 'Nakhon Pathom',
+                    74 => 'Samut Sakhon',
+                    75 => 'Samut Songkhram',
+                    76 => 'Phetchaburi',
+                    77 => 'Prachuap Khiri Khan',
+                    80 => 'Nakhon Si Thammarat',
+                    81 => 'Krabi',
+                    82 => 'Phangnga',
+                    83 => 'Phuket',
+                    84 => 'Surat Thani',
+                    85 => 'Ranong',
+                    86 => 'Chumphon',
+                    90 => 'Songkhla',
+                    91 => 'Satun',
+                    92 => 'Trang',
+                    93 => 'Phatthalung',
+                    94 => 'Pattani',
+                    95 => 'Yala',
+                    96 => 'Narathiwat',
                     'S' => 'Phatthaya',
                 ],
         ],
-    'TJK' =>
-        [
-            'name'       => 'Tadzjikistan',
-            'subregions' =>
-                [
+    'TJK' => [
+            'name' => 'Tadzjikistan',
+            'subregions' => [
                     'GB' => 'Gorno-Badakhshan',
                     'KT' => 'Khatlon',
                     'SU' => 'Sughd',
                 ],
         ],
-    'TKL' =>
-        [
-            'name'       => 'Tokelau',
-            'subregions' =>
-                [
+    'TKL' => [
+            'name' => 'Tokelau',
+            'subregions' => [
                 ],
         ],
-    'TLS' =>
-        [
-            'name'       => 'Östtimor',
-            'subregions' =>
-                [
+    'TLS' => [
+            'name' => 'Östtimor',
+            'subregions' => [
                     'AL' => 'Aileu',
                     'AN' => 'Ainaro',
                     'BA' => 'Baucau',
@@ -4833,11 +4395,9 @@
                     'VI' => 'Viqueque',
                 ],
         ],
-    'TKM' =>
-        [
-            'name'       => 'Turkmenistan',
-            'subregions' =>
-                [
+    'TKM' => [
+            'name' => 'Turkmenistan',
+            'subregions' => [
                     'A' => 'Ahal',
                     'B' => 'Balkan',
                     'D' => 'Daşoguz',
@@ -4846,11 +4406,9 @@
                     'S' => 'Aşgabat',
                 ],
         ],
-    'TUN' =>
-        [
-            'name'       => 'Tunisien',
-            'subregions' =>
-                [
+    'TUN' => [
+            'name' => 'Tunisien',
+            'subregions' => [
                     11 => 'Tunis',
                     12 => 'Ariana',
                     13 => 'Ben Arous',
@@ -4877,11 +4435,9 @@
                     83 => 'Tataouine',
                 ],
         ],
-    'TON' =>
-        [
-            'name'       => 'Tonga',
-            'subregions' =>
-                [
+    'TON' => [
+            'name' => 'Tonga',
+            'subregions' => [
                     '01' => '\'Eua',
                     '02' => 'Ha\'apai',
                     '03' => 'Niuas',
@@ -4889,11 +4445,9 @@
                     '05' => 'Vava\'u',
                 ],
         ],
-    'TUR' =>
-        [
-            'name'       => 'Turkiet',
-            'subregions' =>
-                [
+    'TUR' => [
+            'name' => 'Turkiet',
+            'subregions' => [
                     '01' => 'Adana',
                     '02' => 'Adıyaman',
                     '03' => 'Afyonkarahisar',
@@ -4903,85 +4457,83 @@
                     '07' => 'Antalya',
                     '08' => 'Artvin',
                     '09' => 'Aydın',
-                    10   => 'Balıkesir',
-                    11   => 'Bilecik',
-                    12   => 'Bingöl',
-                    13   => 'Bitlis',
-                    14   => 'Bolu',
-                    15   => 'Burdur',
-                    16   => 'Bursa',
-                    17   => 'Çanakkale',
-                    18   => 'Çankırı',
-                    19   => 'Çorum',
-                    20   => 'Denizli',
-                    21   => 'Diyarbakır',
-                    22   => 'Edirne',
-                    23   => 'Elazığ',
-                    24   => 'Erzincan',
-                    25   => 'Erzurum',
-                    26   => 'Eskişehir',
-                    27   => 'Gaziantep',
-                    28   => 'Giresun',
-                    29   => 'Gümüşhane',
-                    30   => 'Hakkâri',
-                    31   => 'Hatay',
-                    32   => 'Isparta',
-                    33   => 'Mersin',
-                    34   => 'İstanbul',
-                    35   => 'İzmir',
-                    36   => 'Kars',
-                    37   => 'Kastamonu',
-                    38   => 'Kayseri',
-                    39   => 'Kırklareli',
-                    40   => 'Kırşehir',
-                    41   => 'Kocaeli',
-                    42   => 'Konya',
-                    43   => 'Kütahya',
-                    44   => 'Malatya',
-                    45   => 'Manisa',
-                    46   => 'Kahramanmaraş',
-                    47   => 'Mardin',
-                    48   => 'Muğla',
-                    49   => 'Muş',
-                    50   => 'Nevşehir',
-                    51   => 'Niğde',
-                    52   => 'Ordu',
-                    53   => 'Rize',
-                    54   => 'Sakarya',
-                    55   => 'Samsun',
-                    56   => 'Siirt',
-                    57   => 'Sinop',
-                    58   => 'Sivas',
-                    59   => 'Tekirdağ',
-                    60   => 'Tokat',
-                    61   => 'Trabzon',
-                    62   => 'Tunceli',
-                    63   => 'Şanlıurfa',
-                    64   => 'Uşak',
-                    65   => 'Van',
-                    66   => 'Yozgat',
-                    67   => 'Zonguldak',
-                    68   => 'Aksaray',
-                    69   => 'Bayburt',
-                    70   => 'Karaman',
-                    71   => 'Kırıkkale',
-                    72   => 'Batman',
-                    73   => 'Şırnak',
-                    74   => 'Bartın',
-                    75   => 'Ardahan',
-                    76   => 'Iğdır',
-                    77   => 'Yalova',
-                    78   => 'Karabük',
-                    79   => 'Kilis',
-                    80   => 'Osmaniye',
-                    81   => 'Düzce',
+                    10 => 'Balıkesir',
+                    11 => 'Bilecik',
+                    12 => 'Bingöl',
+                    13 => 'Bitlis',
+                    14 => 'Bolu',
+                    15 => 'Burdur',
+                    16 => 'Bursa',
+                    17 => 'Çanakkale',
+                    18 => 'Çankırı',
+                    19 => 'Çorum',
+                    20 => 'Denizli',
+                    21 => 'Diyarbakır',
+                    22 => 'Edirne',
+                    23 => 'Elazığ',
+                    24 => 'Erzincan',
+                    25 => 'Erzurum',
+                    26 => 'Eskişehir',
+                    27 => 'Gaziantep',
+                    28 => 'Giresun',
+                    29 => 'Gümüşhane',
+                    30 => 'Hakkâri',
+                    31 => 'Hatay',
+                    32 => 'Isparta',
+                    33 => 'Mersin',
+                    34 => 'İstanbul',
+                    35 => 'İzmir',
+                    36 => 'Kars',
+                    37 => 'Kastamonu',
+                    38 => 'Kayseri',
+                    39 => 'Kırklareli',
+                    40 => 'Kırşehir',
+                    41 => 'Kocaeli',
+                    42 => 'Konya',
+                    43 => 'Kütahya',
+                    44 => 'Malatya',
+                    45 => 'Manisa',
+                    46 => 'Kahramanmaraş',
+                    47 => 'Mardin',
+                    48 => 'Muğla',
+                    49 => 'Muş',
+                    50 => 'Nevşehir',
+                    51 => 'Niğde',
+                    52 => 'Ordu',
+                    53 => 'Rize',
+                    54 => 'Sakarya',
+                    55 => 'Samsun',
+                    56 => 'Siirt',
+                    57 => 'Sinop',
+                    58 => 'Sivas',
+                    59 => 'Tekirdağ',
+                    60 => 'Tokat',
+                    61 => 'Trabzon',
+                    62 => 'Tunceli',
+                    63 => 'Şanlıurfa',
+                    64 => 'Uşak',
+                    65 => 'Van',
+                    66 => 'Yozgat',
+                    67 => 'Zonguldak',
+                    68 => 'Aksaray',
+                    69 => 'Bayburt',
+                    70 => 'Karaman',
+                    71 => 'Kırıkkale',
+                    72 => 'Batman',
+                    73 => 'Şırnak',
+                    74 => 'Bartın',
+                    75 => 'Ardahan',
+                    76 => 'Iğdır',
+                    77 => 'Yalova',
+                    78 => 'Karabük',
+                    79 => 'Kilis',
+                    80 => 'Osmaniye',
+                    81 => 'Düzce',
                 ],
         ],
-    'TTO' =>
-        [
-            'name'       => 'Trinidad och Tobago',
-            'subregions' =>
-                [
+    'TTO' => [
+            'name' => 'Trinidad och Tobago',
+            'subregions' => [
                     'ARI' => 'Arima',
                     'CHA' => 'Chaguanas',
                     'CTT' => 'Couva-Tabaquite-Talparo',
@@ -5000,11 +4552,9 @@
                     'WTO' => 'Western Tobago',
                 ],
         ],
-    'TUV' =>
-        [
-            'name'       => 'Tuvalu',
-            'subregions' =>
-                [
+    'TUV' => [
+            'name' => 'Tuvalu',
+            'subregions' => [
                     'FUN' => 'Funafuti',
                     'NIT' => 'Niutao',
                     'NKF' => 'Nukufetau',
@@ -5015,11 +4565,9 @@
                     'VAI' => 'Vaitupu',
                 ],
         ],
-    'TWN' =>
-        [
-            'name'       => 'Taiwan',
-            'subregions' =>
-                [
+    'TWN' => [
+            'name' => 'Taiwan',
+            'subregions' => [
                     'CHA' => 'Changhua',
                     'CYI' => 'Chiay City',
                     'CYQ' => 'Chiayi',
@@ -5045,11 +4593,9 @@
                     'YUN' => 'Yunlin',
                 ],
         ],
-    'TZA' =>
-        [
-            'name'       => 'Tanzania',
-            'subregions' =>
-                [
+    'TZA' => [
+            'name' => 'Tanzania',
+            'subregions' => [
                     '01' => 'Arusha',
                     '02' => 'Dar-es-Salaam',
                     '03' => 'Dodoma',
@@ -5059,75 +4605,69 @@
                     '07' => 'Kaskazini Unguja',
                     '08' => 'Kigoma',
                     '09' => 'Kilimanjaro',
-                    10   => 'Kusini Pemba',
-                    11   => 'Kusini Unguja',
-                    12   => 'Lindi',
-                    13   => 'Mara',
-                    14   => 'Mbeya',
-                    15   => 'Mjini Magharibi',
-                    16   => 'Morogoro',
-                    17   => 'Mtwara',
-                    18   => 'Mwanza',
-                    19   => 'Pwani',
-                    20   => 'Rukwa',
-                    21   => 'Ruvuma',
-                    22   => 'Shinyanga',
-                    23   => 'Singida',
-                    24   => 'Tabora',
-                    25   => 'Tanga',
-                    26   => 'Manyara',
+                    10 => 'Kusini Pemba',
+                    11 => 'Kusini Unguja',
+                    12 => 'Lindi',
+                    13 => 'Mara',
+                    14 => 'Mbeya',
+                    15 => 'Mjini Magharibi',
+                    16 => 'Morogoro',
+                    17 => 'Mtwara',
+                    18 => 'Mwanza',
+                    19 => 'Pwani',
+                    20 => 'Rukwa',
+                    21 => 'Ruvuma',
+                    22 => 'Shinyanga',
+                    23 => 'Singida',
+                    24 => 'Tabora',
+                    25 => 'Tanga',
+                    26 => 'Manyara',
                 ],
         ],
-    'UKR' =>
-        [
-            'name'       => 'Ukraina',
-            'subregions' =>
-                [
+    'UKR' => [
+            'name' => 'Ukraina',
+            'subregions' => [
                     '05' => 'Vinnyts\'ka Oblast\'',
                     '07' => 'Volyns\'ka Oblast\'',
                     '09' => 'Luhans\'ka Oblast\'',
-                    12   => 'Dnipropetrovs\'ka Oblast\'',
-                    14   => 'Donets\'ka Oblast\'',
-                    18   => 'Zhytomyrs\'ka Oblast\'',
-                    21   => 'Zakarpats\'ka Oblast\'',
-                    23   => 'Zaporiz\'ka Oblast\'',
-                    26   => 'Ivano-Frankivs\'ka Oblast\'',
-                    30   => 'Kyïvs\'ka mis\'ka rada',
-                    32   => 'Kyïvs\'ka Oblast\'',
-                    35   => 'Kirovohrads\'ka Oblast\'',
-                    40   => 'Sevastopol',
-                    43   => 'Respublika Krym',
-                    46   => 'L\'vivs\'ka Oblast\'',
-                    48   => 'Mykolaïvs\'ka Oblast\'',
-                    51   => 'Odes\'ka Oblast\'',
-                    53   => 'Poltavs\'ka Oblast\'',
-                    56   => 'Rivnens\'ka Oblast\'',
-                    59   => 'Sums \'ka Oblast\'',
-                    61   => 'Ternopil\'s\'ka Oblast\'',
-                    63   => 'Kharkivs\'ka Oblast\'',
-                    65   => 'Khersons\'ka Oblast\'',
-                    68   => 'Khmel\'nyts\'ka Oblast\'',
-                    71   => 'Cherkas\'ka Oblast\'',
-                    74   => 'Chernihivs\'ka Oblast\'',
-                    77   => 'Chernivets\'ka Oblast\'',
+                    12 => 'Dnipropetrovs\'ka Oblast\'',
+                    14 => 'Donets\'ka Oblast\'',
+                    18 => 'Zhytomyrs\'ka Oblast\'',
+                    21 => 'Zakarpats\'ka Oblast\'',
+                    23 => 'Zaporiz\'ka Oblast\'',
+                    26 => 'Ivano-Frankivs\'ka Oblast\'',
+                    30 => 'Kyïvs\'ka mis\'ka rada',
+                    32 => 'Kyïvs\'ka Oblast\'',
+                    35 => 'Kirovohrads\'ka Oblast\'',
+                    40 => 'Sevastopol',
+                    43 => 'Respublika Krym',
+                    46 => 'L\'vivs\'ka Oblast\'',
+                    48 => 'Mykolaïvs\'ka Oblast\'',
+                    51 => 'Odes\'ka Oblast\'',
+                    53 => 'Poltavs\'ka Oblast\'',
+                    56 => 'Rivnens\'ka Oblast\'',
+                    59 => 'Sums \'ka Oblast\'',
+                    61 => 'Ternopil\'s\'ka Oblast\'',
+                    63 => 'Kharkivs\'ka Oblast\'',
+                    65 => 'Khersons\'ka Oblast\'',
+                    68 => 'Khmel\'nyts\'ka Oblast\'',
+                    71 => 'Cherkas\'ka Oblast\'',
+                    74 => 'Chernihivs\'ka Oblast\'',
+                    77 => 'Chernivets\'ka Oblast\'',
                 ],
         ],
-    'UGA' =>
-        [
-            'name'       => 'Uganda',
-            'subregions' =>
-                [
+    'UGA' => [
+            'name' => 'Uganda',
+            'subregions' => [
                     'C' => 'Central',
                     'E' => 'Eastern',
                     'N' => 'Northern',
                     'W' => 'Western',
                 ],
         ],
-    'UMI' =>
-        [
-            'name'       => 'USA:s yttre öar',
-            'subregions' =>
-                [
+    'UMI' => [
+            'name' => 'USA:s yttre öar',
+            'subregions' => [
                     67 => 'Johnston Atoll',
                     71 => 'Midway Islands',
                     76 => 'Navassa Island',
@@ -5139,11 +4679,9 @@
                     95 => 'Palmyra Atoll',
                 ],
         ],
-    'USA' =>
-        [
-            'name'       => 'USA',
-            'subregions' =>
-                [
+    'USA' => [
+            'name' => 'USA',
+            'subregions' => [
                     'AK' => 'Alaska',
                     'AL' => 'Alabama',
                     'AR' => 'Arkansas',
@@ -5206,11 +4744,9 @@
                     'AP' => 'Armed Forces Pacific',
                 ],
         ],
-    'URY' =>
-        [
-            'name'       => 'Uruguay',
-            'subregions' =>
-                [
+    'URY' => [
+            'name' => 'Uruguay',
+            'subregions' => [
                     'AR' => 'Artigas',
                     'CA' => 'Canelones',
                     'CL' => 'Cerro Largo',
@@ -5232,11 +4768,9 @@
                     'TT' => 'Treinta y Tres',
                 ],
         ],
-    'UZB' =>
-        [
-            'name'       => 'Uzbekistan',
-            'subregions' =>
-                [
+    'UZB' => [
+            'name' => 'Uzbekistan',
+            'subregions' => [
                     'AN' => 'Andijon',
                     'BU' => 'Buxoro',
                     'FA' => 'Farg\'ona',
@@ -5253,18 +4787,14 @@
                     'XO' => 'Xorazm',
                 ],
         ],
-    'VAT' =>
-        [
-            'name'       => 'Vatikanstaten',
-            'subregions' =>
-                [
+    'VAT' => [
+            'name' => 'Vatikanstaten',
+            'subregions' => [
                 ],
         ],
-    'VCT' =>
-        [
-            'name'       => 'S:t Vincent och Grenadinerna',
-            'subregions' =>
-                [
+    'VCT' => [
+            'name' => 'S:t Vincent och Grenadinerna',
+            'subregions' => [
                     '01' => 'Charlotte',
                     '02' => 'Saint Andrew',
                     '03' => 'Saint David',
@@ -5273,11 +4803,9 @@
                     '06' => 'Grenadines',
                 ],
         ],
-    'VEN' =>
-        [
-            'name'       => 'Venezuela',
-            'subregions' =>
-                [
+    'VEN' => [
+            'name' => 'Venezuela',
+            'subregions' => [
                     'A' => 'Distrito Federal',
                     'B' => 'Anzoátegui',
                     'C' => 'Apure',
@@ -5305,25 +4833,19 @@
                     'Z' => 'Amazonas',
                 ],
         ],
-    'VGB' =>
-        [
-            'name'       => 'Brittiska Jungfruöarna',
-            'subregions' =>
-                [
+    'VGB' => [
+            'name' => 'Brittiska Jungfruöarna',
+            'subregions' => [
                 ],
         ],
-    'VIR' =>
-        [
-            'name'       => 'Amerikanska Jungfruöarna',
-            'subregions' =>
-                [
+    'VIR' => [
+            'name' => 'Amerikanska Jungfruöarna',
+            'subregions' => [
                 ],
         ],
-    'VNM' =>
-        [
-            'name'       => 'Vietnam',
-            'subregions' =>
-                [
+    'VNM' => [
+            'name' => 'Vietnam',
+            'subregions' => [
                     '01' => 'Lai Châu',
                     '02' => 'Lào Cai',
                     '03' => 'Hà Giang',
@@ -5332,57 +4854,57 @@
                     '06' => 'Yên Bái',
                     '07' => 'Tuyên Quang',
                     '09' => 'Lạng Sơn',
-                    13   => 'Quảng Ninh',
-                    14   => 'Hoà Bình',
-                    15   => 'Hà Tây',
-                    18   => 'Ninh Bình',
-                    20   => 'Thái Bình',
-                    21   => 'Thanh Hóa',
-                    22   => 'Nghệ An',
-                    23   => 'Hà Tỉnh',
-                    24   => 'Quảng Bình',
-                    25   => 'Quảng Trị',
-                    26   => 'Thừa Thiên-Huế',
-                    27   => 'Quảng Nam',
-                    28   => 'Kon Tum',
-                    29   => 'Quảng Ngãi',
-                    30   => 'Gia Lai',
-                    31   => 'Bình Định',
-                    32   => 'Phú Yên',
-                    33   => 'Đắc Lắk',
-                    34   => 'Khánh Hòa',
-                    35   => 'Lâm Đồng',
-                    36   => 'Ninh Thuận',
-                    37   => 'Tây Ninh',
-                    39   => 'Đồng Nai',
-                    40   => 'Bình Thuận',
-                    41   => 'Long An',
-                    43   => 'Bà Rịa-Vũng Tàu',
-                    44   => 'An Giang',
-                    45   => 'Đồng Tháp',
-                    46   => 'Tiền Giang',
-                    47   => 'Kiên Giang',
-                    49   => 'Vĩnh Long',
-                    50   => 'Bến Tre',
-                    51   => 'Trà Vinh',
-                    52   => 'Sóc Trăng',
-                    53   => 'Bắc Kạn',
-                    54   => 'Bắc Giang',
-                    55   => 'Bạc Liêu',
-                    56   => 'Bắc Ninh',
-                    57   => 'Bình Dương',
-                    58   => 'Bình Phước',
-                    59   => 'Cà Mau',
-                    61   => 'Hải Duong',
-                    63   => 'Hà Nam',
-                    66   => 'Hưng Yên',
-                    67   => 'Nam Định',
-                    68   => 'Phú Thọ',
-                    69   => 'Thái Nguyên',
-                    70   => 'Vĩnh Phúc',
-                    71   => 'Điện Biên',
-                    72   => 'Đắk Nông',
-                    73   => 'Hậu Giang',
+                    13 => 'Quảng Ninh',
+                    14 => 'Hoà Bình',
+                    15 => 'Hà Tây',
+                    18 => 'Ninh Bình',
+                    20 => 'Thái Bình',
+                    21 => 'Thanh Hóa',
+                    22 => 'Nghệ An',
+                    23 => 'Hà Tỉnh',
+                    24 => 'Quảng Bình',
+                    25 => 'Quảng Trị',
+                    26 => 'Thừa Thiên-Huế',
+                    27 => 'Quảng Nam',
+                    28 => 'Kon Tum',
+                    29 => 'Quảng Ngãi',
+                    30 => 'Gia Lai',
+                    31 => 'Bình Định',
+                    32 => 'Phú Yên',
+                    33 => 'Đắc Lắk',
+                    34 => 'Khánh Hòa',
+                    35 => 'Lâm Đồng',
+                    36 => 'Ninh Thuận',
+                    37 => 'Tây Ninh',
+                    39 => 'Đồng Nai',
+                    40 => 'Bình Thuận',
+                    41 => 'Long An',
+                    43 => 'Bà Rịa-Vũng Tàu',
+                    44 => 'An Giang',
+                    45 => 'Đồng Tháp',
+                    46 => 'Tiền Giang',
+                    47 => 'Kiên Giang',
+                    49 => 'Vĩnh Long',
+                    50 => 'Bến Tre',
+                    51 => 'Trà Vinh',
+                    52 => 'Sóc Trăng',
+                    53 => 'Bắc Kạn',
+                    54 => 'Bắc Giang',
+                    55 => 'Bạc Liêu',
+                    56 => 'Bắc Ninh',
+                    57 => 'Bình Dương',
+                    58 => 'Bình Phước',
+                    59 => 'Cà Mau',
+                    61 => 'Hải Duong',
+                    63 => 'Hà Nam',
+                    66 => 'Hưng Yên',
+                    67 => 'Nam Định',
+                    68 => 'Phú Thọ',
+                    69 => 'Thái Nguyên',
+                    70 => 'Vĩnh Phúc',
+                    71 => 'Điện Biên',
+                    72 => 'Đắk Nông',
+                    73 => 'Hậu Giang',
                     'CT' => 'Cần Thơ',
                     'DN' => 'Đà Nẵng',
                     'HN' => 'Hà Nội',
@@ -5390,11 +4912,9 @@
                     'SG' => 'Hồ Chí Minh [Sài Gòn]',
                 ],
         ],
-    'VUT' =>
-        [
-            'name'       => 'Vanuatu',
-            'subregions' =>
-                [
+    'VUT' => [
+            'name' => 'Vanuatu',
+            'subregions' => [
                     'MAP' => 'Malampa',
                     'PAM' => 'Pénama',
                     'SAM' => 'Sanma',
@@ -5403,18 +4923,14 @@
                     'TOB' => 'Torba',
                 ],
         ],
-    'WLF' =>
-        [
-            'name'       => 'Wallis- och Futunaöarna',
-            'subregions' =>
-                [
+    'WLF' => [
+            'name' => 'Wallis- och Futunaöarna',
+            'subregions' => [
                 ],
         ],
-    'WSM' =>
-        [
-            'name'       => 'Samoa',
-            'subregions' =>
-                [
+    'WSM' => [
+            'name' => 'Samoa',
+            'subregions' => [
                     'AA' => 'A\'ana',
                     'AL' => 'Aiga-i-le-Tai',
                     'AT' => 'Atua',
@@ -5428,11 +4944,9 @@
                     'VS' => 'Vaisigano',
                 ],
         ],
-    'YEM' =>
-        [
-            'name'       => 'Jemen',
-            'subregions' =>
-                [
+    'YEM' => [
+            'name' => 'Jemen',
+            'subregions' => [
                     'AB' => 'Abyān',
                     'AD' => '\'Adan',
                     'AM' => '\'Amrān',
@@ -5455,18 +4969,14 @@
                     'TA' => 'Tā\'izz',
                 ],
         ],
-    'MYT' =>
-        [
-            'name'       => 'Mayotte',
-            'subregions' =>
-                [
+    'MYT' => [
+            'name' => 'Mayotte',
+            'subregions' => [
                 ],
         ],
-    'ZAF' =>
-        [
-            'name'       => 'Sydafrika',
-            'subregions' =>
-                [
+    'ZAF' => [
+            'name' => 'Sydafrika',
+            'subregions' => [
                     'EC' => 'Eastern Cape',
                     'FS' => 'Free State',
                     'GP' => 'Gauteng',
@@ -5478,11 +4988,9 @@
                     'ZN' => 'Kwazulu-Natal',
                 ],
         ],
-    'ZMB' =>
-        [
-            'name'       => 'Zambia',
-            'subregions' =>
-                [
+    'ZMB' => [
+            'name' => 'Zambia',
+            'subregions' => [
                     '01' => 'Western',
                     '02' => 'Central',
                     '03' => 'Eastern',
@@ -5494,11 +5002,9 @@
                     '09' => 'Lusaka',
                 ],
         ],
-    'ZWE' =>
-        [
-            'name'       => 'Zimbabwe',
-            'subregions' =>
-                [
+    'ZWE' => [
+            'name' => 'Zimbabwe',
+            'subregions' => [
                     'BU' => 'Bulawayo',
                     'HA' => 'Harare',
                     'MA' => 'Manicaland',
