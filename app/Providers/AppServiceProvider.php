@@ -23,9 +23,11 @@ class AppServiceProvider extends ServiceProvider
     {
         Carbon::serializeUsing(
             function (Carbon $carbon) {
-                return $carbon->format('c');
+                return $carbon->format(DATE_ATOM);
             }
         );
+
+        Carbon::setToStringFormat(DATE_ATOM);
     }
 
     /**

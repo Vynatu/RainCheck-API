@@ -21,8 +21,6 @@ class CreateUsersTable extends Migration
                 $table->string('password');
                 $table->string('first_name');
                 $table->string('last_name');
-                $table->integer('address_id')->unsigned()->nullable(
-                ); // We store the current address ID. The old ones are kept for historic reasons.
                 $table->boolean('is_admin')->default(false);
                 $table->softDeletes();
                 $table->timestamps();

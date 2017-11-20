@@ -33,7 +33,7 @@ class User extends Authenticatable implements HasUniqueTokenContract
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token', 'is_admin', 'address_id',
+        'password', 'remember_token', 'is_admin'
     ];
 
     protected $casts = [
@@ -47,6 +47,6 @@ class User extends Authenticatable implements HasUniqueTokenContract
 
     public function currentAddress()
     {
-        return $this->belongsTo(Address::class);
+        return $this->addresses()->orderByDesc('created_at')->first();
     }
 }

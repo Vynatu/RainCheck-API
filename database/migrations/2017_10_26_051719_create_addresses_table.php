@@ -21,6 +21,7 @@ class CreateAddressesTable extends Migration
                 $table->string('company')->nullable();
                 $table->string('address1');
                 $table->string('address2')->nullable();
+                $table->string('city');
                 $table->string('zip');
                 $table->string('phone')->nullable();
                 $table->unsignedInteger('country_id')->unsigned();

@@ -10,4 +10,10 @@ interface HasUniqueToken
      * @return mixed
      */
     public function generateUniqueToken();
+
+    public function getUniqueTokenColumn();
+
+    public function getUniqueTokenLength();
+
+    public function shouldReturnIdAsToken();
 }

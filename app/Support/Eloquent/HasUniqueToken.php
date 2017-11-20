@@ -6,8 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 trait HasUniqueToken
 {
-    protected $return_token_as_id = true;
-
     public static function bootHasUniqueToken()
     {
         static::creating(
@@ -19,12 +17,9 @@ trait HasUniqueToken
 
     public function generateUniqueToken($save = true)
     {
-        $unique_column = property_exists($this, 'unique_token_column') ? $this->unique_token_column : 'resource_token';
-        $token_length = property_exists($this, 'unique_token_length') ? $this->unique_token_length : 12;
-
         $this->forceFill(
             [
-                $unique_column => str_random($token_length),
+                $this->getUniqueTokenColumn() => str_random($this->getUniqueTokenLength()),
             ]
         );
 
@@ -35,7 +30,28 @@ trait HasUniqueToken
 
     public function getRouteKeyName()
     {
-        return property_exists($this, 'unique_token_column') ? $this->unique_token_column : 'resource_token';
+        return $this->getUniqueTokenColumn();
+    }
+
+    public function getUniqueTokenColumn()
+    {
+        return property_exists($this, 'unique_token_column')
+            ? $this->unique_token_column
+            : 'resource_token';
+    }
+
+    public function getUniqueTokenLength()
+    {
+        return property_exists($this, 'unique_token_length')
+            ? $this->unique_token_length
+            : 12;
+    }
+
+    public function shouldReturnIdAsToken()
+    {
+        return property_exists($this, 'return_token_as_id')
+            ? $this->return_token_as_id
+            : true;
     }
 
     /**
@@ -45,10 +61,8 @@ trait HasUniqueToken
     {
         $a = parent::toArray();
 
-        if (property_exists($this, 'return_token_as_id') ? $this->return_token_as_id : true) {
-            $unique_column = property_exists($this, 'unique_token_column')
-                ? $this->unique_token_column
-                : 'resource_token';
+        if ($this->shouldReturnIdAsToken()) {
+            $unique_column = $this->getUniqueTokenColumn();
 
             unset($a[$unique_column]);
             $a['id'] = $this->getAttribute($unique_column);

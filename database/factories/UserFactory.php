@@ -13,13 +13,24 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(RainCheck\User::class, function (Faker $faker) {
+/* @var Illuminate\Database\Eloquent\Factory $factory */
+
+$factory->define(RainCheck\Models\User::class, function (Faker $faker) {
     static $password;
 
     return [
-        'name' => $faker->name,
+        'first_name' => $faker->firstName,
+        'last_name' => $faker->lastName,
         'email' => $faker->unique()->safeEmail,
         'password' => $password ?: $password = bcrypt('secret'),
-        'remember_token' => str_random(10),
     ];
 });
+
+$factory->state(RainCheck\Models\User::class, 'user', function () {
+    return []; // No override
+});
+
+$factory->state(RainCheck\Models\User::class, 'admin', function () {
+    return ['is_admin' => true];
+});
+

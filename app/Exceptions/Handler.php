@@ -13,14 +13,14 @@ use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 class Handler extends ExceptionHandler
 {
     /**
-     * {@inhericdoc}.
+     * {@inheritdoc}.
      */
     protected $dontReport = [
         //
     ];
 
     /**
-     * {@inhericdoc}.
+     * {@inheritdoc}.
      */
     protected $dontFlash = [
         'password',
@@ -28,7 +28,7 @@ class Handler extends ExceptionHandler
     ];
 
     /**
-     * {@inheritdoc}
+     * {@inheritdoc}.
      */
     public function report(Exception $exception)
     {
@@ -36,7 +36,7 @@ class Handler extends ExceptionHandler
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritdoc}.
      */
     public function render($request, Exception $e)
     {
@@ -61,11 +61,7 @@ class Handler extends ExceptionHandler
     }
 
     /**
-     * {@inhericdoc}.
-     * @param \Illuminate\Http\Request                 $request
-     * @param \Illuminate\Auth\AuthenticationException $exception
-     *
-     * @return \Illuminate\Http\JsonResponse|\Illuminate\Http\Response
+     * {@inheritdoc}.
      */
     protected function unauthenticated($request, AuthenticationException $exception)
     {
@@ -73,11 +69,7 @@ class Handler extends ExceptionHandler
     }
 
     /**
-     * {@inhericdoc}.
-     * @param \Illuminate\Validation\ValidationException $e
-     * @param \Illuminate\Http\Request                   $request
-     *
-     * @return \Illuminate\Http\JsonResponse|null|\Symfony\Component\HttpFoundation\Response
+     * {@inheritdoc}.
      */
     protected function convertValidationExceptionToResponse(ValidationException $e, $request)
     {
