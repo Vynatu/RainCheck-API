@@ -6,5 +6,4 @@ use RainCheck\Http\Resources\AbstractResource;
 
 class UserResource extends AbstractResource
 {
-
 }

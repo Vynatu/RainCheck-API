@@ -33,7 +33,7 @@ class User extends Authenticatable implements HasUniqueTokenContract
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token', 'is_admin'
+        'password', 'remember_token', 'is_admin',
     ];
 
     protected $casts = [

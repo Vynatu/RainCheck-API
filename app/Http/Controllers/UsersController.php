@@ -9,7 +9,6 @@ class UsersController extends Controller
 {
     public function create(Request $request)
     {
-
     }
 
     public function currentUser(Request $request)

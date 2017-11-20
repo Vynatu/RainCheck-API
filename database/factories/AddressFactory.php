@@ -16,6 +16,6 @@ $factory->define(RainCheck\Models\Address::class, function (Faker $faker) {
         'zip' => $faker->postcode,
         'phone' => $faker->phoneNumber,
         'country_id' => $country->id,
-        'subregion_id' => optional($region)->id
+        'subregion_id' => optional($region)->id,
     ];
 });

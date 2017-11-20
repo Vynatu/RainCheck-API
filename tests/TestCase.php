@@ -2,13 +2,13 @@
 
 namespace Tests;
 
-use Illuminate\Contracts\Auth\Authenticatable as UserContract;
-use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
-use Illuminate\Foundation\Testing\TestResponse;
-use Laravel\Passport\Passport;
-use RainCheck\Models\Address;
 use RainCheck\Models\User;
+use RainCheck\Models\Address;
+use Laravel\Passport\Passport;
+use Illuminate\Foundation\Testing\TestResponse;
 use RainCheck\Support\Contracts\Eloquent\HasUniqueToken;
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Illuminate\Contracts\Auth\Authenticatable as UserContract;
 
 abstract class TestCase extends BaseTestCase
 {
@@ -17,7 +17,7 @@ abstract class TestCase extends BaseTestCase
     protected $user = null;
 
     /**
-     * Set the current admin for the application with the given scopes
+     * Set the current admin for the application with the given scopes.
      *
      * @param array $scopes
      *
@@ -29,7 +29,7 @@ abstract class TestCase extends BaseTestCase
     }
 
     /**
-     * Set the current user for the application with the given scopes
+     * Set the current user for the application with the given scopes.
      *
      * @param string $as user or admin
      * @param array $scopes
@@ -60,7 +60,7 @@ abstract class TestCase extends BaseTestCase
     }
 
     /**
-     * Set the current user for the application with the given scopes
+     * Set the current user for the application with the given scopes.
      *
      * @param array $scopes
      *
@@ -74,7 +74,7 @@ abstract class TestCase extends BaseTestCase
     protected function setUp()
     {
         TestResponse::macro('assertUniqueToken', function (...$resource) {
-            /**
+            /*
              * @var TestResponse $this
              */
             if ($resource[0] instanceof HasUniqueToken) {
