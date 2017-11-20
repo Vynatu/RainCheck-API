@@ -33,4 +33,3 @@ $factory->state(RainCheck\Models\User::class, 'user', function () {
 $factory->state(RainCheck\Models\User::class, 'admin', function () {
     return ['is_admin' => true];
 });
-

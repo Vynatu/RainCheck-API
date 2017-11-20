@@ -2,10 +2,10 @@
 
 namespace Tests\Feature;
 
-use Laravel\Passport\ClientRepository;
-use Laravel\Passport\Token;
-use RainCheck\Models\User;
 use Tests\TestCase;
+use RainCheck\Models\User;
+use Laravel\Passport\Token;
+use Laravel\Passport\ClientRepository;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class AuthenticationTest extends TestCase
@@ -14,7 +14,7 @@ class AuthenticationTest extends TestCase
 
     /**
      * Testing if the /user url returns
-     * current user's login details
+     * current user's login details.
      *
      * @return void
      */
